@@ -323,7 +323,42 @@ function computeStats(papers) {
   };
 }
 
+function captureLibraryUiSnapshot() {
+  if (state.route.name === 'reader') {
+    return null;
+  }
+
+  const activeElement = document.activeElement;
+  if (!activeElement?.matches?.('[data-search-input]')) {
+    return null;
+  }
+
+  return {
+    searchSelectionStart: activeElement.selectionStart,
+    searchSelectionEnd: activeElement.selectionEnd
+  };
+}
+
+function restoreLibraryUiSnapshot(snapshot) {
+  if (!snapshot) {
+    return;
+  }
+
+  const searchInput = app.querySelector('[data-search-input]');
+  if (!searchInput) {
+    return;
+  }
+
+  searchInput.focus({ preventScroll: true });
+
+  if (typeof snapshot.searchSelectionStart === 'number' && typeof snapshot.searchSelectionEnd === 'number') {
+    searchInput.setSelectionRange(snapshot.searchSelectionStart, snapshot.searchSelectionEnd);
+  }
+}
+
 function render() {
+  const libraryUiSnapshot = captureLibraryUiSnapshot();
+
   document.title =
     state.route.name === 'reader'
       ? `${findPaperBySlug(state.papers, state.route.slug)?.title ?? 'Paper'} · PaperReader`
@@ -346,6 +381,7 @@ function render() {
   }
 
   app.innerHTML = renderLibraryView();
+  restoreLibraryUiSnapshot(libraryUiSnapshot);
 }
 
 function applyReaderPreferencesToDom() {

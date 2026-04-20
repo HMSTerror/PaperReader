@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-20T11:35:33.423Z",
+  "generatedAt": "2026-04-20T11:56:31.318Z",
   "paperCount": 1,
   "papers": [
     {
       "slug": "imported__2507-15551v3",
-      "title": "2507.15551v3",
+      "title": "RankMixer: Scaling Up Ranking Models in Industrial Recommenders",
       "categoryLevel1": "Imported",
       "categoryLevel2": "",
       "categoryPath": "Imported",
@@ -13,7 +13,7 @@
       "notePath": "",
       "hasPdf": true,
       "hasNote": false,
-      "updatedAt": "2026-03-31T12:22:00.201Z"
+      "updatedAt": "2026-04-20T11:56:23.223Z"
     }
   ]
 }

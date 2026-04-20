@@ -40,6 +40,7 @@ function buildRecord(relativeDir, files) {
   const categorySegments = segments.slice(0, -1);
   const pdfFiles = sortByName(files.filter((file) => file.toLowerCase().endsWith('.pdf')));
   const noteFile = files.find((file) => file.toLowerCase() === 'note.md') ?? null;
+  const titleFile = files.find((file) => file.toLowerCase() === 'title.txt') ?? null;
 
   return {
     slug: makePaperSlug(relativeDir),
@@ -50,6 +51,7 @@ function buildRecord(relativeDir, files) {
     directoryPath: `Paper/${normalizeToPosix(relativeDir)}`,
     pdfPath: pdfFiles[0] ? `Paper/${normalizeToPosix(path.posix.join(relativeDir, pdfFiles[0]))}` : '',
     notePath: noteFile ? `Paper/${normalizeToPosix(path.posix.join(relativeDir, noteFile))}` : '',
+    titlePath: titleFile ? `Paper/${normalizeToPosix(path.posix.join(relativeDir, titleFile))}` : '',
     hasPdf: Boolean(pdfFiles[0]),
     hasNote: Boolean(noteFile),
     updatedAt: null
@@ -112,7 +114,14 @@ export async function buildPaperIndex(options = {}) {
 
   await Promise.all(
     records.map(async (record) => {
-      const targets = [record.pdfPath, record.notePath].filter(Boolean);
+      if (record.titlePath) {
+        const customTitle = (await fs.readFile(path.join(ROOT_DIR, record.titlePath), 'utf8')).trim();
+        if (customTitle) {
+          record.title = customTitle;
+        }
+      }
+
+      const targets = [record.pdfPath, record.notePath, record.titlePath].filter(Boolean);
       const timestamps = await Promise.all(
         targets.map(async (target) => {
           const stats = await fs.stat(path.join(ROOT_DIR, target));
@@ -121,6 +130,7 @@ export async function buildPaperIndex(options = {}) {
       );
 
       record.updatedAt = new Date(Math.max(...timestamps)).toISOString();
+      delete record.titlePath;
     })
   );
 

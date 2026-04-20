@@ -32,3 +32,13 @@ test('collectPaperRecords keeps categoryLevel2 empty when a paper lives directly
     'MiniOneRec - An Open-Source Framework for Scaling Generative Recommendation'
   );
 });
+
+test('collectPaperRecords captures an optional title metadata file', () => {
+  const records = collectPaperRecords([
+    'Imported/2507.15551v3/2507.15551v3.pdf',
+    'Imported/2507.15551v3/title.txt'
+  ]);
+
+  assert.equal(records[0].title, '2507.15551v3');
+  assert.equal(records[0].titlePath, 'Paper/Imported/2507.15551v3/title.txt');
+});
