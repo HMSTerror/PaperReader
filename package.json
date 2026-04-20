@@ -4,6 +4,8 @@
   "type": "module",
   "scripts": {
     "build:data": "node scripts/generate-papers-index.mjs",
+    "serve": "node scripts/serve-static.mjs",
+    "start": "node scripts/serve-static.mjs",
     "test": "node --test"
   }
 }
