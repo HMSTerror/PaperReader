@@ -1,24 +1,24 @@
 # A Directional Diffusion Graph Transformer for Recommendation
 
-- Short name: `DiffGT`
-- Year: `2024`
-- Task: `Top-K recommendation`
-- URL: [arXiv](https://arxiv.org/abs/2404.03326)
+- 简称：`DiffGT`
+- 时间：`2024`
+- 任务：`Top-K 推荐`
+- 原网址：[arXiv](https://arxiv.org/abs/2404.03326)
 
-## Core idea
+## 这篇在做什么
 
-DiffGT treats the user-item interaction graph as a noisy graph structure and performs diffusion directly over the graph. Its key distinction is that the forward diffusion is not plain isotropic random noise. Instead, it introduces **directional Gaussian noise** designed around graph structure, so the corruption process better reflects how recommendation signals propagate over user-item interactions.
+这篇论文把用户-物品交互图看成一个会被逐步扰动的图结构，在图上做扩散与反向去噪。它不是简单地往表示里加各向同性随机噪声，而是围绕交互图结构设计了**方向性高斯噪声**，让前向扩散更贴近推荐图中信号传播的方式。
 
-## Model intuition
+## 核心方法
 
-The reverse process uses a Graph Transformer to denoise the corrupted graph states and recover robust user and item representations. In practice, the method tries to make graph representation learning less brittle by exposing the model to structure-aware corruption and then asking it to reconstruct preference-relevant signals.
+反向过程使用 Graph Transformer 对被扰动后的图状态进行去噪，恢复更稳健的用户表示和物品表示。可以把它理解成：先用结构感知的噪声“打乱”交互图，再要求模型学会从这种扰动里找回真正有用的偏好信息。
 
-## Why it matters here
+## 为什么重要
 
-This paper is a good example of "diffusion + transformer" in recommendation, even though the transformer is graph-oriented rather than a vanilla DiT block. Its contribution is especially meaningful on the **forward process design** side: the diffusion mechanism itself is tailored to recommendation graphs instead of being borrowed unchanged from generic generative modeling.
+这篇工作的重要性在于，它不只是把扩散模型直接搬到推荐里，而是连**前向扩散机制**都针对推荐图做了定制。这使它在“扩散推荐 + Transformer”这条线里非常有代表性。
 
-## Reading focus
+## 阅读时重点看
 
-1. How the directional noise is defined on user-item interaction graphs.
-2. What information the Graph Transformer uses during denoising.
-3. Whether the gains mainly come from graph-aware diffusion or from the transformer denoiser.
+1. 方向性噪声到底如何依赖用户-物品图结构。
+2. Graph Transformer 在去噪时输入了哪些图上下文。
+3. 性能提升主要来自图感知扩散，还是来自更强的 Transformer 去噪器。

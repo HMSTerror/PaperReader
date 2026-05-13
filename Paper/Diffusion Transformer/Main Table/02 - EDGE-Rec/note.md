@@ -1,24 +1,24 @@
 # EDGE-Rec: Efficient and Data-Guided Edge Diffusion For Recommender Systems Graphs
 
-- Year: `2024`
-- Task: `Edge prediction / interaction or rating prediction`
-- URL: [arXiv](https://arxiv.org/abs/2409.14689)
-- Code: [GitHub](https://github.com/upriyam-cmu/EDGE-Rec)
+- 时间：`2024`
+- 任务：`边预测 / 评分或交互预测`
+- 原网址：[arXiv](https://arxiv.org/abs/2409.14689)
+- 代码：[GitHub](https://github.com/upriyam-cmu/EDGE-Rec)
 
-## Core idea
+## 这篇在做什么
 
-EDGE-Rec directly models recommendation graphs from the perspective of **edges** rather than only node embeddings. The paper introduces a Graph Diffusion Transformer, `GDiT`, which diffuses over the user-item interaction matrix or edge weights and then denoises them under user and item feature conditions.
+EDGE-Rec 直接从**用户-物品边**的角度建模推荐图，而不是只围绕节点表示做文章。论文提出的 `GDiT` 会对交互矩阵或边权进行扩散和去噪，再结合用户、物品特征恢复更合理的交互结构。
 
-## Model intuition
+## 核心方法
 
-The conditioning signal is important here: instead of treating edge recovery as an unconditional generative task, the model uses user and item side information to guide the denoising process. The paper also proposes **Row-Column Separable Attention** so the transformer can handle large interaction matrices more efficiently than naive full attention.
+模型在去噪时加入用户与物品特征作为条件信号，因此不是无条件地“补边”，而是根据实体属性去恢复更可信的边。为了让大规模交互矩阵可训练，论文还设计了 `Row-Column Separable Attention` 来降低标准全注意力的开销。
 
-## Why it matters here
+## 为什么重要
 
-This is one of the cleaner cases where a diffusion-style transformer is used for recommendation graph generation or recovery in a way that is operationally close to denoising a matrix-valued recommendation signal.
+这篇论文很适合放在 Diffusion Transformer 主表里，因为它把扩散对象放到了推荐系统最核心的交互边或边权上，同时又给出了一套矩阵级别可扩展的 Transformer 去噪方案。
 
-## Reading focus
+## 阅读时重点看
 
-1. Whether diffusion is performed on binary edges, weighted edges, or both.
-2. How Row-Column Separable Attention changes complexity.
-3. How much improvement comes from conditioning versus the denoiser architecture itself.
+1. 扩散对象到底是二值边、边权，还是两者都支持。
+2. 行列分离注意力把复杂度降到了什么量级。
+3. 实验中收益更主要来自条件信息还是来自 GDiT 架构本身。

@@ -1,19 +1,19 @@
 # PaDiRec: Parameter Diffusion for Controllable Multi-Task Recommendation
 
-- Short name: `PaDiRec`
-- Position in this collection: `Related but not counted as a strict Diffusion Transformer backbone`
-- URL: [OpenReview](https://openreview.net/forum?id=9Zq8fRF4am)
+- 简称：`PaDiRec`
+- 位置：`相关工作，但不放入严格主表`
+- 原网址：[OpenReview](https://openreview.net/forum?id=9Zq8fRF4am)
 
-## Why it is related
+## 为什么相关
 
-PaDiRec is diffusion-based recommendation, but it operates at a different level from most interaction-denoising papers. Instead of diffusing over user behaviors, edges, or recommendation latents, it applies diffusion to **model parameters** for controllable multi-task recommendation.
+PaDiRec 确实属于扩散推荐，但它扩散的对象不是用户行为序列、交互边或推荐 latent，而是**推荐模型参数本身**。这让它和常见的交互建模型扩散推荐工作形成了很不一样的路线。
 
-## Why it is not in the main table
+## 为什么没放进主表
 
-Because the diffusion target is the recommender's parameter space rather than the recommendation interaction modeling path, it does not fit the narrower definition of "Diffusion Transformer in recommender systems" used in the main table.
+主表聚焦的是“扩散过程直接参与推荐交互建模，且 Diffusion Transformer 是核心主干”的论文。PaDiRec 更偏向参数空间扩散和可控多任务建模，因此放在相关工作里更准确。
 
-## Reading focus
+## 阅读时重点看
 
-1. What controllability means in the multi-task setting.
-2. How parameter diffusion compares with data-level or sequence-level diffusion.
-3. Whether this line could eventually connect back to transformer-based interaction modeling.
+1. 参数扩散如何实现多任务可控性。
+2. 参数级扩散和数据级、序列级扩散在优缺点上有什么差别。
+3. 这条路线是否有可能与交互建模型 Diffusion Transformer 合流。

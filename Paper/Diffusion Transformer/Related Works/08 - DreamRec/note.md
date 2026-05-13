@@ -1,19 +1,19 @@
 # Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion
 
-- Short name: `DreamRec`
-- Position in this collection: `Related but not counted as a strict Diffusion Transformer backbone`
-- URL: [arXiv](https://arxiv.org/abs/2310.20453)
+- 简称：`DreamRec`
+- 位置：`相关工作，但不放入严格主表`
+- 原网址：[arXiv](https://arxiv.org/abs/2310.20453)
 
-## Why it is related
+## 为什么相关
 
-DreamRec is an important earlier diffusion paper for sequential recommendation. It strongly shaped the later line of work that treats recommendation as a guided generative process rather than only a discriminative ranking problem.
+DreamRec 是扩散序列推荐里非常重要的前作。它把推荐视为 guided diffusion 生成过程，对后续很多工作都有明显启发。
 
-## Why it is not in the main table
+## 为什么没放进主表
 
-The key reason is architectural: the paper is better described as **guided diffusion with transformer encoder guidance**, rather than a method that explicitly centers a DiT-style or diffusion-transformer denoising backbone. In other words, the transformer helps condition or guide the process, but it is not framed as the main diffusion transformer architecture in the same way as the main-table papers above.
+虽然它和 Transformer 有关系，但更准确地说，它是**guided diffusion + Transformer encoder guidance**，而不是明确把 DiT 或 Diffusion Transformer 当作命名主干架构的工作。所以它更适合作为“前驱与近邻工作”来放，而不是严格意义上的主表代表。
 
-## Reading focus
+## 阅读时重点看
 
-1. What type of guidance the transformer encoder provides.
-2. How later works like DCRec or iDreamRec become more explicitly diffusion-transformer-centric.
-3. Which parts of DreamRec became standard design patterns in later sequential diffusion recommenders.
+1. Transformer encoder 在这里扮演的是指导器还是去噪主干。
+2. 后续像 DCRec、iDreamRec 相比它到底“更 DiT”在哪里。
+3. DreamRec 奠定了哪些后来扩散序列推荐的通用设计模式。

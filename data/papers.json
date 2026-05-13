@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T17:42:59.062Z",
+  "generatedAt": "2026-05-13T18:12:30.005Z",
   "paperCount": 11,
   "papers": [
     {
@@ -9,11 +9,11 @@
       "categoryLevel2": "Related Works",
       "categoryPath": "Diffusion Transformer / Related Works",
       "directoryPath": "Paper/Diffusion Transformer/Related Works/10 - PaDiRec",
-      "pdfPath": "",
+      "pdfPath": "Paper/Diffusion Transformer/Related Works/10 - PaDiRec/PaDiRec - Parameter Diffusion for Controllable Multi-Task Recommendation.pdf",
       "notePath": "Paper/Diffusion Transformer/Related Works/10 - PaDiRec/note.md",
-      "hasPdf": false,
+      "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-05-13T17:42:37.885Z"
+      "updatedAt": "2026-05-13T18:12:14.530Z"
     },
     {
       "slug": "diffusion-transformer__related-works__09-contrec",
@@ -22,11 +22,11 @@
       "categoryLevel2": "Related Works",
       "categoryPath": "Diffusion Transformer / Related Works",
       "directoryPath": "Paper/Diffusion Transformer/Related Works/09 - ContRec",
-      "pdfPath": "",
+      "pdfPath": "Paper/Diffusion Transformer/Related Works/09 - ContRec/Diffusion Generative Recommendation with Continuous Tokens.pdf",
       "notePath": "Paper/Diffusion Transformer/Related Works/09 - ContRec/note.md",
-      "hasPdf": false,
+      "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-05-13T17:42:37.309Z"
+      "updatedAt": "2026-05-13T18:12:14.004Z"
     },
     {
       "slug": "diffusion-transformer__related-works__08-dreamrec",
@@ -35,11 +35,11 @@
       "categoryLevel2": "Related Works",
       "categoryPath": "Diffusion Transformer / Related Works",
       "directoryPath": "Paper/Diffusion Transformer/Related Works/08 - DreamRec",
-      "pdfPath": "",
+      "pdfPath": "Paper/Diffusion Transformer/Related Works/08 - DreamRec/Generate What You Prefer - Reshaping Sequential Recommendation via Guided Diffusion.pdf",
       "notePath": "Paper/Diffusion Transformer/Related Works/08 - DreamRec/note.md",
-      "hasPdf": false,
+      "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-05-13T17:42:36.747Z"
+      "updatedAt": "2026-05-13T18:12:13.507Z"
     },
     {
       "slug": "diffusion-transformer__main-table__07-lpdo",
@@ -48,11 +48,11 @@
       "categoryLevel2": "Main Table",
       "categoryPath": "Diffusion Transformer / Main Table",
       "directoryPath": "Paper/Diffusion Transformer/Main Table/07 - LPDO",
-      "pdfPath": "",
+      "pdfPath": "Paper/Diffusion Transformer/Main Table/07 - LPDO/Listwise Preference Diffusion Optimization for User Behavior Trajectories Prediction.pdf",
       "notePath": "Paper/Diffusion Transformer/Main Table/07 - LPDO/note.md",
-      "hasPdf": false,
+      "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-05-13T17:42:36.178Z"
+      "updatedAt": "2026-05-13T18:12:13.007Z"
     },
     {
       "slug": "diffusion-transformer__main-table__06-catdit",
@@ -65,7 +65,7 @@
       "notePath": "Paper/Diffusion Transformer/Main Table/06 - CATDiT/note.md",
       "hasPdf": false,
       "hasNote": true,
-      "updatedAt": "2026-05-13T17:42:35.614Z"
+      "updatedAt": "2026-05-13T18:12:12.496Z"
     },
     {
       "slug": "diffusion-transformer__main-table__05-prompt-to-slate",
@@ -74,11 +74,11 @@
       "categoryLevel2": "Main Table",
       "categoryPath": "Diffusion Transformer / Main Table",
       "directoryPath": "Paper/Diffusion Transformer/Main Table/05 - Prompt-to-Slate",
-      "pdfPath": "",
+      "pdfPath": "Paper/Diffusion Transformer/Main Table/05 - Prompt-to-Slate/Prompt-to-Slate - Diffusion Models for Prompt-Conditioned Slate Generation.pdf",
       "notePath": "Paper/Diffusion Transformer/Main Table/05 - Prompt-to-Slate/note.md",
-      "hasPdf": false,
+      "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-05-13T17:42:35.058Z"
+      "updatedAt": "2026-05-13T18:12:11.997Z"
     },
     {
       "slug": "diffusion-transformer__main-table__04-idreamrec",
@@ -87,11 +87,11 @@
       "categoryLevel2": "Main Table",
       "categoryPath": "Diffusion Transformer / Main Table",
       "directoryPath": "Paper/Diffusion Transformer/Main Table/04 - iDreamRec",
-      "pdfPath": "",
+      "pdfPath": "Paper/Diffusion Transformer/Main Table/04 - iDreamRec/Generate and Instantiate What You Prefer - Text-Guided Diffusion for Sequential Recommendation.pdf",
       "notePath": "Paper/Diffusion Transformer/Main Table/04 - iDreamRec/note.md",
-      "hasPdf": false,
+      "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-05-13T17:42:34.481Z"
+      "updatedAt": "2026-05-13T18:12:11.491Z"
     },
     {
       "slug": "diffusion-transformer__main-table__03-dcrec-dcdt",
@@ -100,11 +100,11 @@
       "categoryLevel2": "Main Table",
       "categoryPath": "Diffusion Transformer / Main Table",
       "directoryPath": "Paper/Diffusion Transformer/Main Table/03 - DCRec DCDT",
-      "pdfPath": "",
+      "pdfPath": "Paper/Diffusion Transformer/Main Table/03 - DCRec DCDT/Dual Conditional Diffusion Models for Sequential Recommendation.pdf",
       "notePath": "Paper/Diffusion Transformer/Main Table/03 - DCRec DCDT/note.md",
-      "hasPdf": false,
+      "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-05-13T17:42:33.887Z"
+      "updatedAt": "2026-05-13T18:12:10.962Z"
     },
     {
       "slug": "diffusion-transformer__main-table__02-edge-rec",
@@ -113,11 +113,11 @@
       "categoryLevel2": "Main Table",
       "categoryPath": "Diffusion Transformer / Main Table",
       "directoryPath": "Paper/Diffusion Transformer/Main Table/02 - EDGE-Rec",
-      "pdfPath": "",
+      "pdfPath": "Paper/Diffusion Transformer/Main Table/02 - EDGE-Rec/EDGE-Rec - Efficient and Data-Guided Edge Diffusion For Recommender Systems Graphs.pdf",
       "notePath": "Paper/Diffusion Transformer/Main Table/02 - EDGE-Rec/note.md",
-      "hasPdf": false,
+      "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-05-13T17:42:33.330Z"
+      "updatedAt": "2026-05-13T18:12:10.456Z"
     },
     {
       "slug": "diffusion-transformer__main-table__01-diffgt",
@@ -126,11 +126,11 @@
       "categoryLevel2": "Main Table",
       "categoryPath": "Diffusion Transformer / Main Table",
       "directoryPath": "Paper/Diffusion Transformer/Main Table/01 - DiffGT",
-      "pdfPath": "",
+      "pdfPath": "Paper/Diffusion Transformer/Main Table/01 - DiffGT/A Directional Diffusion Graph Transformer for Recommendation.pdf",
       "notePath": "Paper/Diffusion Transformer/Main Table/01 - DiffGT/note.md",
-      "hasPdf": false,
+      "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-05-13T17:42:32.783Z"
+      "updatedAt": "2026-05-13T18:12:09.953Z"
     },
     {
       "slug": "imported__2507-15551v3",
