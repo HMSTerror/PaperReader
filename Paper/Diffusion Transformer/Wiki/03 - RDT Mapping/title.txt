@@ -1,1 +1,0 @@
-Diffusion Transformer 推荐系统 Wiki：与 RDT 项目的关系

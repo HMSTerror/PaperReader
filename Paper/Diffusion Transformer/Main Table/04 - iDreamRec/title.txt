@@ -1,1 +1,0 @@
-Generate and Instantiate What You Prefer: Text-Guided Diffusion for Sequential Recommendation
