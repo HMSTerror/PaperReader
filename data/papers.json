@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T15:04:30.070Z",
+  "generatedAt": "2026-06-16T16:12:41.202Z",
   "paperCount": 28,
   "papers": [
     {
@@ -13,7 +13,7 @@
       "notePath": "Paper/Related Work/27 - DynamicProductImageGeneration/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:49.046Z"
+      "updatedAt": "2026-06-16T16:08:59.327Z"
     },
     {
       "slug": "related-work__26-cg4ctr",
@@ -26,7 +26,7 @@
       "notePath": "Paper/Related Work/26 - CG4CTR/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:49.036Z"
+      "updatedAt": "2026-06-16T16:08:59.318Z"
     },
     {
       "slug": "related-work__25-difashion",
@@ -39,7 +39,7 @@
       "notePath": "Paper/Related Work/25 - DiFashion/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:49.029Z"
+      "updatedAt": "2026-06-16T16:08:59.308Z"
     },
     {
       "slug": "related-work__24-dcdr",
@@ -52,7 +52,7 @@
       "notePath": "Paper/Related Work/24 - DCDR/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:49.024Z"
+      "updatedAt": "2026-06-16T16:08:59.300Z"
     },
     {
       "slug": "related-work__23-mdifffr",
@@ -65,7 +65,7 @@
       "notePath": "Paper/Related Work/23 - MDiffFR/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:49.016Z"
+      "updatedAt": "2026-06-16T16:08:59.291Z"
     },
     {
       "slug": "related-work__22-diffcdr",
@@ -78,7 +78,7 @@
       "notePath": "Paper/Related Work/22 - DiffCDR/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:49.010Z"
+      "updatedAt": "2026-06-16T16:08:59.282Z"
     },
     {
       "slug": "related-work__21-ccdrec",
@@ -91,7 +91,7 @@
       "notePath": "Paper/Related Work/21 - CCDRec/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:49.002Z"
+      "updatedAt": "2026-06-16T16:08:59.274Z"
     },
     {
       "slug": "related-work__20-mcdrec",
@@ -104,7 +104,7 @@
       "notePath": "Paper/Related Work/20 - MCDRec/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.996Z"
+      "updatedAt": "2026-06-16T16:08:59.264Z"
     },
     {
       "slug": "related-work__19-ld4mrec",
@@ -117,7 +117,7 @@
       "notePath": "Paper/Related Work/19 - LD4MRec/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.989Z"
+      "updatedAt": "2026-06-16T16:08:59.255Z"
     },
     {
       "slug": "related-work__18-diffmm",
@@ -130,7 +130,7 @@
       "notePath": "Paper/Related Work/18 - DiffMM/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.981Z"
+      "updatedAt": "2026-06-16T16:08:59.247Z"
     },
     {
       "slug": "related-work__17-diffkg",
@@ -143,7 +143,7 @@
       "notePath": "Paper/Related Work/17 - DiffKG/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.969Z"
+      "updatedAt": "2026-06-16T16:08:59.235Z"
     },
     {
       "slug": "related-work__16-ddrm",
@@ -156,7 +156,7 @@
       "notePath": "Paper/Related Work/16 - DDRM/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.964Z"
+      "updatedAt": "2026-06-16T16:08:59.225Z"
     },
     {
       "slug": "related-work__15-pdrec",
@@ -169,7 +169,7 @@
       "notePath": "Paper/Related Work/15 - PDRec/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.959Z"
+      "updatedAt": "2026-06-16T16:08:59.217Z"
     },
     {
       "slug": "related-work__14-diff4rec",
@@ -182,7 +182,7 @@
       "notePath": "Paper/Related Work/14 - Diff4Rec/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.954Z"
+      "updatedAt": "2026-06-16T16:08:59.208Z"
     },
     {
       "slug": "related-work__13-diffuasr",
@@ -195,7 +195,7 @@
       "notePath": "Paper/Related Work/13 - DiffuASR/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.947Z"
+      "updatedAt": "2026-06-16T16:08:59.199Z"
     },
     {
       "slug": "related-work__12-dimerec",
@@ -208,7 +208,7 @@
       "notePath": "Paper/Related Work/12 - DimeRec/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.942Z"
+      "updatedAt": "2026-06-16T16:08:59.191Z"
     },
     {
       "slug": "related-work__11-preferdiff",
@@ -221,7 +221,7 @@
       "notePath": "Paper/Related Work/11 - PreferDiff/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.934Z"
+      "updatedAt": "2026-06-16T16:08:59.181Z"
     },
     {
       "slug": "related-work__10-idreamrec",
@@ -234,7 +234,7 @@
       "notePath": "Paper/Related Work/10 - iDreamRec/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.927Z"
+      "updatedAt": "2026-06-16T16:08:59.172Z"
     },
     {
       "slug": "related-work__09-dreamrec",
@@ -247,7 +247,7 @@
       "notePath": "Paper/Related Work/09 - DreamRec/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.922Z"
+      "updatedAt": "2026-06-16T16:08:59.162Z"
     },
     {
       "slug": "related-work__08-cddrec",
@@ -260,7 +260,7 @@
       "notePath": "Paper/Related Work/08 - CDDRec/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.916Z"
+      "updatedAt": "2026-06-16T16:08:59.155Z"
     },
     {
       "slug": "related-work__07-diffrec-sr",
@@ -273,7 +273,7 @@
       "notePath": "Paper/Related Work/07 - DiffRec-SR/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.910Z"
+      "updatedAt": "2026-06-16T16:08:59.147Z"
     },
     {
       "slug": "related-work__06-diffurec",
@@ -286,7 +286,7 @@
       "notePath": "Paper/Related Work/06 - DiffuRec/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.904Z"
+      "updatedAt": "2026-06-16T16:08:59.138Z"
     },
     {
       "slug": "related-work__05-cf-diff",
@@ -299,7 +299,7 @@
       "notePath": "Paper/Related Work/05 - CF-Diff/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.897Z"
+      "updatedAt": "2026-06-16T16:08:59.128Z"
     },
     {
       "slug": "related-work__04-giffcf",
@@ -312,7 +312,7 @@
       "notePath": "Paper/Related Work/04 - GiffCF/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.891Z"
+      "updatedAt": "2026-06-16T16:08:59.120Z"
     },
     {
       "slug": "related-work__03-bspm",
@@ -325,7 +325,7 @@
       "notePath": "Paper/Related Work/03 - BSPM/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.886Z"
+      "updatedAt": "2026-06-16T16:08:59.110Z"
     },
     {
       "slug": "related-work__02-recfusion",
@@ -338,7 +338,7 @@
       "notePath": "Paper/Related Work/02 - RecFusion/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.880Z"
+      "updatedAt": "2026-06-16T16:08:59.101Z"
     },
     {
       "slug": "related-work__01-diffrec",
@@ -351,7 +351,7 @@
       "notePath": "Paper/Related Work/01 - DiffRec/note.md",
       "hasPdf": true,
       "hasNote": true,
-      "updatedAt": "2026-06-16T15:02:48.871Z"
+      "updatedAt": "2026-06-16T16:08:59.091Z"
     },
     {
       "slug": "beauty__01-sasrec",
