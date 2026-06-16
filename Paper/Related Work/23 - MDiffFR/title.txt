@@ -1,0 +1,1 @@
+MDiffFR: Modality-Guided Diffusion Generation for Cold-start Items in Federated Recommendation
