@@ -1,0 +1,1 @@
+LLMEmb: Large Language Model Can Be a Good Embedding Generator for Sequential Recommendation

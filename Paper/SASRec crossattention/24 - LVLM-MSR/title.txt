@@ -1,0 +1,1 @@
+When Large Vision Language Models Meet Multimodal Sequential Recommendation: An Empirical Study

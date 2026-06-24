@@ -1,0 +1,1 @@
+Multimodal Interactive Network for Sequential Recommendation

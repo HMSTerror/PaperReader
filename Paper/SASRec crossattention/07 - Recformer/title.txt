@@ -1,0 +1,1 @@
+Text Is All You Need: Learning Language Representations for Sequential Recommendation
