@@ -1,0 +1,68 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "KGIN",
+    "title": "Learning Intents behind Interactions with Knowledge Graph for Recommendation",
+    "year": 2021
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/2102.07057v1",
+    "doi": "",
+    "title": "Learning Intents behind Interactions with Knowledge Graph for Recommendation",
+    "display_name": "Learning Intents behind Interactions with Knowledge Graph for Recommendation",
+    "publication_year": 2021,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/2102.07057v1",
+      "landing_page_url": "http://arxiv.org/abs/2102.07057v1",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2102.07057v1"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Xiang Wang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Tinglin Huang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Dingxian Wang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Yancheng Yuan"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Zhenguang Liu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Xiangnan He"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Tat-Seng Chua"
+        }
+      }
+    ],
+    "abstract": "Knowledge graph (KG) plays an increasingly important role in recommender systems. A recent technical trend is to develop end-to-end models founded on graph neural networks (GNNs). However, existing GNN-based models are coarse-grained in relational modeling, failing to (1) identify user-item relation at a fine-grained level of intents, and (2) exploit relation dependencies to preserve the semantics of long-range connectivity.   In this study, we explore intents behind a user-item interaction by using auxiliary item knowledge, and propose a new model, Knowledge Graph-based Intent Network (KGIN). Technically, we model each intent as an attentive combination of KG relations, encouraging the independence of different intents for better model capability and interpretability. Furthermore, we devise a new information aggregation scheme for GNN, which recursively integrates the relation sequences of long-range connectivity (i.e., relational paths). This scheme allows us to distill useful information about user intents and encode them into the representations of users and items. Experimental results on three benchmark datasets show that, KGIN achieves significant improvements over the state-of-the-art methods like KGAT, KGNN-LS, and CKAN. Further analyses show that KGIN offers interpretable explanations for predictions by identifying influential intents and relational paths. The implementations are available at https://github.com/huangtinglin/Knowledge_Graph_based_Intent_Network.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/2102.07057v1.pdf"
+}

@@ -1,0 +1,445 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "GCMC",
+    "title": "Graph Convolutional Matrix Completion",
+    "year": 2017
+  },
+  "openalex": {
+    "id": "https://openalex.org/W2624407581",
+    "doi": "https://doi.org/10.48550/arxiv.1706.02263",
+    "title": "Graph Convolutional Matrix Completion",
+    "display_name": "Graph Convolutional Matrix Completion",
+    "publication_year": 2017,
+    "cited_by_count": 1104,
+    "primary_location": {
+      "id": "pmh:oai:arXiv.org:1706.02263",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1706.02263",
+      "pdf_url": "https://arxiv.org/pdf/1706.02263",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "text"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/1706.02263",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5018601296",
+          "display_name": "Rianne van den Berg",
+          "orcid": "https://orcid.org/0000-0001-5076-2802"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Berg, Rianne van den",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5025691113",
+          "display_name": "Thomas Kipf",
+          "orcid": "https://orcid.org/0000-0003-4486-409X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Kipf, Thomas N.",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5087368991",
+          "display_name": "Max Welling",
+          "orcid": "https://orcid.org/0000-0003-1484-2121"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Welling, Max",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "abstract_inverted_index": {
+      "We": [
+        0
+      ],
+      "consider": [
+        1
+      ],
+      "matrix": [
+        2
+      ],
+      "completion": [
+        3
+      ],
+      "for": [
+        4
+      ],
+      "recommender": [
+        5
+      ],
+      "systems": [
+        6
+      ],
+      "from": [
+        7
+      ],
+      "the": [
+        8,
+        59
+      ],
+      "point": [
+        9
+      ],
+      "of": [
+        10,
+        12
+      ],
+      "view": [
+        11
+      ],
+      "link": [
+        13
+      ],
+      "prediction": [
+        14
+      ],
+      "on": [
+        15,
+        38,
+        44,
+        54,
+        58,
+        68
+      ],
+      "graphs.": [
+        16
+      ],
+      "Interaction": [
+        17
+      ],
+      "data": [
+        18,
+        81
+      ],
+      "such": [
+        19,
+        82
+      ],
+      "as": [
+        20,
+        83
+      ],
+      "movie": [
+        21
+      ],
+      "ratings": [
+        22
+      ],
+      "can": [
+        23
+      ],
+      "be": [
+        24
+      ],
+      "represented": [
+        25
+      ],
+      "by": [
+        26
+      ],
+      "a": [
+        27,
+        49,
+        84
+      ],
+      "bipartite": [
+        28,
+        60
+      ],
+      "user-item": [
+        29
+      ],
+      "graph": [
+        30,
+        50
+      ],
+      "with": [
+        31
+      ],
+      "labeled": [
+        32
+      ],
+      "edges": [
+        33
+      ],
+      "denoting": [
+        34
+      ],
+      "observed": [
+        35
+      ],
+      "ratings.": [
+        36
+      ],
+      "Building": [
+        37
+      ],
+      "recent": [
+        39,
+        92
+      ],
+      "progress": [
+        40
+      ],
+      "in": [
+        41
+      ],
+      "deep": [
+        42
+      ],
+      "learning": [
+        43
+      ],
+      "graph-structured": [
+        45
+      ],
+      "data,": [
+        46
+      ],
+      "we": [
+        47
+      ],
+      "propose": [
+        48
+      ],
+      "auto-encoder": [
+        51
+      ],
+      "framework": [
+        52,
+        90
+      ],
+      "based": [
+        53
+      ],
+      "differentiable": [
+        55
+      ],
+      "message": [
+        56
+      ],
+      "passing": [
+        57
+      ],
+      "interaction": [
+        61
+      ],
+      "graph.": [
+        62
+      ],
+      "Our": [
+        63
+      ],
+      "model": [
+        64
+      ],
+      "shows": [
+        65
+      ],
+      "competitive": [
+        66
+      ],
+      "performance": [
+        67
+      ],
+      "standard": [
+        69
+      ],
+      "collaborative": [
+        70
+      ],
+      "filtering": [
+        71
+      ],
+      "benchmarks.": [
+        72
+      ],
+      "In": [
+        73
+      ],
+      "settings": [
+        74
+      ],
+      "where": [
+        75
+      ],
+      "complimentary": [
+        76
+      ],
+      "feature": [
+        77
+      ],
+      "information": [
+        78
+      ],
+      "or": [
+        79
+      ],
+      "structured": [
+        80
+      ],
+      "social": [
+        85
+      ],
+      "network": [
+        86
+      ],
+      "is": [
+        87
+      ],
+      "available,": [
+        88
+      ],
+      "our": [
+        89
+      ],
+      "outperforms": [
+        91
+      ],
+      "state-of-the-art": [
+        93
+      ],
+      "methods.": [
+        94
+      ]
+    },
+    "locations": [
+      {
+        "id": "pmh:oai:arXiv.org:1706.02263",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1706.02263",
+        "pdf_url": "https://arxiv.org/pdf/1706.02263",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      {
+        "id": "pmh:oai:dare.uva.nl:publications/a9fb6b34-07f4-4791-8949-82e9499a7c18",
+        "is_oa": true,
+        "landing_page_url": "https://handle.uba.uva.nl/personal/pure/en/publications/graph-convolutional-matrix-completion(a9fb6b34-07f4-4791-8949-82e9499a7c18).html",
+        "pdf_url": "http://dare.uva.nl/personal/pure/en/publications/graph-convolutional-matrix-completion(a9fb6b34-07f4-4791-8949-82e9499a7c18).html",
+        "source": {
+          "id": "https://openalex.org/S4306400088",
+          "display_name": "UvA-DARE (University of Amsterdam)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I887064364",
+          "host_organization_name": "University of Amsterdam",
+          "host_organization_lineage": [
+            "https://openalex.org/I887064364"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "van den Berg, R, Kipf, T N & Welling, M 2017 'Graph Convolutional Matrix Completion' Ithaca, NY. < https://arxiv.org/abs/1706.02263 >",
+        "raw_type": "info:eu-repo/semantics/workingPaper"
+      },
+      {
+        "id": "doi:10.48550/arxiv.1706.02263",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.1706.02263",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "article"
+      }
+    ],
+    "abstract": "We consider matrix completion for recommender systems from the point of view of link prediction on graphs. Interaction data such as movie ratings can be represented by a bipartite user-item graph with labeled edges denoting observed ratings. Building on recent progress in deep learning on graph-structured data, we propose a graph auto-encoder framework based on differentiable message passing on the bipartite interaction graph. Our model shows competitive performance on standard collaborative filtering benchmarks. In settings where complimentary feature information or structured data such as a social network is available, our framework outperforms recent state-of-the-art methods.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/1706.02263.pdf"
+}

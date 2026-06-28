@@ -1,0 +1,662 @@
+{
+  "candidate": {
+    "category": "01 - Foundations",
+    "short": "BPR",
+    "title": "BPR: Bayesian Personalized Ranking from Implicit Feedback",
+    "year": 2009
+  },
+  "openalex": {
+    "id": "https://openalex.org/W2140310134",
+    "doi": "https://doi.org/10.48550/arxiv.1205.2618",
+    "title": "BPR: Bayesian Personalized Ranking from Implicit Feedback",
+    "display_name": "BPR: Bayesian Personalized Ranking from Implicit Feedback",
+    "publication_year": 2012,
+    "cited_by_count": 4371,
+    "primary_location": {
+      "id": "pmh:oai:arXiv.org:1205.2618",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1205.2618",
+      "pdf_url": "https://arxiv.org/pdf/1205.2618",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/1205.2618",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5080877905",
+          "display_name": "Steffen Rendle",
+          "orcid": "https://orcid.org/0009-0004-6389-2509"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I155765044",
+            "display_name": "University of Hildesheim",
+            "ror": "https://ror.org/02f9det96",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I155765044"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rendle, Steffen",
+        "raw_affiliation_strings": [
+          "University of Hildesheim, Hildesheim, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Hildesheim, Hildesheim, Germany",
+            "institution_ids": [
+              "https://openalex.org/I155765044"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5082540454",
+          "display_name": "Christoph Freudenthaler",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I155765044",
+            "display_name": "University of Hildesheim",
+            "ror": "https://ror.org/02f9det96",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I155765044"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Freudenthaler, Christoph",
+        "raw_affiliation_strings": [
+          "University of Hildesheim, Hildesheim, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Hildesheim, Hildesheim, Germany",
+            "institution_ids": [
+              "https://openalex.org/I155765044"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019633739",
+          "display_name": "Zeno Gantner",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I155765044",
+            "display_name": "University of Hildesheim",
+            "ror": "https://ror.org/02f9det96",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I155765044"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Gantner, Zeno",
+        "raw_affiliation_strings": [
+          "University of Hildesheim, Hildesheim, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Hildesheim, Hildesheim, Germany",
+            "institution_ids": [
+              "https://openalex.org/I155765044"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5039470755",
+          "display_name": "Lars Schmidt-Thieme",
+          "orcid": "https://orcid.org/0000-0001-5729-6023"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I155765044",
+            "display_name": "University of Hildesheim",
+            "ror": "https://ror.org/02f9det96",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I155765044"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Schmidt-Thieme, Lars",
+        "raw_affiliation_strings": [
+          "University of Hildesheim, Hildesheim, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Hildesheim, Hildesheim, Germany",
+            "institution_ids": [
+              "https://openalex.org/I155765044"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Item": [
+        0
+      ],
+      "recommendation": [
+        1,
+        40
+      ],
+      "is": [
+        2,
+        69,
+        88,
+        118
+      ],
+      "the": [
+        3,
+        24,
+        59,
+        89,
+        99,
+        149,
+        158,
+        169,
+        175
+      ],
+      "task": [
+        4,
+        62,
+        150
+      ],
+      "of": [
+        5,
+        13,
+        63,
+        67,
+        98,
+        151,
+        171
+      ],
+      "predicting": [
+        6
+      ],
+      "a": [
+        7,
+        11,
+        79,
+        95,
+        104
+      ],
+      "personalized": [
+        8,
+        64,
+        85,
+        152
+      ],
+      "ranking": [
+        9,
+        86,
+        153
+      ],
+      "on": [
+        10,
+        120
+      ],
+      "set": [
+        12
+      ],
+      "items": [
+        14
+      ],
+      "(e.g.": [
+        15,
+        31
+      ],
+      "websites,": [
+        16
+      ],
+      "movies,": [
+        17
+      ],
+      "products).": [
+        18
+      ],
+      "In": [
+        19,
+        74
+      ],
+      "this": [
+        20,
+        75
+      ],
+      "paper,": [
+        21
+      ],
+      "we": [
+        22,
+        77
+      ],
+      "investigate": [
+        23
+      ],
+      "most": [
+        25
+      ],
+      "common": [
+        26
+      ],
+      "scenario": [
+        27
+      ],
+      "with": [
+        28,
+        111,
+        124
+      ],
+      "implicit": [
+        29,
+        42
+      ],
+      "feedback": [
+        30,
+        43
+      ],
+      "clicks,": [
+        32
+      ],
+      "purchases).": [
+        33
+      ],
+      "There": [
+        34
+      ],
+      "are": [
+        35,
+        56
+      ],
+      "many": [
+        36
+      ],
+      "methods": [
+        37,
+        55
+      ],
+      "for": [
+        38,
+        58,
+        72,
+        84,
+        108,
+        148,
+        162,
+        174
+      ],
+      "item": [
+        39,
+        60
+      ],
+      "from": [
+        41,
+        94
+      ],
+      "like": [
+        44
+      ],
+      "matrix": [
+        45,
+        139
+      ],
+      "factorization": [
+        46,
+        140
+      ],
+      "(MF)": [
+        47
+      ],
+      "or": [
+        48
+      ],
+      "adaptive": [
+        49,
+        142
+      ],
+      "knearest-neighbor": [
+        50
+      ],
+      "(kNN).": [
+        51
+      ],
+      "Even": [
+        52
+      ],
+      "though": [
+        53
+      ],
+      "these": [
+        54
+      ],
+      "designed": [
+        57
+      ],
+      "prediction": [
+        61
+      ],
+      "ranking,": [
+        65
+      ],
+      "none": [
+        66
+      ],
+      "them": [
+        68
+      ],
+      "directly": [
+        70
+      ],
+      "optimized": [
+        71
+      ],
+      "ranking.": [
+        73
+      ],
+      "paper": [
+        76
+      ],
+      "present": [
+        78
+      ],
+      "generic": [
+        80,
+        105
+      ],
+      "optimization": [
+        81,
+        155
+      ],
+      "criterion": [
+        82
+      ],
+      "BPR-Opt": [
+        83
+      ],
+      "that": [
+        87,
+        147
+      ],
+      "maximum": [
+        90
+      ],
+      "posterior": [
+        91
+      ],
+      "estimator": [
+        92
+      ],
+      "derived": [
+        93
+      ],
+      "Bayesian": [
+        96
+      ],
+      "analysis": [
+        97
+      ],
+      "problem.": [
+        100
+      ],
+      "We": [
+        101,
+        127
+      ],
+      "also": [
+        102
+      ],
+      "provide": [
+        103
+      ],
+      "learning": [
+        106,
+        116,
+        160
+      ],
+      "algorithm": [
+        107
+      ],
+      "optimizing": [
+        109,
+        172
+      ],
+      "models": [
+        110,
+        173
+      ],
+      "respect": [
+        112
+      ],
+      "to": [
+        113,
+        130,
+        134
+      ],
+      "BPR-Opt.": [
+        114
+      ],
+      "The": [
+        115,
+        166
+      ],
+      "method": [
+        117,
+        133,
+        156
+      ],
+      "based": [
+        119
+      ],
+      "stochastic": [
+        121
+      ],
+      "gradient": [
+        122
+      ],
+      "descent": [
+        123
+      ],
+      "bootstrap": [
+        125
+      ],
+      "sampling.": [
+        126
+      ],
+      "show": [
+        128,
+        168
+      ],
+      "how": [
+        129
+      ],
+      "apply": [
+        131
+      ],
+      "our": [
+        132,
+        154
+      ],
+      "two": [
+        135
+      ],
+      "state-of-the-art": [
+        136
+      ],
+      "recommender": [
+        137
+      ],
+      "models:": [
+        138
+      ],
+      "and": [
+        141,
+        164
+      ],
+      "kNN.": [
+        143,
+        165
+      ],
+      "Our": [
+        144
+      ],
+      "experiments": [
+        145
+      ],
+      "indicate": [
+        146
+      ],
+      "outperforms": [
+        157
+      ],
+      "standard": [
+        159
+      ],
+      "techniques": [
+        161
+      ],
+      "MF": [
+        163
+      ],
+      "results": [
+        167
+      ],
+      "importance": [
+        170
+      ],
+      "right": [
+        176
+      ],
+      "criterion.": [
+        177
+      ]
+    },
+    "locations": [
+      {
+        "id": "pmh:oai:arXiv.org:1205.2618",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1205.2618",
+        "pdf_url": "https://arxiv.org/pdf/1205.2618",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": null
+      },
+      {
+        "id": "doi:10.48550/arxiv.1205.2618",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.1205.2618",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "article"
+      }
+    ],
+    "abstract": "Item recommendation is the task of predicting a personalized ranking on a set of items (e.g. websites, movies, products). In this paper, we investigate the most common scenario with implicit feedback (e.g. clicks, purchases). There are many methods for item recommendation from implicit feedback like matrix factorization (MF) or adaptive knearest-neighbor (kNN). Even though these methods are designed for the item prediction task of personalized ranking, none of them is directly optimized for ranking. In this paper we present a generic optimization criterion BPR-Opt for personalized ranking that is the maximum posterior estimator derived from a Bayesian analysis of the problem. We also provide a generic learning algorithm for optimizing models with respect to BPR-Opt. The learning method is based on stochastic gradient descent with bootstrap sampling. We show how to apply our method to two state-of-the-art recommender models: matrix factorization and adaptive kNN. Our experiments indicate that for the task of personalized ranking our optimization method outperforms the standard learning techniques for MF and kNN. The results show the importance of optimizing models for the right criterion.",
+    "match_score": 0.955
+  },
+  "downloadSource": "https://arxiv.org/pdf/1205.2618.pdf"
+}

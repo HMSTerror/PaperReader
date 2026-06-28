@@ -1,0 +1,83 @@
+{
+  "candidate": {
+    "category": "04 - Sequential and Session",
+    "short": "MIND",
+    "title": "Multi-Interest Network with Dynamic Routing for Recommendation at Tmall",
+    "year": 2019
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/1904.08030v1",
+    "doi": "",
+    "title": "Multi-Interest Network with Dynamic Routing for Recommendation at Tmall",
+    "display_name": "Multi-Interest Network with Dynamic Routing for Recommendation at Tmall",
+    "publication_year": 2019,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/1904.08030v1",
+      "landing_page_url": "http://arxiv.org/abs/1904.08030v1",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1904.08030v1"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Chao Li"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Zhiyuan Liu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Mengmeng Wu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Yuchi Xu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Pipei Huang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Huan Zhao"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Guoliang Kang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Qiwei Chen"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Wei Li"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Dik Lun Lee"
+        }
+      }
+    ],
+    "abstract": "Industrial recommender systems usually consist of the matching stage and the ranking stage, in order to handle the billion-scale of users and items. The matching stage retrieves candidate items relevant to user interests, while the ranking stage sorts candidate items by user interests. Thus, the most critical ability is to model and represent user interests for either stage. Most of the existing deep learning-based models represent one user as a single vector which is insufficient to capture the varying nature of user's interests. In this paper, we approach this problem from a different view, to represent one user with multiple vectors encoding the different aspects of the user's interests. We propose the Multi-Interest Network with Dynamic routing (MIND) for dealing with user's diverse interests in the matching stage. Specifically, we design a multi-interest extractor layer based on capsule routing mechanism, which is applicable for clustering historical behaviors and extracting diverse interests. Furthermore, we develop a technique named label-aware attention to help learn a user representation with multiple vectors. Through extensive experiments on several public benchmarks and one large-scale industrial dataset from Tmall, we demonstrate that MIND can achieve superior performance than state-of-the-art methods for recommendation. Currently, MIND has been deployed for handling major online traffic at the homepage on Mobile Tmall App.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/1904.08030v1.pdf"
+}

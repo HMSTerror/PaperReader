@@ -1,0 +1,596 @@
+{
+  "candidate": {
+    "category": "06 - Social Recommendation",
+    "short": "TrustSVD",
+    "title": "TrustSVD: Collaborative Filtering with Both the Explicit and Implicit Influence of User Trust and of Item Ratings",
+    "year": 2015
+  },
+  "openalex": {
+    "id": "https://openalex.org/W2244405900",
+    "doi": "https://doi.org/10.1609/aaai.v29i1.9153",
+    "title": "TrustSVD: Collaborative Filtering with Both the Explicit and Implicit Influence of User Trust and of Item Ratings",
+    "display_name": "TrustSVD: Collaborative Filtering with Both the Explicit and Implicit Influence of User Trust and of Item Ratings",
+    "publication_year": 2015,
+    "cited_by_count": 582,
+    "primary_location": {
+      "id": "doi:10.1609/aaai.v29i1.9153",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1609/aaai.v29i1.9153",
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/9153/9012",
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "issn_l": "2159-5399",
+        "issn": [
+          "2159-5399",
+          "2374-3468"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320058",
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320058"
+        ],
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "raw_type": "journal-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://ojs.aaai.org/index.php/AAAI/article/download/9153/9012",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5007061198",
+          "display_name": "Guibing Guo",
+          "orcid": "https://orcid.org/0000-0002-1709-5056"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I172675005",
+            "display_name": "Nanyang Technological University",
+            "ror": "https://ror.org/02e7b5302",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Guibing Guo",
+        "raw_affiliation_strings": [
+          "Nanyang Technological University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanyang Technological University",
+            "institution_ids": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100436659",
+          "display_name": "Jie Zhang",
+          "orcid": "https://orcid.org/0000-0001-8996-7581"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I172675005",
+            "display_name": "Nanyang Technological University",
+            "ror": "https://ror.org/02e7b5302",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jie Zhang",
+        "raw_affiliation_strings": [
+          "Nanyang Technological University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanyang Technological University",
+            "institution_ids": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5006046553",
+          "display_name": "Neil Yorke‐Smith",
+          "orcid": "https://orcid.org/0000-0002-1814-3515"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I241749",
+            "display_name": "University of Cambridge",
+            "ror": "https://ror.org/013meh722",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I241749"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I98635879",
+            "display_name": "American University of Beirut",
+            "ror": "https://ror.org/04pznsd21",
+            "country_code": "LB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I98635879"
+            ]
+          }
+        ],
+        "countries": [
+          "GB",
+          "LB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Neil Yorke-Smith",
+        "raw_affiliation_strings": [
+          "American University of Beirut and University of Cambridge"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "American University of Beirut and University of Cambridge",
+            "institution_ids": [
+              "https://openalex.org/I98635879",
+              "https://openalex.org/I241749"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Collaborative": [
+        0
+      ],
+      "filtering": [
+        1
+      ],
+      "suffers": [
+        2
+      ],
+      "from": [
+        3,
+        36
+      ],
+      "the": [
+        4,
+        32,
+        46,
+        50,
+        81,
+        93,
+        102,
+        113,
+        117,
+        129,
+        149
+      ],
+      "problems": [
+        5
+      ],
+      "of": [
+        6,
+        53,
+        72,
+        86,
+        98,
+        104
+      ],
+      "data": [
+        7,
+        35,
+        39,
+        131
+      ],
+      "sparsity": [
+        8
+      ],
+      "and": [
+        9,
+        56,
+        83,
+        95,
+        145
+      ],
+      "cold": [
+        10
+      ],
+      "start,": [
+        11
+      ],
+      "which": [
+        12,
+        78
+      ],
+      "dramatically": [
+        13
+      ],
+      "degrade": [
+        14
+      ],
+      "recommendation": [
+        15,
+        65,
+        75
+      ],
+      "performance.": [
+        16
+      ],
+      "To": [
+        17,
+        110
+      ],
+      "help": [
+        18
+      ],
+      "resolve": [
+        19
+      ],
+      "these": [
+        20
+      ],
+      "issues,": [
+        21
+      ],
+      "we": [
+        22,
+        41,
+        68
+      ],
+      "propose": [
+        23
+      ],
+      "TrustSVD,": [
+        24
+      ],
+      "a": [
+        25,
+        64,
+        73
+      ],
+      "trust-based": [
+        26
+      ],
+      "matrix": [
+        27
+      ],
+      "factorization": [
+        28
+      ],
+      "technique.": [
+        29
+      ],
+      "By": [
+        30
+      ],
+      "analyzing": [
+        31
+      ],
+      "social": [
+        33,
+        123
+      ],
+      "trust": [
+        34,
+        57,
+        124
+      ],
+      "four": [
+        37,
+        130
+      ],
+      "real-world": [
+        38
+      ],
+      "sets,": [
+        40
+      ],
+      "conclude": [
+        42
+      ],
+      "that": [
+        43,
+        134
+      ],
+      "not": [
+        44
+      ],
+      "only": [
+        45
+      ],
+      "explicit": [
+        47,
+        82,
+        94
+      ],
+      "but": [
+        48
+      ],
+      "also": [
+        49
+      ],
+      "implicit": [
+        51,
+        84,
+        96
+      ],
+      "influence": [
+        52,
+        85,
+        97
+      ],
+      "both": [
+        54,
+        92
+      ],
+      "ratings": [
+        55
+      ],
+      "should": [
+        58
+      ],
+      "be": [
+        59
+      ],
+      "taken": [
+        60
+      ],
+      "into": [
+        61
+      ],
+      "consideration": [
+        62
+      ],
+      "in": [
+        63
+      ],
+      "model.": [
+        66
+      ],
+      "Hence,": [
+        67
+      ],
+      "build": [
+        69
+      ],
+      "on": [
+        70,
+        101,
+        128
+      ],
+      "top": [
+        71
+      ],
+      "state-of-the-art": [
+        74
+      ],
+      "algorithm": [
+        76
+      ],
+      "SVD++": [
+        77,
+        121
+      ],
+      "inherently": [
+        79
+      ],
+      "involves": [
+        80
+      ],
+      "rated": [
+        87
+      ],
+      "items,": [
+        88
+      ],
+      "by": [
+        89
+      ],
+      "further": [
+        90
+      ],
+      "incorporating": [
+        91
+      ],
+      "trusted": [
+        99
+      ],
+      "users": [
+        100
+      ],
+      "prediction": [
+        103
+      ],
+      "items": [
+        105
+      ],
+      "for": [
+        106
+      ],
+      "an": [
+        107
+      ],
+      "active": [
+        108
+      ],
+      "user.": [
+        109
+      ],
+      "our": [
+        111,
+        135
+      ],
+      "knowledge,": [
+        112
+      ],
+      "work": [
+        114
+      ],
+      "reported": [
+        115
+      ],
+      "is": [
+        116
+      ],
+      "first": [
+        118
+      ],
+      "to": [
+        119
+      ],
+      "extend": [
+        120
+      ],
+      "with": [
+        122
+      ],
+      "information.": [
+        125
+      ],
+      "Experimental": [
+        126
+      ],
+      "results": [
+        127
+      ],
+      "sets": [
+        132
+      ],
+      "demonstrate": [
+        133
+      ],
+      "approach": [
+        136
+      ],
+      "TrustSVD": [
+        137
+      ],
+      "achieves": [
+        138
+      ],
+      "better": [
+        139,
+        147
+      ],
+      "accuracy": [
+        140
+      ],
+      "than": [
+        141
+      ],
+      "other": [
+        142
+      ],
+      "ten": [
+        143
+      ],
+      "counterparts,": [
+        144
+      ],
+      "can": [
+        146
+      ],
+      "handle": [
+        148
+      ],
+      "concerned": [
+        150
+      ],
+      "issues.": [
+        151
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1609/aaai.v29i1.9153",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1609/aaai.v29i1.9153",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/9153/9012",
+        "source": {
+          "id": "https://openalex.org/S4210191458",
+          "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "issn_l": "2159-5399",
+          "issn": [
+            "2159-5399",
+            "2374-3468"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320058",
+          "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320058"
+          ],
+          "host_organization_lineage_names": [
+            "Association for the Advancement of Artificial Intelligence"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:ojs.aaai.org:article/9153",
+        "is_oa": false,
+        "landing_page_url": "https://ojs.aaai.org/index.php/AAAI/article/view/9153",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "2159-5399",
+        "raw_type": "info:eu-repo/semantics/publishedVersion"
+      }
+    ],
+    "abstract": "Collaborative filtering suffers from the problems of data sparsity and cold start, which dramatically degrade recommendation performance. To help resolve these issues, we propose TrustSVD, a trust-based matrix factorization technique. By analyzing the social trust data from four real-world data sets, we conclude that not only the explicit but also the implicit influence of both ratings and trust should be taken into consideration in a recommendation model. Hence, we build on top of a state-of-the-art recommendation algorithm SVD++ which inherently involves the explicit and implicit influence of rated items, by further incorporating both the explicit and implicit influence of trusted users on the prediction of items for an active user. To our knowledge, the work reported is the first to extend SVD++ with social trust information. Experimental results on the four data sets demonstrate that our approach TrustSVD achieves better accuracy than other ten counterparts, and can better handle the concerned issues.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://ojs.aaai.org/index.php/AAAI/article/download/9153/9012"
+}

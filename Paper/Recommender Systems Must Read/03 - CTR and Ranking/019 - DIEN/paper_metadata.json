@@ -1,0 +1,953 @@
+{
+  "candidate": {
+    "category": "03 - CTR and Ranking",
+    "short": "DIEN",
+    "title": "Deep Interest Evolution Network for Click-Through Rate Prediction",
+    "year": 2019
+  },
+  "openalex": {
+    "id": "https://openalex.org/W2962745591",
+    "doi": "https://doi.org/10.1609/aaai.v33i01.33015941",
+    "title": "Deep Interest Evolution Network for Click-Through Rate Prediction",
+    "display_name": "Deep Interest Evolution Network for Click-Through Rate Prediction",
+    "publication_year": 2019,
+    "cited_by_count": 1009,
+    "primary_location": {
+      "id": "doi:10.1609/aaai.v33i01.33015941",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1609/aaai.v33i01.33015941",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "issn_l": "2159-5399",
+        "issn": [
+          "2159-5399",
+          "2374-3468"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320058",
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320058"
+        ],
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "raw_type": "journal-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://doi.org/10.1609/aaai.v33i01.33015941",
+      "any_repository_has_fulltext": null
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5108693980",
+          "display_name": "Guorui Zhou",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210095624",
+            "display_name": "Alibaba Group (United States)",
+            "ror": "https://ror.org/00rn0m335",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210095624",
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Guorui Zhou",
+        "raw_affiliation_strings": [
+          "Alibaba Group"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group",
+            "institution_ids": [
+              "https://openalex.org/I4210095624"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5076034547",
+          "display_name": "Na Mou",
+          "orcid": "https://orcid.org/0009-0006-0125-1997"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210095624",
+            "display_name": "Alibaba Group (United States)",
+            "ror": "https://ror.org/00rn0m335",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210095624",
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Na Mou",
+        "raw_affiliation_strings": [
+          "Alibaba Group"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group",
+            "institution_ids": [
+              "https://openalex.org/I4210095624"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100701973",
+          "display_name": "Ying Fan",
+          "orcid": "https://orcid.org/0000-0002-2368-2572"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210095624",
+            "display_name": "Alibaba Group (United States)",
+            "ror": "https://ror.org/00rn0m335",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210095624",
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ying Fan",
+        "raw_affiliation_strings": [
+          "Alibaba Group"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group",
+            "institution_ids": [
+              "https://openalex.org/I4210095624"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5089518011",
+          "display_name": "Qi Pi",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210095624",
+            "display_name": "Alibaba Group (United States)",
+            "ror": "https://ror.org/00rn0m335",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210095624",
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qi Pi",
+        "raw_affiliation_strings": [
+          "Alibaba Group"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group",
+            "institution_ids": [
+              "https://openalex.org/I4210095624"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5002520685",
+          "display_name": "Weijie Bian",
+          "orcid": "https://orcid.org/0009-0009-2515-1300"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210095624",
+            "display_name": "Alibaba Group (United States)",
+            "ror": "https://ror.org/00rn0m335",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210095624",
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Weijie Bian",
+        "raw_affiliation_strings": [
+          "Alibaba Group"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group",
+            "institution_ids": [
+              "https://openalex.org/I4210095624"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102025315",
+          "display_name": "Chang Zhou",
+          "orcid": "https://orcid.org/0000-0001-9241-702X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210095624",
+            "display_name": "Alibaba Group (United States)",
+            "ror": "https://ror.org/00rn0m335",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210095624",
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chang Zhou",
+        "raw_affiliation_strings": [
+          "Alibaba Group"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group",
+            "institution_ids": [
+              "https://openalex.org/I4210095624"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102812997",
+          "display_name": "Xiaoqiang Zhu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210095624",
+            "display_name": "Alibaba Group (United States)",
+            "ror": "https://ror.org/00rn0m335",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210095624",
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaoqiang Zhu",
+        "raw_affiliation_strings": [
+          "Alibaba Group"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group",
+            "institution_ids": [
+              "https://openalex.org/I4210095624"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5062939922",
+          "display_name": "Kun Gai",
+          "orcid": "https://orcid.org/0000-0002-3636-3618"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210095624",
+            "display_name": "Alibaba Group (United States)",
+            "ror": "https://ror.org/00rn0m335",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210095624",
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kun Gai",
+        "raw_affiliation_strings": [
+          "Alibaba Group"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group",
+            "institution_ids": [
+              "https://openalex.org/I4210095624"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Click-through": [
+        0
+      ],
+      "rate": [
+        1
+      ],
+      "(CTR)": [
+        2
+      ],
+      "prediction,": [
+        3
+      ],
+      "whose": [
+        4
+      ],
+      "goal": [
+        5
+      ],
+      "is": [
+        6,
+        34,
+        175,
+        187
+      ],
+      "to": [
+        7,
+        36,
+        131,
+        147,
+        169,
+        177
+      ],
+      "estimate": [
+        8
+      ],
+      "the": [
+        9,
+        16,
+        22,
+        26,
+        38,
+        43,
+        49,
+        52,
+        56,
+        79,
+        84,
+        95,
+        102,
+        106,
+        161,
+        178,
+        190,
+        195,
+        206,
+        217,
+        226
+      ],
+      "probability": [
+        10
+      ],
+      "of": [
+        11,
+        21,
+        51,
+        76,
+        81,
+        105,
+        197,
+        230
+      ],
+      "a": [
+        12,
+        113
+      ],
+      "user": [
+        13,
+        40,
+        44,
+        59,
+        155
+      ],
+      "clicking": [
+        14
+      ],
+      "on": [
+        15,
+        208,
+        236
+      ],
+      "item,": [
+        17
+      ],
+      "has": [
+        18,
+        222
+      ],
+      "become": [
+        19
+      ],
+      "one": [
+        20
+      ],
+      "core": [
+        23
+      ],
+      "tasks": [
+        24
+      ],
+      "in": [
+        25,
+        160,
+        225
+      ],
+      "advertising": [
+        27
+      ],
+      "system.": [
+        28
+      ],
+      "For": [
+        29
+      ],
+      "CTR": [
+        30,
+        68,
+        123
+      ],
+      "prediction": [
+        31,
+        69
+      ],
+      "model,": [
+        32,
+        115
+      ],
+      "it": [
+        33
+      ],
+      "necessary": [
+        35
+      ],
+      "capture": [
+        37,
+        132,
+        170
+      ],
+      "latent": [
+        39,
+        92
+      ],
+      "interest": [
+        41,
+        60,
+        72,
+        85,
+        93,
+        128,
+        149,
+        166,
+        171,
+        182,
+        203
+      ],
+      "behind": [
+        42,
+        94
+      ],
+      "behavior": [
+        45,
+        82,
+        137
+      ],
+      "data.": [
+        46
+      ],
+      "Besides,": [
+        47
+      ],
+      "considering": [
+        48
+      ],
+      "changing": [
+        50,
+        103
+      ],
+      "external": [
+        53
+      ],
+      "environment": [
+        54
+      ],
+      "and": [
+        55,
+        87,
+        194,
+        211,
+        232
+      ],
+      "internal": [
+        57
+      ],
+      "cognition,": [
+        58
+      ],
+      "evolves": [
+        61
+      ],
+      "over": [
+        62
+      ],
+      "time": [
+        63
+      ],
+      "dynamically.": [
+        64
+      ],
+      "There": [
+        65
+      ],
+      "are": [
+        66,
+        157,
+        200
+      ],
+      "several": [
+        67
+      ],
+      "methods": [
+        70
+      ],
+      "for": [
+        71,
+        91,
+        122
+      ],
+      "modeling,": [
+        73
+      ],
+      "while": [
+        74
+      ],
+      "most": [
+        75
+      ],
+      "them": [
+        77
+      ],
+      "regard": [
+        78
+      ],
+      "representation": [
+        80
+      ],
+      "as": [
+        83
+      ],
+      "directly,": [
+        86
+      ],
+      "lack": [
+        88
+      ],
+      "specially": [
+        89
+      ],
+      "modeling": [
+        90
+      ],
+      "concrete": [
+        96
+      ],
+      "behavior.": [
+        97
+      ],
+      "Moreover,": [
+        98
+      ],
+      "little": [
+        99
+      ],
+      "work": [
+        100
+      ],
+      "considers": [
+        101
+      ],
+      "trend": [
+        104
+      ],
+      "interest.": [
+        107
+      ],
+      "In": [
+        108,
+        205
+      ],
+      "this": [
+        109,
+        140
+      ],
+      "paper,": [
+        110
+      ],
+      "we": [
+        111,
+        126,
+        142,
+        164
+      ],
+      "propose": [
+        112,
+        165
+      ],
+      "novel": [
+        114
+      ],
+      "named": [
+        116
+      ],
+      "Deep": [
+        117
+      ],
+      "Interest": [
+        118
+      ],
+      "Evolution": [
+        119
+      ],
+      "Network": [
+        120
+      ],
+      "(DIEN),": [
+        121
+      ],
+      "prediction.": [
+        124
+      ],
+      "Specifically,": [
+        125
+      ],
+      "design": [
+        127
+      ],
+      "extractor": [
+        129
+      ],
+      "layer": [
+        130,
+        168
+      ],
+      "temporal": [
+        133
+      ],
+      "interests": [
+        134,
+        156,
+        199
+      ],
+      "from": [
+        135
+      ],
+      "history": [
+        136
+      ],
+      "sequence.": [
+        138
+      ],
+      "At": [
+        139,
+        181
+      ],
+      "layer,": [
+        141,
+        184
+      ],
+      "introduce": [
+        143
+      ],
+      "an": [
+        144
+      ],
+      "auxiliary": [
+        145
+      ],
+      "loss": [
+        146
+      ],
+      "supervise": [
+        148
+      ],
+      "extracting": [
+        150
+      ],
+      "at": [
+        151
+      ],
+      "each": [
+        152
+      ],
+      "step.": [
+        153
+      ],
+      "As": [
+        154
+      ],
+      "diverse,": [
+        158
+      ],
+      "especially": [
+        159
+      ],
+      "e-commerce": [
+        162
+      ],
+      "system,": [
+        163
+      ],
+      "evolving": [
+        167,
+        172,
+        183
+      ],
+      "process": [
+        173
+      ],
+      "that": [
+        174
+      ],
+      "relative": [
+        176,
+        198
+      ],
+      "target": [
+        179
+      ],
+      "item.": [
+        180
+      ],
+      "attention": [
+        185
+      ],
+      "mechanism": [
+        186
+      ],
+      "embedded": [
+        188
+      ],
+      "into": [
+        189
+      ],
+      "sequential": [
+        191
+      ],
+      "structure": [
+        192
+      ],
+      "novelly,": [
+        193
+      ],
+      "effects": [
+        196
+      ],
+      "strengthened": [
+        201
+      ],
+      "during": [
+        202
+      ],
+      "evolution.": [
+        204
+      ],
+      "experiments": [
+        207
+      ],
+      "both": [
+        209
+      ],
+      "public": [
+        210
+      ],
+      "industrial": [
+        212
+      ],
+      "datasets,": [
+        213
+      ],
+      "DIEN": [
+        214,
+        221
+      ],
+      "significantly": [
+        215
+      ],
+      "outperforms": [
+        216
+      ],
+      "state-of-the-art": [
+        218
+      ],
+      "solutions.": [
+        219
+      ],
+      "Notably,": [
+        220
+      ],
+      "been": [
+        223
+      ],
+      "deployed": [
+        224
+      ],
+      "display": [
+        227
+      ],
+      "advertisement": [
+        228
+      ],
+      "system": [
+        229
+      ],
+      "Taobao,": [
+        231
+      ],
+      "obtained": [
+        233
+      ],
+      "20.7%": [
+        234
+      ],
+      "improvement": [
+        235
+      ],
+      "CTR.": [
+        237
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1609/aaai.v33i01.33015941",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1609/aaai.v33i01.33015941",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210191458",
+          "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "issn_l": "2159-5399",
+          "issn": [
+            "2159-5399",
+            "2374-3468"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320058",
+          "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320058"
+          ],
+          "host_organization_lineage_names": [
+            "Association for the Advancement of Artificial Intelligence"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:ojs.aaai.org:article/4545",
+        "is_oa": true,
+        "landing_page_url": "https://ojs.aaai.org/index.php/AAAI/article/view/4545",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/4545/4423",
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "2159-5399",
+        "raw_type": "info:eu-repo/semantics/publishedVersion"
+      }
+    ],
+    "abstract": "Click-through rate (CTR) prediction, whose goal is to estimate the probability of a user clicking on the item, has become one of the core tasks in the advertising system. For CTR prediction model, it is necessary to capture the latent user interest behind the user behavior data. Besides, considering the changing of the external environment and the internal cognition, user interest evolves over time dynamically. There are several CTR prediction methods for interest modeling, while most of them regard the representation of behavior as the interest directly, and lack specially modeling for latent interest behind the concrete behavior. Moreover, little work considers the changing trend of the interest. In this paper, we propose a novel model, named Deep Interest Evolution Network (DIEN), for CTR prediction. Specifically, we design interest extractor layer to capture temporal interests from history behavior sequence. At this layer, we introduce an auxiliary loss to supervise interest extracting at each step. As user interests are diverse, especially in the e-commerce system, we propose interest evolving layer to capture interest evolving process that is relative to the target item. At interest evolving layer, attention mechanism is embedded into the sequential structure novelly, and the effects of relative interests are strengthened during interest evolution. In the experiments on both public and industrial datasets, DIEN significantly outperforms the state-of-the-art solutions. Notably, DIEN has been deployed in the display advertisement system of Taobao, and obtained 20.7% improvement on CTR.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://ojs.aaai.org/index.php/AAAI/article/download/4545/4423"
+}

@@ -1,0 +1,53 @@
+{
+  "candidate": {
+    "category": "03 - CTR and Ranking",
+    "short": "DCN",
+    "title": "Deep & Cross Network for Ad Click Predictions",
+    "year": 2017
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/1708.05123v1",
+    "doi": "",
+    "title": "Deep & Cross Network for Ad Click Predictions",
+    "display_name": "Deep & Cross Network for Ad Click Predictions",
+    "publication_year": 2017,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/1708.05123v1",
+      "landing_page_url": "http://arxiv.org/abs/1708.05123v1",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1708.05123v1"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Ruoxi Wang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Bin Fu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Gang Fu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Mingliang Wang"
+        }
+      }
+    ],
+    "abstract": "Feature engineering has been the key to the success of many prediction models. However, the process is non-trivial and often requires manual feature engineering or exhaustive searching. DNNs are able to automatically learn feature interactions; however, they generate all the interactions implicitly, and are not necessarily efficient in learning all types of cross features. In this paper, we propose the Deep & Cross Network (DCN) which keeps the benefits of a DNN model, and beyond that, it introduces a novel cross network that is more efficient in learning certain bounded-degree feature interactions. In particular, DCN explicitly applies feature crossing at each layer, requires no manual feature engineering, and adds negligible extra complexity to the DNN model. Our experimental results have demonstrated its superiority over the state-of-art algorithms on the CTR prediction dataset and dense classification dataset, in terms of both model accuracy and memory usage.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/1708.05123v1.pdf"
+}

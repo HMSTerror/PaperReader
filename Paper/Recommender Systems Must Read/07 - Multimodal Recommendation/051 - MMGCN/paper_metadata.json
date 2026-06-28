@@ -1,0 +1,559 @@
+{
+  "candidate": {
+    "category": "07 - Multimodal Recommendation",
+    "short": "MMGCN",
+    "title": "MMGCN: Multi-modal Graph Convolution Network for Personalized Recommendation of Micro-video",
+    "year": 2019
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4385682046",
+    "doi": "https://doi.org/10.1145/3581783.3613915",
+    "title": "Multi-View Graph Convolutional Network for Multimedia Recommendation",
+    "display_name": "Multi-View Graph Convolutional Network for Multimedia Recommendation",
+    "publication_year": 2023,
+    "cited_by_count": 149,
+    "primary_location": {
+      "id": "doi:10.1145/3581783.3613915",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1145/3581783.3613915",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the 31st ACM International Conference on Multimedia",
+      "raw_type": "proceedings-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2308.03588",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5102743737",
+          "display_name": "Penghang Yu",
+          "orcid": "https://orcid.org/0009-0004-3233-4248"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I41198531",
+            "display_name": "Nanjing University of Posts and Telecommunications",
+            "ror": "https://ror.org/043bpky34",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I41198531"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Penghang Yu",
+        "raw_affiliation_strings": [
+          "Nanjing University of Posts and Telecommunications, Nanjing, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0004-3233-4248",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanjing University of Posts and Telecommunications, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I41198531"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5026721130",
+          "display_name": "Zhiyi Tan",
+          "orcid": "https://orcid.org/0000-0002-1209-2817"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I41198531",
+            "display_name": "Nanjing University of Posts and Telecommunications",
+            "ror": "https://ror.org/043bpky34",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I41198531"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhiyi Tan",
+        "raw_affiliation_strings": [
+          "Nanjing University of Posts and Telecommunications, Nanjing, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-1209-2817",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanjing University of Posts and Telecommunications, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I41198531"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5065519164",
+          "display_name": "Guanming Lu",
+          "orcid": "https://orcid.org/0000-0003-4860-8229"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I41198531",
+            "display_name": "Nanjing University of Posts and Telecommunications",
+            "ror": "https://ror.org/043bpky34",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I41198531"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Guanming Lu",
+        "raw_affiliation_strings": [
+          "Nanjing University of Posts and Telecommunications, Nanjing, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-4860-8229",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanjing University of Posts and Telecommunications, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I41198531"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5007962086",
+          "display_name": "Bing‐Kun Bao",
+          "orcid": "https://orcid.org/0000-0001-5956-831X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I41198531",
+            "display_name": "Nanjing University of Posts and Telecommunications",
+            "ror": "https://ror.org/043bpky34",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I41198531"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210136793",
+            "display_name": "Peng Cheng Laboratory",
+            "ror": "https://ror.org/03qdqbt06",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210136793"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bing-Kun Bao",
+        "raw_affiliation_strings": [
+          "Nanjing University of Posts and Telecommunications &amp; Peng Cheng Laboratory, Nanjing, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-5956-831X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanjing University of Posts and Telecommunications &amp; Peng Cheng Laboratory, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I41198531",
+              "https://openalex.org/I4210136793"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Multimedia": [
+        0
+      ],
+      "recommendation": [
+        1
+      ],
+      "has": [
+        2
+      ],
+      "received": [
+        3
+      ],
+      "much": [
+        4
+      ],
+      "attention": [
+        5
+      ],
+      "in": [
+        6,
+        51,
+        62
+      ],
+      "recent": [
+        7
+      ],
+      "years.": [
+        8
+      ],
+      "It": [
+        9
+      ],
+      "models": [
+        10
+      ],
+      "user": [
+        11,
+        85,
+        121
+      ],
+      "preferences": [
+        12,
+        100
+      ],
+      "based": [
+        13
+      ],
+      "on": [
+        14
+      ],
+      "both": [
+        15
+      ],
+      "behavior": [
+        16,
+        49,
+        72
+      ],
+      "information": [
+        17
+      ],
+      "and": [
+        18,
+        48,
+        69
+      ],
+      "item": [
+        19,
+        40
+      ],
+      "multimodal": [
+        20
+      ],
+      "information.": [
+        21
+      ],
+      "Though": [
+        22
+      ],
+      "current": [
+        23
+      ],
+      "GCN-based": [
+        24
+      ],
+      "methods": [
+        25,
+        43
+      ],
+      "achieve": [
+        26
+      ],
+      "notable": [
+        27
+      ],
+      "success,": [
+        28
+      ],
+      "they": [
+        29
+      ],
+      "suffer": [
+        30
+      ],
+      "from": [
+        31
+      ],
+      "two": [
+        32
+      ],
+      "limitations:": [
+        33
+      ],
+      "(1)": [
+        34
+      ],
+      "Modality": [
+        35
+      ],
+      "noise": [
+        36,
+        61
+      ],
+      "contamination": [
+        37
+      ],
+      "to": [
+        38,
+        79,
+        118
+      ],
+      "the": [
+        39,
+        60,
+        63,
+        75,
+        111,
+        119
+      ],
+      "representations.": [
+        41
+      ],
+      "Existing": [
+        42
+      ],
+      "often": [
+        44,
+        96
+      ],
+      "mix": [
+        45
+      ],
+      "modality": [
+        46,
+        64,
+        93,
+        99,
+        108
+      ],
+      "features": [
+        47,
+        50,
+        65
+      ],
+      "a": [
+        52
+      ],
+      "single": [
+        53
+      ],
+      "view": [
+        54
+      ],
+      "(e.g.,": [
+        55
+      ],
+      "user-item": [
+        56
+      ],
+      "view)": [
+        57
+      ],
+      "for": [
+        58
+      ],
+      "propagation,": [
+        59
+      ],
+      "may": [
+        66
+      ],
+      "be": [
+        67
+      ],
+      "amplified": [
+        68
+      ],
+      "coupled": [
+        70
+      ],
+      "with": [
+        71
+      ],
+      "features.": [
+        73,
+        94
+      ],
+      "In": [
+        74
+      ],
+      "end,": [
+        76
+      ],
+      "it": [
+        77
+      ],
+      "leads": [
+        78
+      ],
+      "poor": [
+        80
+      ],
+      "feature": [
+        81,
+        109
+      ],
+      "discriminability;": [
+        82
+      ],
+      "(2)": [
+        83
+      ],
+      "Incomplete": [
+        84
+      ],
+      "preference": [
+        86,
+        122
+      ],
+      "modeling": [
+        87
+      ],
+      "caused": [
+        88
+      ],
+      "by": [
+        89
+      ],
+      "equal": [
+        90
+      ],
+      "treatment": [
+        91
+      ],
+      "of": [
+        92
+      ],
+      "Users": [
+        95
+      ],
+      "exhibit": [
+        97
+      ],
+      "distinct": [
+        98
+      ],
+      "when": [
+        101
+      ],
+      "purchasing": [
+        102
+      ],
+      "different": [
+        103,
+        115
+      ],
+      "items.": [
+        104
+      ],
+      "Equally": [
+        105
+      ],
+      "fusing": [
+        106
+      ],
+      "each": [
+        107
+      ],
+      "ignores": [
+        110
+      ],
+      "relative": [
+        112
+      ],
+      "importance": [
+        113
+      ],
+      "among": [
+        114
+      ],
+      "modalities,": [
+        116
+      ],
+      "leading": [
+        117
+      ],
+      "suboptimal": [
+        120
+      ],
+      "modeling.": [
+        123
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1145/3581783.3613915",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3581783.3613915",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 31st ACM International Conference on Multimedia",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2308.03588",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2308.03588",
+        "pdf_url": "https://arxiv.org/pdf/2308.03588",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      }
+    ],
+    "abstract": "Multimedia recommendation has received much attention in recent years. It models user preferences based on both behavior information and item multimodal information. Though current GCN-based methods achieve notable success, they suffer from two limitations: (1) Modality noise contamination to the item representations. Existing methods often mix modality features and behavior features in a single view (e.g., user-item view) for propagation, the noise in the modality features may be amplified and coupled with behavior features. In the end, it leads to poor feature discriminability; (2) Incomplete user preference modeling caused by equal treatment of modality features. Users often exhibit distinct modality preferences when purchasing different items. Equally fusing each modality feature ignores the relative importance among different modalities, leading to the suboptimal user preference modeling.",
+    "match_score": 0.649
+  },
+  "downloadSource": "https://arxiv.org/pdf/2308.03588.pdf"
+}

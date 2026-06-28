@@ -1,0 +1,1 @@
+S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization

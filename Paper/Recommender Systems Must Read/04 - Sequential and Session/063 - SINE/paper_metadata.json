@@ -1,0 +1,68 @@
+{
+  "candidate": {
+    "category": "04 - Sequential and Session",
+    "short": "SINE",
+    "title": "Sparse-Interest Network for Sequential Recommendation",
+    "year": 2021
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/2102.09267v1",
+    "doi": "",
+    "title": "Sparse-Interest Network for Sequential Recommendation",
+    "display_name": "Sparse-Interest Network for Sequential Recommendation",
+    "publication_year": 2021,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/2102.09267v1",
+      "landing_page_url": "http://arxiv.org/abs/2102.09267v1",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2102.09267v1"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Qiaoyu Tan"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Jianwei Zhang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Jiangchao Yao"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Ninghao Liu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Jingren Zhou"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Hongxia Yang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Xia Hu"
+        }
+      }
+    ],
+    "abstract": "Recent methods in sequential recommendation focus on learning an overall embedding vector from a user's behavior sequence for the next-item recommendation. However, from empirical analysis, we discovered that a user's behavior sequence often contains multiple conceptually distinct items, while a unified embedding vector is primarily affected by one's most recent frequent actions. Thus, it may fail to infer the next preferred item if conceptually similar items are not dominant in recent interactions. To this end, an alternative solution is to represent each user with multiple embedding vectors encoding different aspects of the user's intentions. Nevertheless, recent work on multi-interest embedding usually considers a small number of concepts discovered via clustering, which may not be comparable to the large pool of item categories in real systems. It is a non-trivial task to effectively model a large number of diverse conceptual prototypes, as items are often not conceptually well clustered in fine granularity. Besides, an individual usually interacts with only a sparse set of concepts. In light of this, we propose a novel \\textbf{S}parse \\textbf{I}nterest \\textbf{NE}twork (SINE) for sequential recommendation. Our sparse-interest module can adaptively infer a sparse set of concepts for each user from the large concept pool and output multiple embeddings accordingly. Given multiple interest embeddings, we develop an interest aggregation module to actively predict the user's current intention and then use it to explicitly model multiple interests for next-item prediction. Empirical results on several public benchmark datasets and one large-scale industrial dataset demonstrate that SINE can achieve substantial improvement over state-of-the-art methods.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/2102.09267v1.pdf"
+}

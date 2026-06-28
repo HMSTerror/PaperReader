@@ -1,0 +1,808 @@
+{
+  "candidate": {
+    "category": "04 - Sequential and Session",
+    "short": "DuoRec",
+    "title": "Contrastive Learning for Representation Degeneration Problem in Sequential Recommendation",
+    "year": 2022
+  },
+  "openalex": {
+    "id": "https://openalex.org/W3206127589",
+    "doi": "https://doi.org/10.1145/3488560.3498433",
+    "title": "Contrastive Learning for Representation Degeneration Problem in Sequential Recommendation",
+    "display_name": "Contrastive Learning for Representation Degeneration Problem in Sequential Recommendation",
+    "publication_year": 2022,
+    "cited_by_count": 407,
+    "primary_location": {
+      "id": "doi:10.1145/3488560.3498433",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1145/3488560.3498433",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4363608885",
+        "display_name": "Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining",
+      "raw_type": "proceedings-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2110.05730",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5005674414",
+          "display_name": "Ruihong Qiu",
+          "orcid": "https://orcid.org/0000-0001-8349-6475"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165143802",
+            "display_name": "The University of Queensland",
+            "ror": "https://ror.org/00rqy9422",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165143802"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ruihong Qiu",
+        "raw_affiliation_strings": [
+          "The University of Queensland, Brisbane, QLD, Australia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The University of Queensland, Brisbane, QLD, Australia",
+            "institution_ids": [
+              "https://openalex.org/I165143802"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5078170935",
+          "display_name": "Zi Huang",
+          "orcid": "https://orcid.org/0000-0002-9738-4949"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165143802",
+            "display_name": "The University of Queensland",
+            "ror": "https://ror.org/00rqy9422",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165143802"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zi Huang",
+        "raw_affiliation_strings": [
+          "The University of Queensland, Brisbane, QLD, Australia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The University of Queensland, Brisbane, QLD, Australia",
+            "institution_ids": [
+              "https://openalex.org/I165143802"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5088492734",
+          "display_name": "Hongzhi Yin",
+          "orcid": "https://orcid.org/0000-0003-1395-261X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165143802",
+            "display_name": "The University of Queensland",
+            "ror": "https://ror.org/00rqy9422",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165143802"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hongzhi Yin",
+        "raw_affiliation_strings": [
+          "The University of Queensland, Brisbane, QLD, Australia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The University of Queensland, Brisbane, QLD, Australia",
+            "institution_ids": [
+              "https://openalex.org/I165143802"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100371707",
+          "display_name": "Zijian Wang",
+          "orcid": "https://orcid.org/0000-0002-7190-9620"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165143802",
+            "display_name": "The University of Queensland",
+            "ror": "https://ror.org/00rqy9422",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165143802"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zijian Wang",
+        "raw_affiliation_strings": [
+          "The University of Queensland, Brisbane, QLD, Australia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The University of Queensland, Brisbane, QLD, Australia",
+            "institution_ids": [
+              "https://openalex.org/I165143802"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Recent": [
+        0
+      ],
+      "advancements": [
+        1
+      ],
+      "of": [
+        2,
+        25,
+        56,
+        83,
+        87,
+        101,
+        213,
+        224
+      ],
+      "sequential": [
+        3,
+        16
+      ],
+      "deep": [
+        4
+      ],
+      "learning": [
+        5,
+        143
+      ],
+      "models": [
+        6,
+        31
+      ],
+      "such": [
+        7
+      ],
+      "as": [
+        8
+      ],
+      "Transformer": [
+        9
+      ],
+      "and": [
+        10,
+        53,
+        120,
+        161
+      ],
+      "BERT": [
+        11
+      ],
+      "have": [
+        12
+      ],
+      "significantly": [
+        13
+      ],
+      "facilitated": [
+        14
+      ],
+      "the": [
+        15,
+        23,
+        76,
+        84,
+        99,
+        105,
+        108,
+        115,
+        124,
+        130,
+        137,
+        194,
+        210,
+        214,
+        225,
+        234
+      ],
+      "recommendation.": [
+        17
+      ],
+      "However,": [
+        18
+      ],
+      "according": [
+        19
+      ],
+      "to": [
+        20,
+        33,
+        74,
+        97,
+        136,
+        179
+      ],
+      "our": [
+        21
+      ],
+      "study,": [
+        22
+      ],
+      "distribution": [
+        24,
+        100
+      ],
+      "item": [
+        26,
+        77,
+        121,
+        138,
+        156,
+        197
+      ],
+      "embeddings": [
+        27,
+        78,
+        122
+      ],
+      "generated": [
+        28
+      ],
+      "by": [
+        29,
+        113
+      ],
+      "these": [
+        30
+      ],
+      "tends": [
+        32
+      ],
+      "degenerate": [
+        34
+      ],
+      "into": [
+        35
+      ],
+      "an": [
+        36
+      ],
+      "anisotropic": [
+        37
+      ],
+      "shape,": [
+        38
+      ],
+      "which": [
+        39,
+        66
+      ],
+      "may": [
+        40
+      ],
+      "result": [
+        41
+      ],
+      "in": [
+        42,
+        81,
+        123
+      ],
+      "high": [
+        43
+      ],
+      "semantic": [
+        44,
+        182
+      ],
+      "similarities": [
+        45
+      ],
+      "among": [
+        46
+      ],
+      "embeddings.": [
+        47
+      ],
+      "In": [
+        48,
+        169
+      ],
+      "this": [
+        49,
+        57
+      ],
+      "paper,": [
+        50
+      ],
+      "both": [
+        51
+      ],
+      "empirical": [
+        52
+      ],
+      "theoretical": [
+        54
+      ],
+      "investigations": [
+        55
+      ],
+      "representation": [
+        58,
+        235
+      ],
+      "degeneration": [
+        59,
+        236
+      ],
+      "problem": [
+        60
+      ],
+      "are": [
+        61,
+        198
+      ],
+      "first": [
+        62
+      ],
+      "provided,": [
+        63
+      ],
+      "based": [
+        64,
+        176
+      ],
+      "on": [
+        65,
+        147,
+        177,
+        206
+      ],
+      "a": [
+        67,
+        90,
+        171,
+        185
+      ],
+      "novel": [
+        68,
+        186
+      ],
+      "recommender": [
+        69
+      ],
+      "model": [
+        70,
+        217
+      ],
+      "DuoRec": [
+        71,
+        96,
+        216,
+        230
+      ],
+      "is": [
+        72,
+        93,
+        111,
+        174,
+        189
+      ],
+      "proposed": [
+        73,
+        175,
+        215
+      ],
+      "improve": [
+        75
+      ],
+      "distribution.": [
+        79,
+        140
+      ],
+      "Specifically,": [
+        80
+      ],
+      "light": [
+        82
+      ],
+      "uniformity": [
+        85
+      ],
+      "property": [
+        86
+      ],
+      "contrastive": [
+        88,
+        91,
+        142
+      ],
+      "learning,": [
+        89
+      ],
+      "regularization": [
+        92,
+        131
+      ],
+      "designed": [
+        94
+      ],
+      "for": [
+        95,
+        151
+      ],
+      "reshape": [
+        98
+      ],
+      "sequence": [
+        102,
+        118
+      ],
+      "representations.": [
+        103
+      ],
+      "Given": [
+        104
+      ],
+      "convention": [
+        106
+      ],
+      "that": [
+        107,
+        229
+      ],
+      "recommendation": [
+        109
+      ],
+      "task": [
+        110
+      ],
+      "performed": [
+        112
+      ],
+      "measuring": [
+        114
+      ],
+      "similarity": [
+        116
+      ],
+      "between": [
+        117
+      ],
+      "representations": [
+        119,
+        227
+      ],
+      "same": [
+        125,
+        195
+      ],
+      "space": [
+        126
+      ],
+      "via": [
+        127
+      ],
+      "dot": [
+        128
+      ],
+      "product,": [
+        129
+      ],
+      "can": [
+        132,
+        162,
+        231
+      ],
+      "be": [
+        133
+      ],
+      "implicitly": [
+        134
+      ],
+      "applied": [
+        135
+      ],
+      "embedding": [
+        139
+      ],
+      "Existing": [
+        141
+      ],
+      "methods": [
+        144
+      ],
+      "mainly": [
+        145
+      ],
+      "rely": [
+        146
+      ],
+      "data": [
+        148
+      ],
+      "level": [
+        149
+      ],
+      "augmentation": [
+        150,
+        167,
+        173
+      ],
+      "user-item": [
+        152
+      ],
+      "interaction": [
+        153
+      ],
+      "sequences": [
+        154,
+        192
+      ],
+      "through": [
+        155
+      ],
+      "cropping,": [
+        157
+      ],
+      "masking,": [
+        158
+      ],
+      "or": [
+        159
+      ],
+      "reordering": [
+        160
+      ],
+      "hardly": [
+        163
+      ],
+      "provide": [
+        164
+      ],
+      "semantically": [
+        165
+      ],
+      "consistent": [
+        166
+      ],
+      "samples.": [
+        168,
+        202
+      ],
+      "DuoRec,": [
+        170
+      ],
+      "model-level": [
+        172
+      ],
+      "Dropout": [
+        178
+      ],
+      "enable": [
+        180
+      ],
+      "better": [
+        181
+      ],
+      "preserving.": [
+        183
+      ],
+      "Furthermore,": [
+        184
+      ],
+      "sampling": [
+        187
+      ],
+      "strategy": [
+        188
+      ],
+      "developed,": [
+        190
+      ],
+      "where": [
+        191
+      ],
+      "having": [
+        193
+      ],
+      "target": [
+        196
+      ],
+      "chosen": [
+        199
+      ],
+      "hard": [
+        200
+      ],
+      "positive": [
+        201
+      ],
+      "Extensive": [
+        203
+      ],
+      "experiments": [
+        204
+      ],
+      "conducted": [
+        205
+      ],
+      "five": [
+        207
+      ],
+      "datasets": [
+        208
+      ],
+      "demonstrate": [
+        209
+      ],
+      "superior": [
+        211
+      ],
+      "performance": [
+        212
+      ],
+      "compared": [
+        218
+      ],
+      "with": [
+        219
+      ],
+      "baseline": [
+        220
+      ],
+      "methods.": [
+        221
+      ],
+      "Visualization": [
+        222
+      ],
+      "results": [
+        223
+      ],
+      "learned": [
+        226
+      ],
+      "validate": [
+        228
+      ],
+      "largely": [
+        232
+      ],
+      "alleviate": [
+        233
+      ],
+      "problem.": [
+        237
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1145/3488560.3498433",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3488560.3498433",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4363608885",
+          "display_name": "Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2110.05730",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2110.05730",
+        "pdf_url": "https://arxiv.org/pdf/2110.05730",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      }
+    ],
+    "abstract": "Recent advancements of sequential deep learning models such as Transformer and BERT have significantly facilitated the sequential recommendation. However, according to our study, the distribution of item embeddings generated by these models tends to degenerate into an anisotropic shape, which may result in high semantic similarities among embeddings. In this paper, both empirical and theoretical investigations of this representation degeneration problem are first provided, based on which a novel recommender model DuoRec is proposed to improve the item embeddings distribution. Specifically, in light of the uniformity property of contrastive learning, a contrastive regularization is designed for DuoRec to reshape the distribution of sequence representations. Given the convention that the recommendation task is performed by measuring the similarity between sequence representations and item embeddings in the same space via dot product, the regularization can be implicitly applied to the item embedding distribution. Existing contrastive learning methods mainly rely on data level augmentation for user-item interaction sequences through item cropping, masking, or reordering and can hardly provide semantically consistent augmentation samples. In DuoRec, a model-level augmentation is proposed based on Dropout to enable better semantic preserving. Furthermore, a novel sampling strategy is developed, where sequences having the same target item are chosen hard positive samples. Extensive experiments conducted on five datasets demonstrate the superior performance of the proposed DuoRec model compared with baseline methods. Visualization results of the learned representations validate that DuoRec can largely alleviate the representation degeneration problem.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/2110.05730.pdf"
+}

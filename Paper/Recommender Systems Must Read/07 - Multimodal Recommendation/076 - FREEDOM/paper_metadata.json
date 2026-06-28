@@ -1,0 +1,43 @@
+{
+  "candidate": {
+    "category": "07 - Multimodal Recommendation",
+    "short": "FREEDOM",
+    "title": "A Tale of Two Graphs: Freezing and Denoising Graph Structures for Multimodal Recommendation",
+    "year": 2023
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/2211.06924v3",
+    "doi": "",
+    "title": "A Tale of Two Graphs: Freezing and Denoising Graph Structures for Multimodal Recommendation",
+    "display_name": "A Tale of Two Graphs: Freezing and Denoising Graph Structures for Multimodal Recommendation",
+    "publication_year": 2022,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/2211.06924v3",
+      "landing_page_url": "http://arxiv.org/abs/2211.06924v3",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2211.06924v3"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Xin Zhou"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Zhiqi Shen"
+        }
+      }
+    ],
+    "abstract": "Multimodal recommender systems utilizing multimodal features (e.g., images and textual descriptions) typically show better recommendation accuracy than general recommendation models based solely on user-item interactions. Generally, prior work fuses multimodal features into item ID embeddings to enrich item representations, thus failing to capture the latent semantic item-item structures. In this context, LATTICE proposes to learn the latent structure between items explicitly and achieves state-of-the-art performance for multimodal recommendations. However, we argue the latent graph structure learning of LATTICE is both inefficient and unnecessary. Experimentally, we demonstrate that freezing its item-item structure before training can also achieve competitive performance. Based on this finding, we propose a simple yet effective model, dubbed as FREEDOM, that FREEzes the item-item graph and DenOises the user-item interaction graph simultaneously for Multimodal recommendation. Theoretically, we examine the design of FREEDOM through a graph spectral perspective and demonstrate that it possesses a tighter upper bound on the graph spectrum. In denoising the user-item interaction graph, we devise a degree-sensitive edge pruning method, which rejects possibly noisy edges with a high probability when sampling the graph. We evaluate the proposed model on three real-world datasets and show that FREEDOM can significantly outperform current strongest baselines. Compared with LATTICE, FREEDOM achieves an average improvement of 19.07% in recommendation accuracy while reducing its memory cost up to 6$\\times$ on large graphs. The source code is available at: https://github.com/enoche/FREEDOM.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/2211.06924v3.pdf"
+}

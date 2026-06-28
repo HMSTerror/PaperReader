@@ -1,0 +1,521 @@
+{
+  "candidate": {
+    "category": "04 - Sequential and Session",
+    "short": "S3-Rec",
+    "title": "S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization",
+    "year": 2020
+  },
+  "openalex": {
+    "id": "https://openalex.org/W3065542300",
+    "doi": "https://doi.org/10.1145/3340531.3411954",
+    "title": "S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization",
+    "display_name": "S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization",
+    "publication_year": 2020,
+    "cited_by_count": 713,
+    "primary_location": {
+      "id": "doi:10.1145/3340531.3411954",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1145/3340531.3411954",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the 29th ACM International Conference on Information &amp; Knowledge Management",
+      "raw_type": "proceedings-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2008.07873",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Kun Zhou",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78988378",
+            "display_name": "Renmin University of China",
+            "ror": "https://ror.org/041pakw92",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78988378"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kun Zhou",
+        "raw_affiliation_strings": [
+          "Renmin University of China, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Renmin University of China, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I78988378"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Hui Wang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78988378",
+            "display_name": "Renmin University of China",
+            "ror": "https://ror.org/041pakw92",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78988378"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hui Wang",
+        "raw_affiliation_strings": [
+          "Renmin University of China, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Renmin University of China, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I78988378"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Wayne Xin Zhao",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78988378",
+            "display_name": "Renmin University of China",
+            "ror": "https://ror.org/041pakw92",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78988378"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wayne Xin Zhao",
+        "raw_affiliation_strings": [
+          "Renmin University of China &amp; Beijing Key Laboratory of Big Data Management and Analysis Methods, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Renmin University of China &amp; Beijing Key Laboratory of Big Data Management and Analysis Methods, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I78988378"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Yutao Zhu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I70931966",
+            "display_name": "Université de Montréal",
+            "ror": "https://ror.org/0161xgx34",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I70931966"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yutao Zhu",
+        "raw_affiliation_strings": [
+          "Université de Montréal, Montréal, PQ, Canada"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Université de Montréal, Montréal, PQ, Canada",
+            "institution_ids": [
+              "https://openalex.org/I70931966"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Sirui Wang",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Sirui Wang",
+        "raw_affiliation_strings": [
+          "Meituan-Dianping Group, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Meituan-Dianping Group, Beijing, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Fuzheng Zhang",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Fuzheng Zhang",
+        "raw_affiliation_strings": [
+          "Meituan-Dianping Group, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Meituan-Dianping Group, Beijing, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Zhongyuan Wang",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Zhongyuan Wang",
+        "raw_affiliation_strings": [
+          "Meituan-Dianping Group, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Meituan-Dianping Group, Beijing, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": null,
+          "display_name": "Ji-Rong Wen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78988378",
+            "display_name": "Renmin University of China",
+            "ror": "https://ror.org/041pakw92",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78988378"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ji-Rong Wen",
+        "raw_affiliation_strings": [
+          "Renmin University of China &amp; Beijing Key Laboratory of Big Data Management and Analysis Methods, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Renmin University of China &amp; Beijing Key Laboratory of Big Data Management and Analysis Methods, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I78988378"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Recently,": [
+        0
+      ],
+      "significant": [
+        1
+      ],
+      "progress": [
+        2
+      ],
+      "has": [
+        3,
+        62
+      ],
+      "been": [
+        4,
+        64
+      ],
+      "made": [
+        5
+      ],
+      "in": [
+        6
+      ],
+      "sequential": [
+        7,
+        14,
+        70
+      ],
+      "recommendation": [
+        8,
+        15
+      ],
+      "with": [
+        9,
+        35
+      ],
+      "deep": [
+        10
+      ],
+      "learning.": [
+        11
+      ],
+      "Existing": [
+        12
+      ],
+      "neural": [
+        13
+      ],
+      "models": [
+        16
+      ],
+      "usually": [
+        17
+      ],
+      "rely": [
+        18
+      ],
+      "on": [
+        19
+      ],
+      "the": [
+        20,
+        32,
+        49,
+        52
+      ],
+      "item": [
+        21
+      ],
+      "prediction": [
+        22
+      ],
+      "loss": [
+        23,
+        37
+      ],
+      "to": [
+        24,
+        40
+      ],
+      "learn": [
+        25
+      ],
+      "model": [
+        26,
+        33
+      ],
+      "parameters": [
+        27
+      ],
+      "or": [
+        28,
+        54
+      ],
+      "data": [
+        29,
+        43,
+        58,
+        61
+      ],
+      "representations.": [
+        30
+      ],
+      "However,": [
+        31
+      ],
+      "trained": [
+        34
+      ],
+      "this": [
+        36
+      ],
+      "is": [
+        38
+      ],
+      "prone": [
+        39
+      ],
+      "suffer": [
+        41
+      ],
+      "from": [
+        42
+      ],
+      "sparsity": [
+        44
+      ],
+      "problem.": [
+        45
+      ],
+      "Since": [
+        46
+      ],
+      "it": [
+        47
+      ],
+      "overemphasizes": [
+        48
+      ],
+      "final": [
+        50
+      ],
+      "performance,": [
+        51
+      ],
+      "association": [
+        53
+      ],
+      "fusion": [
+        55
+      ],
+      "between": [
+        56
+      ],
+      "context": [
+        57
+      ],
+      "and": [
+        59,
+        67
+      ],
+      "sequence": [
+        60
+      ],
+      "not": [
+        63
+      ],
+      "well": [
+        65
+      ],
+      "captured": [
+        66
+      ],
+      "utilized": [
+        68
+      ],
+      "for": [
+        69
+      ],
+      "recommendation.": [
+        71
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1145/3340531.3411954",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3340531.3411954",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 29th ACM International Conference on Information &amp; Knowledge Management",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2008.07873",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2008.07873",
+        "pdf_url": "https://arxiv.org/pdf/2008.07873",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      }
+    ],
+    "abstract": "Recently, significant progress has been made in sequential recommendation with deep learning. Existing neural sequential recommendation models usually rely on the item prediction loss to learn model parameters or data representations. However, the model trained with this loss is prone to suffer from data sparsity problem. Since it overemphasizes the final performance, the association or fusion between context data and sequence data has not been well captured and utilized for sequential recommendation.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/2008.07873.pdf"
+}

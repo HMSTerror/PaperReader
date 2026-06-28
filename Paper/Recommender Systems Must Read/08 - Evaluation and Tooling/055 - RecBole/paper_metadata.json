@@ -1,0 +1,128 @@
+{
+  "candidate": {
+    "category": "08 - Evaluation and Tooling",
+    "short": "RecBole",
+    "title": "RecBole: Towards a Unified, Comprehensive and Efficient Framework for Recommendation Algorithms",
+    "year": 2021
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/2011.01731v3",
+    "doi": "",
+    "title": "RecBole: Towards a Unified, Comprehensive and Efficient Framework for Recommendation Algorithms",
+    "display_name": "RecBole: Towards a Unified, Comprehensive and Efficient Framework for Recommendation Algorithms",
+    "publication_year": 2020,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/2011.01731v3",
+      "landing_page_url": "http://arxiv.org/abs/2011.01731v3",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2011.01731v3"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Wayne Xin Zhao"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Shanlei Mu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Yupeng Hou"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Zihan Lin"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Yushuo Chen"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Xingyu Pan"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Kaiyuan Li"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Yujie Lu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Hui Wang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Changxin Tian"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Yingqian Min"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Zhichao Feng"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Xinyan Fan"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Xu Chen"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Pengfei Wang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Wendi Ji"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Yaliang Li"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Xiaoling Wang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Ji-Rong Wen"
+        }
+      }
+    ],
+    "abstract": "In recent years, there are a large number of recommendation algorithms proposed in the literature, from traditional collaborative filtering to deep learning algorithms. However, the concerns about how to standardize open source implementation of recommendation algorithms continually increase in the research community. In the light of this challenge, we propose a unified, comprehensive and efficient recommender system library called RecBole, which provides a unified framework to develop and reproduce recommendation algorithms for research purpose. In this library, we implement 73 recommendation models on 28 benchmark datasets, covering the categories of general recommendation, sequential recommendation, context-aware recommendation and knowledge-based recommendation. We implement the RecBole library based on PyTorch, which is one of the most popular deep learning frameworks. Our library is featured in many aspects, including general and extensible data structures, comprehensive benchmark models and datasets, efficient GPU-accelerated execution, and extensive and standard evaluation protocols. We provide a series of auxiliary functions, tools, and scripts to facilitate the use of this library, such as automatic parameter tuning and break-point resume. Such a framework is useful to standardize the implementation and evaluation of recommender systems. The project and documents are released at https://recbole.io/.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/2011.01731v3.pdf"
+}

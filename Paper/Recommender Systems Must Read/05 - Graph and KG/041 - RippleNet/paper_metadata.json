@@ -1,0 +1,68 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "RippleNet",
+    "title": "RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems",
+    "year": 2018
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/1803.03467v4",
+    "doi": "",
+    "title": "RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems",
+    "display_name": "RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems",
+    "publication_year": 2018,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/1803.03467v4",
+      "landing_page_url": "http://arxiv.org/abs/1803.03467v4",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1803.03467v4"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Hongwei Wang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Fuzheng Zhang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Jialin Wang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Miao Zhao"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Wenjie Li"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Xing Xie"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Minyi Guo"
+        }
+      }
+    ],
+    "abstract": "To address the sparsity and cold start problem of collaborative filtering, researchers usually make use of side information, such as social networks or item attributes, to improve recommendation performance. This paper considers the knowledge graph as the source of side information. To address the limitations of existing embedding-based and path-based methods for knowledge-graph-aware recommendation, we propose Ripple Network, an end-to-end framework that naturally incorporates the knowledge graph into recommender systems. Similar to actual ripples propagating on the surface of water, Ripple Network stimulates the propagation of user preferences over the set of knowledge entities by automatically and iteratively extending a user's potential interests along links in the knowledge graph. The multiple \"ripples\" activated by a user's historically clicked items are thus superposed to form the preference distribution of the user with respect to a candidate item, which could be used for predicting the final clicking probability. Through extensive experiments on real-world datasets, we demonstrate that Ripple Network achieves substantial gains in a variety of scenarios, including movie, book and news recommendation, over several state-of-the-art baselines.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/1803.03467v4.pdf"
+}

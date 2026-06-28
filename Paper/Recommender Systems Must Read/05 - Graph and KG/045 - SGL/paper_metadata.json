@@ -1,0 +1,571 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "SGL",
+    "title": "Self-supervised Graph Learning for Recommendation",
+    "year": 2021
+  },
+  "openalex": {
+    "id": "https://openalex.org/W3094605801",
+    "doi": "https://doi.org/10.1145/3404835.3462862",
+    "title": "Self-supervised Graph Learning for Recommendation",
+    "display_name": "Self-supervised Graph Learning for Recommendation",
+    "publication_year": 2021,
+    "cited_by_count": 1336,
+    "primary_location": {
+      "id": "doi:10.1145/3404835.3462862",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1145/3404835.3462862",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "raw_type": "proceedings-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2010.10783",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Jiancan Wu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I126520041",
+            "display_name": "University of Science and Technology of China",
+            "ror": "https://ror.org/04c4dkn09",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I126520041",
+              "https://openalex.org/I19820366"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiancan Wu",
+        "raw_affiliation_strings": [
+          "University of Science and Technology of China, Hefei, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Science and Technology of China, Hefei, China",
+            "institution_ids": [
+              "https://openalex.org/I126520041"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Xiang Wang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165932596",
+            "display_name": "National University of Singapore",
+            "ror": "https://ror.org/01tgyzw49",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiang Wang",
+        "raw_affiliation_strings": [
+          "National University of Singapore, Singapore, Singapore"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National University of Singapore, Singapore, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Fuli Feng",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165932596",
+            "display_name": "National University of Singapore",
+            "ror": "https://ror.org/01tgyzw49",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fuli Feng",
+        "raw_affiliation_strings": [
+          "National University of Singapore, Singapore, Singapore"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National University of Singapore, Singapore, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Xiangnan He",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I126520041",
+            "display_name": "University of Science and Technology of China",
+            "ror": "https://ror.org/04c4dkn09",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I126520041",
+              "https://openalex.org/I19820366"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiangnan He",
+        "raw_affiliation_strings": [
+          "University of Science and Technology of China, Hefei, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Science and Technology of China, Hefei, China",
+            "institution_ids": [
+              "https://openalex.org/I126520041"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Liang Chen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157773358",
+            "display_name": "Sun Yat-sen University",
+            "ror": "https://ror.org/0064kty71",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157773358"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Liang Chen",
+        "raw_affiliation_strings": [
+          "Sun Yat-sen University, Guangzhou, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Sun Yat-sen University, Guangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I157773358"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Jianxun Lian",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210113369",
+            "display_name": "Microsoft Research Asia (China)",
+            "ror": "https://ror.org/0300m5276",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I1290206253",
+              "https://openalex.org/I4210113369"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jianxun Lian",
+        "raw_affiliation_strings": [
+          "Microsoft Research Asia, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Microsoft Research Asia, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210113369"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": null,
+          "display_name": "Xing Xie",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210113369",
+            "display_name": "Microsoft Research Asia (China)",
+            "ror": "https://ror.org/0300m5276",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I1290206253",
+              "https://openalex.org/I4210113369"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xing Xie",
+        "raw_affiliation_strings": [
+          "Microsoft Research Asia, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Microsoft Research Asia, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210113369"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Representation": [
+        0
+      ],
+      "learning": [
+        1
+      ],
+      "on": [
+        2,
+        53
+      ],
+      "user-item": [
+        3
+      ],
+      "graph": [
+        4,
+        26
+      ],
+      "for": [
+        5,
+        30
+      ],
+      "recommendation": [
+        6,
+        31
+      ],
+      "has": [
+        7
+      ],
+      "evolved": [
+        8
+      ],
+      "from": [
+        9,
+        44
+      ],
+      "using": [
+        10
+      ],
+      "single": [
+        11
+      ],
+      "ID": [
+        12
+      ],
+      "or": [
+        13
+      ],
+      "interaction": [
+        14
+      ],
+      "history": [
+        15
+      ],
+      "to": [
+        16,
+        22,
+        69
+      ],
+      "exploiting": [
+        17
+      ],
+      "higher-order": [
+        18
+      ],
+      "neighbors.": [
+        19
+      ],
+      "This": [
+        20
+      ],
+      "leads": [
+        21
+      ],
+      "the": [
+        23,
+        54,
+        58,
+        73,
+        79
+      ],
+      "success": [
+        24
+      ],
+      "of": [
+        25,
+        60,
+        81
+      ],
+      "convolution": [
+        27
+      ],
+      "networks": [
+        28
+      ],
+      "(GCNs)": [
+        29
+      ],
+      "such": [
+        32
+      ],
+      "as": [
+        33,
+        72
+      ],
+      "PinSage": [
+        34
+      ],
+      "and": [
+        35,
+        64
+      ],
+      "LightGCN.": [
+        36
+      ],
+      "Despite": [
+        37
+      ],
+      "effectiveness,": [
+        38
+      ],
+      "we": [
+        39
+      ],
+      "argue": [
+        40
+      ],
+      "that": [
+        41
+      ],
+      "they": [
+        42
+      ],
+      "suffer": [
+        43
+      ],
+      "two": [
+        45
+      ],
+      "limitations:": [
+        46
+      ],
+      "(1)": [
+        47
+      ],
+      "high-degree": [
+        48
+      ],
+      "nodes": [
+        49
+      ],
+      "exert": [
+        50
+      ],
+      "larger": [
+        51
+      ],
+      "impact": [
+        52,
+        80
+      ],
+      "representation": [
+        55
+      ],
+      "learning,": [
+        56
+      ],
+      "deteriorating": [
+        57
+      ],
+      "recommendations": [
+        59
+      ],
+      "low-degree": [
+        61
+      ],
+      "(long-tail)": [
+        62
+      ],
+      "items;": [
+        63
+      ],
+      "(2)": [
+        65
+      ],
+      "representations": [
+        66
+      ],
+      "are": [
+        67
+      ],
+      "vulnerable": [
+        68
+      ],
+      "noisy": [
+        70
+      ],
+      "interactions,": [
+        71
+      ],
+      "neighborhood": [
+        74
+      ],
+      "aggregation": [
+        75
+      ],
+      "scheme": [
+        76
+      ],
+      "further": [
+        77
+      ],
+      "enlarges": [
+        78
+      ],
+      "observed": [
+        82
+      ],
+      "edges.": [
+        83
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1145/3404835.3462862",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3404835.3462862",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2010.10783",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2010.10783",
+        "pdf_url": "https://arxiv.org/pdf/2010.10783",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      }
+    ],
+    "abstract": "Representation learning on user-item graph for recommendation has evolved from using single ID or interaction history to exploiting higher-order neighbors. This leads to the success of graph convolution networks (GCNs) for recommendation such as PinSage and LightGCN. Despite effectiveness, we argue that they suffer from two limitations: (1) high-degree nodes exert larger impact on the representation learning, deteriorating the recommendations of low-degree (long-tail) items; and (2) representations are vulnerable to noisy interactions, as the neighborhood aggregation scheme further enlarges the impact of observed edges.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/2010.10783.pdf"
+}

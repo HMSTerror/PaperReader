@@ -1,0 +1,711 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "UltraGCN",
+    "title": "UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation",
+    "year": 2021
+  },
+  "openalex": {
+    "id": "https://openalex.org/W3209192622",
+    "doi": "https://doi.org/10.48550/arxiv.2110.15114",
+    "title": "UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation",
+    "display_name": "UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation",
+    "publication_year": 2021,
+    "cited_by_count": 34,
+    "primary_location": {
+      "id": "pmh:oai:arXiv.org:2110.15114",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2110.15114",
+      "pdf_url": "https://arxiv.org/pdf/2110.15114",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "text"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2110.15114",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5074229248",
+          "display_name": "Kelong Mao",
+          "orcid": "https://orcid.org/0000-0002-5648-568X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Mao, Kelong",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5048669373",
+          "display_name": "Jieming Zhu",
+          "orcid": "https://orcid.org/0000-0002-5666-8320"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Zhu, Jieming",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101600503",
+          "display_name": "Xi Xiao",
+          "orcid": "https://orcid.org/0000-0003-1521-9542"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Xiao, Xi",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5024430323",
+          "display_name": "Biao Lu",
+          "orcid": "https://orcid.org/0000-0003-0217-8729"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Lu, Biao",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100655132",
+          "display_name": "Zhaowei Wang",
+          "orcid": "https://orcid.org/0000-0002-7797-3316"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wang, Zhaowei",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5083350101",
+          "display_name": "Xiuqiang He",
+          "orcid": "https://orcid.org/0000-0002-4115-8205"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "He, Xiuqiang",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "abstract_inverted_index": {
+      "With": [
+        0
+      ],
+      "the": [
+        1,
+        44,
+        115,
+        138,
+        176
+      ],
+      "recent": [
+        2
+      ],
+      "success": [
+        3
+      ],
+      "of": [
+        4,
+        23,
+        46,
+        91,
+        99,
+        106,
+        117,
+        137,
+        144
+      ],
+      "graph": [
+        5,
+        119
+      ],
+      "convolutional": [
+        6
+      ],
+      "networks": [
+        7
+      ],
+      "(GCNs),": [
+        8
+      ],
+      "they": [
+        9
+      ],
+      "have": [
+        10
+      ],
+      "been": [
+        11
+      ],
+      "widely": [
+        12
+      ],
+      "applied": [
+        13
+      ],
+      "for": [
+        14,
+        51,
+        68,
+        102,
+        128
+      ],
+      "recommendation,": [
+        15
+      ],
+      "and": [
+        16,
+        75,
+        134,
+        160
+      ],
+      "achieved": [
+        17
+      ],
+      "impressive": [
+        18
+      ],
+      "performance": [
+        19
+      ],
+      "gains.": [
+        20
+      ],
+      "The": [
+        21
+      ],
+      "core": [
+        22
+      ],
+      "GCNs": [
+        24,
+        47,
+        67,
+        92
+      ],
+      "lies": [
+        25
+      ],
+      "in": [
+        26
+      ],
+      "its": [
+        27
+      ],
+      "message": [
+        28,
+        39,
+        100,
+        108
+      ],
+      "passing": [
+        29,
+        40,
+        101
+      ],
+      "mechanism": [
+        30
+      ],
+      "to": [
+        31,
+        65,
+        86,
+        112,
+        158,
+        162
+      ],
+      "aggregate": [
+        32
+      ],
+      "neighborhood": [
+        33
+      ],
+      "information.": [
+        34
+      ],
+      "However,": [
+        35
+      ],
+      "we": [
+        36,
+        81
+      ],
+      "observed": [
+        37
+      ],
+      "that": [
+        38,
+        171
+      ],
+      "largely": [
+        41
+      ],
+      "slows": [
+        42
+      ],
+      "down": [
+        43
+      ],
+      "convergence": [
+        45
+      ],
+      "during": [
+        48
+      ],
+      "training,": [
+        49
+      ],
+      "especially": [
+        50
+      ],
+      "large-scale": [
+        52
+      ],
+      "recommender": [
+        53
+      ],
+      "systems,": [
+        54
+      ],
+      "which": [
+        55,
+        95,
+        155
+      ],
+      "hinders": [
+        56
+      ],
+      "their": [
+        57
+      ],
+      "wide": [
+        58
+      ],
+      "adoption.": [
+        59
+      ],
+      "LightGCN": [
+        60
+      ],
+      "makes": [
+        61
+      ],
+      "an": [
+        62,
+        88
+      ],
+      "early": [
+        63
+      ],
+      "attempt": [
+        64
+      ],
+      "simplify": [
+        66
+      ],
+      "collaborative": [
+        69
+      ],
+      "filtering": [
+        70
+      ],
+      "by": [
+        71
+      ],
+      "omitting": [
+        72
+      ],
+      "feature": [
+        73
+      ],
+      "transformations": [
+        74
+      ],
+      "nonlinear": [
+        76
+      ],
+      "activations.": [
+        77
+      ],
+      "In": [
+        78
+      ],
+      "this": [
+        79
+      ],
+      "paper,": [
+        80
+      ],
+      "take": [
+        82
+      ],
+      "one": [
+        83
+      ],
+      "step": [
+        84
+      ],
+      "further": [
+        85
+      ],
+      "propose": [
+        87
+      ],
+      "ultra-simplified": [
+        89
+      ],
+      "formulation": [
+        90
+      ],
+      "(dubbed": [
+        93
+      ],
+      "UltraGCN),": [
+        94
+      ],
+      "skips": [
+        96
+      ],
+      "infinite": [
+        97
+      ],
+      "layers": [
+        98
+      ],
+      "efficient": [
+        103,
+        161
+      ],
+      "recommendation.": [
+        104
+      ],
+      "Instead": [
+        105
+      ],
+      "explicit": [
+        107
+      ],
+      "passing,": [
+        109
+      ],
+      "UltraGCN": [
+        110,
+        126,
+        153,
+        172
+      ],
+      "resorts": [
+        111
+      ],
+      "directly": [
+        113
+      ],
+      "approximate": [
+        114
+      ],
+      "limit": [
+        116
+      ],
+      "infinite-layer": [
+        118
+      ],
+      "convolutions": [
+        120
+      ],
+      "via": [
+        121
+      ],
+      "a": [
+        122,
+        149
+      ],
+      "constraint": [
+        123
+      ],
+      "loss.": [
+        124
+      ],
+      "Meanwhile,": [
+        125
+      ],
+      "allows": [
+        127
+      ],
+      "more": [
+        129,
+        183
+      ],
+      "appropriate": [
+        130
+      ],
+      "edge": [
+        131
+      ],
+      "weight": [
+        132
+      ],
+      "assignments": [
+        133
+      ],
+      "flexible": [
+        135
+      ],
+      "adjustment": [
+        136
+      ],
+      "relative": [
+        139
+      ],
+      "importances": [
+        140
+      ],
+      "among": [
+        141
+      ],
+      "different": [
+        142
+      ],
+      "types": [
+        143
+      ],
+      "relationships.": [
+        145
+      ],
+      "This": [
+        146
+      ],
+      "finally": [
+        147
+      ],
+      "yields": [
+        148
+      ],
+      "simple": [
+        150
+      ],
+      "yet": [
+        151
+      ],
+      "effective": [
+        152
+      ],
+      "model,": [
+        154
+      ],
+      "is": [
+        156
+      ],
+      "easy": [
+        157
+      ],
+      "implement": [
+        159
+      ],
+      "train.": [
+        163
+      ],
+      "Experimental": [
+        164
+      ],
+      "results": [
+        165
+      ],
+      "on": [
+        166
+      ],
+      "four": [
+        167
+      ],
+      "benchmark": [
+        168
+      ],
+      "datasets": [
+        169
+      ],
+      "show": [
+        170
+      ],
+      "not": [
+        173
+      ],
+      "only": [
+        174
+      ],
+      "outperforms": [
+        175
+      ],
+      "state-of-the-art": [
+        177
+      ],
+      "GCN": [
+        178
+      ],
+      "models": [
+        179
+      ],
+      "but": [
+        180
+      ],
+      "also": [
+        181
+      ],
+      "achieves": [
+        182
+      ],
+      "than": [
+        184
+      ],
+      "10x": [
+        185
+      ],
+      "speedup": [
+        186
+      ],
+      "over": [
+        187
+      ],
+      "LightGCN.": [
+        188
+      ],
+      "Our": [
+        189
+      ],
+      "source": [
+        190
+      ],
+      "code": [
+        191
+      ],
+      "will": [
+        192
+      ],
+      "be": [
+        193
+      ],
+      "available": [
+        194
+      ],
+      "at": [
+        195
+      ],
+      "https://reczoo.github.io/UltraGCN.": [
+        196
+      ]
+    },
+    "locations": [
+      {
+        "id": "pmh:oai:arXiv.org:2110.15114",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2110.15114",
+        "pdf_url": "https://arxiv.org/pdf/2110.15114",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.2110.15114",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2110.15114",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "article"
+      }
+    ],
+    "abstract": "With the recent success of graph convolutional networks (GCNs), they have been widely applied for recommendation, and achieved impressive performance gains. The core of GCNs lies in its message passing mechanism to aggregate neighborhood information. However, we observed that message passing largely slows down the convergence of GCNs during training, especially for large-scale recommender systems, which hinders their wide adoption. LightGCN makes an early attempt to simplify GCNs for collaborative filtering by omitting feature transformations and nonlinear activations. In this paper, we take one step further to propose an ultra-simplified formulation of GCNs (dubbed UltraGCN), which skips infinite layers of message passing for efficient recommendation. Instead of explicit message passing, UltraGCN resorts to directly approximate the limit of infinite-layer graph convolutions via a constraint loss. Meanwhile, UltraGCN allows for more appropriate edge weight assignments and flexible adjustment of the relative importances among different types of relationships. This finally yields a simple yet effective UltraGCN model, which is easy to implement and efficient to train. Experimental results on four benchmark datasets show that UltraGCN not only outperforms the state-of-the-art GCN models but also achieves more than 10x speedup over LightGCN. Our source code will be available at https://reczoo.github.io/UltraGCN.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/2110.15114.pdf"
+}

@@ -1,0 +1,785 @@
+{
+  "candidate": {
+    "category": "04 - Sequential and Session",
+    "short": "NextItNet",
+    "title": "A Simple Convolutional Generative Network for Next Item Recommendation",
+    "year": 2018
+  },
+  "openalex": {
+    "id": "https://openalex.org/W2949472174",
+    "doi": "https://doi.org/10.48550/arxiv.1808.05163",
+    "title": "A Simple Convolutional Generative Network for Next Item Recommendation",
+    "display_name": "A Simple Convolutional Generative Network for Next Item Recommendation",
+    "publication_year": 2018,
+    "cited_by_count": 4,
+    "primary_location": {
+      "id": "pmh:oai:arXiv.org:1808.05163",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1808.05163",
+      "pdf_url": "https://arxiv.org/pdf/1808.05163",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/1808.05163",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5081665927",
+          "display_name": "Fajie Yuan",
+          "orcid": "https://orcid.org/0000-0001-8452-9929"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250653659",
+            "display_name": "Tencent (China)",
+            "ror": "https://ror.org/00hhjss72",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuan, Fajie",
+        "raw_affiliation_strings": [
+          "Tencent, ShenZhen, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Tencent, ShenZhen, China",
+            "institution_ids": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5082408006",
+          "display_name": "Alexandros Karatzoglou",
+          "orcid": "https://orcid.org/0000-0001-6063-9023"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210134591",
+            "display_name": "Telefonica Research and Development",
+            "ror": "https://ror.org/03qgzzb04",
+            "country_code": "ES",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210097190",
+              "https://openalex.org/I4210134591"
+            ]
+          }
+        ],
+        "countries": [
+          "ES"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Karatzoglou, Alexandros",
+        "raw_affiliation_strings": [
+          "Telefonica research, Barcelona, Spain#TAB#"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Telefonica research, Barcelona, Spain#TAB#",
+            "institution_ids": [
+              "https://openalex.org/I4210134591"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5015760420",
+          "display_name": "Ioannis Arapakis",
+          "orcid": "https://orcid.org/0000-0003-2528-6597"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210134591",
+            "display_name": "Telefonica Research and Development",
+            "ror": "https://ror.org/03qgzzb04",
+            "country_code": "ES",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210097190",
+              "https://openalex.org/I4210134591"
+            ]
+          }
+        ],
+        "countries": [
+          "ES"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Arapakis, Ioannis",
+        "raw_affiliation_strings": [
+          "Telefonica research, Barcelona, Spain#TAB#"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Telefonica research, Barcelona, Spain#TAB#",
+            "institution_ids": [
+              "https://openalex.org/I4210134591"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5069702331",
+          "display_name": "Joemon M. Jose",
+          "orcid": "https://orcid.org/0000-0001-9228-1759"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I7882870",
+            "display_name": "University of Glasgow",
+            "ror": "https://ror.org/00vtgdb53",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I7882870"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jose, Joemon M",
+        "raw_affiliation_strings": [
+          "University of Glasgow,Glasgow,United Kingdom"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Glasgow,Glasgow,United Kingdom",
+            "institution_ids": [
+              "https://openalex.org/I7882870"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5038668215",
+          "display_name": "Xiangnan He",
+          "orcid": "https://orcid.org/0000-0001-8472-7992"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165932596",
+            "display_name": "National University of Singapore",
+            "ror": "https://ror.org/01tgyzw49",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "He, Xiangnan",
+        "raw_affiliation_strings": [
+          "National University of singapore, singapore, Singapore"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National University of singapore, singapore, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Convolutional": [
+        0
+      ],
+      "Neural": [
+        1
+      ],
+      "Networks": [
+        2
+      ],
+      "(CNNs)": [
+        3
+      ],
+      "have": [
+        4
+      ],
+      "been": [
+        5
+      ],
+      "recently": [
+        6
+      ],
+      "introduced": [
+        7
+      ],
+      "in": [
+        8,
+        27,
+        84,
+        154,
+        177,
+        195
+      ],
+      "the": [
+        9,
+        22,
+        53,
+        63,
+        72,
+        85,
+        90,
+        119,
+        135,
+        141,
+        147,
+        160,
+        178
+      ],
+      "domain": [
+        10
+      ],
+      "of": [
+        11,
+        19,
+        104,
+        118,
+        124,
+        127,
+        150,
+        203
+      ],
+      "session-based": [
+        12,
+        65
+      ],
+      "next": [
+        13,
+        179
+      ],
+      "item": [
+        14,
+        55,
+        86,
+        113,
+        180
+      ],
+      "recommendation.": [
+        15
+      ],
+      "An": [
+        16
+      ],
+      "ordered": [
+        17
+      ],
+      "collection": [
+        18
+      ],
+      "past": [
+        20
+      ],
+      "items": [
+        21
+      ],
+      "user": [
+        23,
+        204
+      ],
+      "has": [
+        24
+      ],
+      "interacted": [
+        25
+      ],
+      "with": [
+        26,
+        173
+      ],
+      "a": [
+        28,
+        35,
+        94,
+        125,
+        189
+      ],
+      "session": [
+        29
+      ],
+      "(or": [
+        30
+      ],
+      "sequence)": [
+        31
+      ],
+      "are": [
+        32,
+        49,
+        78,
+        200
+      ],
+      "embedded": [
+        33
+      ],
+      "into": [
+        34
+      ],
+      "2-dimensional": [
+        36
+      ],
+      "latent": [
+        37
+      ],
+      "matrix,": [
+        38
+      ],
+      "and": [
+        39,
+        46,
+        68,
+        75,
+        111
+      ],
+      "treated": [
+        40
+      ],
+      "as": [
+        41,
+        188
+      ],
+      "an": [
+        42
+      ],
+      "image.": [
+        43
+      ],
+      "The": [
+        44,
+        115,
+        166
+      ],
+      "convolution": [
+        45
+      ],
+      "pooling": [
+        47,
+        142
+      ],
+      "operations": [
+        48
+      ],
+      "then": [
+        50
+      ],
+      "applied": [
+        51
+      ],
+      "to": [
+        52,
+        193
+      ],
+      "mapped": [
+        54
+      ],
+      "embeddings.": [
+        56
+      ],
+      "In": [
+        57
+      ],
+      "this": [
+        58
+      ],
+      "paper,": [
+        59
+      ],
+      "we": [
+        60,
+        92
+      ],
+      "first": [
+        61
+      ],
+      "examine": [
+        62
+      ],
+      "typical": [
+        64
+      ],
+      "CNN": [
+        66
+      ],
+      "recommender": [
+        67,
+        155
+      ],
+      "show": [
+        69
+      ],
+      "that": [
+        70,
+        101
+      ],
+      "both": [
+        71,
+        109
+      ],
+      "generative": [
+        73,
+        99,
+        168
+      ],
+      "model": [
+        74,
+        100,
+        121,
+        169
+      ],
+      "network": [
+        76,
+        116
+      ],
+      "architecture": [
+        77,
+        117
+      ],
+      "suboptimal": [
+        79
+      ],
+      "when": [
+        80,
+        198
+      ],
+      "modeling": [
+        81
+      ],
+      "long-range": [
+        82,
+        112
+      ],
+      "dependencies": [
+        83
+      ],
+      "sequence.": [
+        87
+      ],
+      "To": [
+        88
+      ],
+      "address": [
+        89
+      ],
+      "issues,": [
+        91
+      ],
+      "introduce": [
+        93
+      ],
+      "simple,": [
+        95
+      ],
+      "but": [
+        96
+      ],
+      "very": [
+        97
+      ],
+      "effective": [
+        98,
+        148
+      ],
+      "is": [
+        102,
+        122,
+        146
+      ],
+      "capable": [
+        103
+      ],
+      "learning": [
+        105
+      ],
+      "high-level": [
+        106
+      ],
+      "representation": [
+        107
+      ],
+      "from": [
+        108
+      ],
+      "short-": [
+        110
+      ],
+      "dependencies.": [
+        114
+      ],
+      "proposed": [
+        120,
+        167
+      ],
+      "formed": [
+        123
+      ],
+      "stack": [
+        126
+      ],
+      "\\emph{holed}": [
+        128
+      ],
+      "convolutional": [
+        129
+      ],
+      "layers,": [
+        130
+      ],
+      "which": [
+        131,
+        157
+      ],
+      "can": [
+        132,
+        158,
+        185
+      ],
+      "efficiently": [
+        133
+      ],
+      "increase": [
+        134
+      ],
+      "receptive": [
+        136
+      ],
+      "fields": [
+        137
+      ],
+      "without": [
+        138
+      ],
+      "relying": [
+        139
+      ],
+      "on": [
+        140
+      ],
+      "operation.": [
+        143
+      ],
+      "Another": [
+        144
+      ],
+      "contribution": [
+        145
+      ],
+      "use": [
+        149
+      ],
+      "residual": [
+        151
+      ],
+      "block": [
+        152
+      ],
+      "structure": [
+        153
+      ],
+      "systems,": [
+        156
+      ],
+      "ease": [
+        159
+      ],
+      "optimization": [
+        161
+      ],
+      "for": [
+        162
+      ],
+      "much": [
+        163
+      ],
+      "deeper": [
+        164
+      ],
+      "networks.": [
+        165
+      ],
+      "attains": [
+        170
+      ],
+      "state-of-the-art": [
+        171
+      ],
+      "accuracy": [
+        172
+      ],
+      "less": [
+        174
+      ],
+      "training": [
+        175
+      ],
+      "time": [
+        176
+      ],
+      "recommendation": [
+        181,
+        191
+      ],
+      "task.": [
+        182
+      ],
+      "It": [
+        183
+      ],
+      "accordingly": [
+        184
+      ],
+      "be": [
+        186
+      ],
+      "used": [
+        187
+      ],
+      "powerful": [
+        190
+      ],
+      "baseline": [
+        192
+      ],
+      "beat": [
+        194
+      ],
+      "future,": [
+        196
+      ],
+      "especially": [
+        197
+      ],
+      "there": [
+        199
+      ],
+      "long": [
+        201
+      ],
+      "sequences": [
+        202
+      ],
+      "feedback.": [
+        205
+      ]
+    },
+    "locations": [
+      {
+        "id": "pmh:oai:arXiv.org:1808.05163",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1808.05163",
+        "pdf_url": "https://arxiv.org/pdf/1808.05163",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": null
+      },
+      {
+        "id": "doi:10.48550/arxiv.1808.05163",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.1808.05163",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "article"
+      }
+    ],
+    "abstract": "Convolutional Neural Networks (CNNs) have been recently introduced in the domain of session-based next item recommendation. An ordered collection of past items the user has interacted with in a session (or sequence) are embedded into a 2-dimensional latent matrix, and treated as an image. The convolution and pooling operations are then applied to the mapped item embeddings. In this paper, we first examine the typical session-based CNN recommender and show that both the generative model and network architecture are suboptimal when modeling long-range dependencies in the item sequence. To address the issues, we introduce a simple, but very effective generative model that is capable of learning high-level representation from both short- and long-range item dependencies. The network architecture of the proposed model is formed of a stack of \\emph{holed} convolutional layers, which can efficiently increase the receptive fields without relying on the pooling operation. Another contribution is the effective use of residual block structure in recommender systems, which can ease the optimization for much deeper networks. The proposed generative model attains state-of-the-art accuracy with less training time in the next item recommendation task. It accordingly can be used as a powerful recommendation baseline to beat in future, especially when there are long sequences of user feedback.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/1808.05163.pdf"
+}

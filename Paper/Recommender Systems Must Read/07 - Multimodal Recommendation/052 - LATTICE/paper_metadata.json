@@ -1,0 +1,905 @@
+{
+  "candidate": {
+    "category": "07 - Multimodal Recommendation",
+    "short": "LATTICE",
+    "title": "LATTICE: Mining Latent Structures for Multimedia Recommendation",
+    "year": 2021
+  },
+  "openalex": {
+    "id": "https://openalex.org/W3192113933",
+    "doi": "https://doi.org/10.1145/3474085.3475259",
+    "title": "Mining Latent Structures for Multimedia Recommendation",
+    "display_name": "Mining Latent Structures for Multimedia Recommendation",
+    "publication_year": 2021,
+    "cited_by_count": 307,
+    "primary_location": {
+      "id": "doi:10.1145/3474085.3475259",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1145/3474085.3475259",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the 29th ACM International Conference on Multimedia",
+      "raw_type": "proceedings-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2104.09036",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101576666",
+          "display_name": "Jinghao Zhang",
+          "orcid": "https://orcid.org/0000-0003-3671-3005"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210112150",
+            "display_name": "Institute of Automation",
+            "ror": "https://ror.org/022c3hy66",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210112150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210165038",
+            "display_name": "University of Chinese Academy of Sciences",
+            "ror": "https://ror.org/05qbk4x57",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jinghao Zhang",
+        "raw_affiliation_strings": [
+          "Institute of Automation, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Automation, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210112150",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5015101640",
+          "display_name": "Yanqiao Zhu",
+          "orcid": "https://orcid.org/0000-0003-2205-5304"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210112150",
+            "display_name": "Institute of Automation",
+            "ror": "https://ror.org/022c3hy66",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210112150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210165038",
+            "display_name": "University of Chinese Academy of Sciences",
+            "ror": "https://ror.org/05qbk4x57",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yanqiao Zhu",
+        "raw_affiliation_strings": [
+          "Institute of Automation, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Automation, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210112150",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100409466",
+          "display_name": "Qiang Liu",
+          "orcid": "https://orcid.org/0000-0002-3485-8123"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210112150",
+            "display_name": "Institute of Automation",
+            "ror": "https://ror.org/022c3hy66",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210112150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210165038",
+            "display_name": "University of Chinese Academy of Sciences",
+            "ror": "https://ror.org/05qbk4x57",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qiang Liu",
+        "raw_affiliation_strings": [
+          "Institute of Automation, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Automation, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210112150",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5047523245",
+          "display_name": "Shu Wu",
+          "orcid": "https://orcid.org/0000-0003-2164-3577"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210112150",
+            "display_name": "Institute of Automation",
+            "ror": "https://ror.org/022c3hy66",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210112150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210165038",
+            "display_name": "University of Chinese Academy of Sciences",
+            "ror": "https://ror.org/05qbk4x57",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shu Wu",
+        "raw_affiliation_strings": [
+          "Institute of Automation, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Automation, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210112150",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100669242",
+          "display_name": "Shuhui Wang",
+          "orcid": "https://orcid.org/0000-0002-5931-0527"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I19820366",
+            "display_name": "Chinese Academy of Sciences",
+            "ror": "https://ror.org/034t30j35",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I19820366"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210090176",
+            "display_name": "Institute of Computing Technology",
+            "ror": "https://ror.org/0090r4d87",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210090176"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shuhui Wang",
+        "raw_affiliation_strings": [
+          "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210090176",
+              "https://openalex.org/I19820366"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5115602506",
+          "display_name": "Liang Wang",
+          "orcid": "https://orcid.org/0000-0001-5224-8647"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210112150",
+            "display_name": "Institute of Automation",
+            "ror": "https://ror.org/022c3hy66",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210112150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210165038",
+            "display_name": "University of Chinese Academy of Sciences",
+            "ror": "https://ror.org/05qbk4x57",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Liang Wang",
+        "raw_affiliation_strings": [
+          "Institute of Automation, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Automation, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210112150",
+              "https://openalex.org/I4210165038"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Multimedia": [
+        0
+      ],
+      "content": [
+        1
+      ],
+      "is": [
+        2,
+        17,
+        48
+      ],
+      "of": [
+        3,
+        25,
+        30,
+        198,
+        210
+      ],
+      "predominance": [
+        4
+      ],
+      "in": [
+        5,
+        74,
+        123
+      ],
+      "the": [
+        6,
+        22,
+        80,
+        124,
+        154,
+        196,
+        208
+      ],
+      "modern": [
+        7
+      ],
+      "Web": [
+        8
+      ],
+      "era.": [
+        9
+      ],
+      "Investigating": [
+        10
+      ],
+      "how": [
+        11
+      ],
+      "users": [
+        12
+      ],
+      "interact": [
+        13
+      ],
+      "with": [
+        14,
+        38,
+        71
+      ],
+      "multimodal": [
+        15,
+        39,
+        87,
+        216
+      ],
+      "items": [
+        16,
+        68
+      ],
+      "a": [
+        18,
+        106,
+        130
+      ],
+      "continuing": [
+        19
+      ],
+      "concern": [
+        20
+      ],
+      "within": [
+        21
+      ],
+      "rapid": [
+        23
+      ],
+      "development": [
+        24
+      ],
+      "recommender": [
+        26
+      ],
+      "systems.": [
+        27
+      ],
+      "The": [
+        28
+      ],
+      "majority": [
+        29
+      ],
+      "previous": [
+        31
+      ],
+      "work": [
+        32
+      ],
+      "focuses": [
+        33
+      ],
+      "on": [
+        34,
+        153,
+        191
+      ],
+      "modeling": [
+        35
+      ],
+      "user-item": [
+        36
+      ],
+      "interactions": [
+        37
+      ],
+      "features": [
+        40
+      ],
+      "included": [
+        41
+      ],
+      "as": [
+        42
+      ],
+      "side": [
+        43
+      ],
+      "information.": [
+        44
+      ],
+      "However,": [
+        45
+      ],
+      "this": [
+        46,
+        102
+      ],
+      "scheme": [
+        47
+      ],
+      "not": [
+        49
+      ],
+      "well-designed": [
+        50
+      ],
+      "for": [
+        51,
+        92,
+        111,
+        118,
+        140
+      ],
+      "multimedia": [
+        52,
+        203
+      ],
+      "recommendation.": [
+        53,
+        100
+      ],
+      "Specifically,": [
+        54
+      ],
+      "only": [
+        55
+      ],
+      "collaborative": [
+        56,
+        181
+      ],
+      "item-item": [
+        57,
+        83,
+        138,
+        213
+      ],
+      "relationships": [
+        58,
+        214
+      ],
+      "are": [
+        59,
+        69
+      ],
+      "implicitly": [
+        60
+      ],
+      "modeled": [
+        61
+      ],
+      "through": [
+        62
+      ],
+      "high-order": [
+        63,
+        165
+      ],
+      "item-user-item": [
+        64
+      ],
+      "relations.": [
+        65
+      ],
+      "Considering": [
+        66
+      ],
+      "that": [
+        67,
+        79
+      ],
+      "associated": [
+        70
+      ],
+      "rich": [
+        72
+      ],
+      "contents": [
+        73,
+        88
+      ],
+      "multiple": [
+        75,
+        145
+      ],
+      "modalities,": [
+        76
+      ],
+      "we": [
+        77,
+        104,
+        115,
+        128,
+        158
+      ],
+      "argue": [
+        78
+      ],
+      "latent": [
+        81,
+        149,
+        156,
+        212
+      ],
+      "semantic": [
+        82
+      ],
+      "structures": [
+        84,
+        139
+      ],
+      "underlying": [
+        85
+      ],
+      "these": [
+        86
+      ],
+      "could": [
+        89
+      ],
+      "be": [
+        90,
+        121,
+        177
+      ],
+      "beneficial": [
+        91
+      ],
+      "learning": [
+        93,
+        134
+      ],
+      "better": [
+        94
+      ],
+      "item": [
+        95,
+        150,
+        166,
+        169,
+        173
+      ],
+      "representations": [
+        96,
+        174
+      ],
+      "and": [
+        97,
+        143,
+        206
+      ],
+      "further": [
+        98
+      ],
+      "boosting": [
+        99
+      ],
+      "To": [
+        101,
+        120
+      ],
+      "end,": [
+        103
+      ],
+      "propose": [
+        105
+      ],
+      "LATent": [
+        107
+      ],
+      "sTructure": [
+        108
+      ],
+      "mining": [
+        109,
+        211
+      ],
+      "method": [
+        110,
+        200
+      ],
+      "multImodal": [
+        112
+      ],
+      "reCommEndation,": [
+        113
+      ],
+      "which": [
+        114,
+        136
+      ],
+      "term": [
+        116
+      ],
+      "LATTICE": [
+        117,
+        126
+      ],
+      "brevity.": [
+        119
+      ],
+      "specific,": [
+        122
+      ],
+      "proposed": [
+        125
+      ],
+      "model,": [
+        127
+      ],
+      "devise": [
+        129
+      ],
+      "novel": [
+        131
+      ],
+      "modality-aware": [
+        132
+      ],
+      "structure": [
+        133
+      ],
+      "layer,": [
+        135
+      ],
+      "learns": [
+        137
+      ],
+      "each": [
+        141
+      ],
+      "modality": [
+        142
+      ],
+      "aggregates": [
+        144
+      ],
+      "modalities": [
+        146
+      ],
+      "to": [
+        147,
+        162,
+        184
+      ],
+      "obtain": [
+        148
+      ],
+      "graphs.": [
+        151
+      ],
+      "Based": [
+        152
+      ],
+      "learned": [
+        155
+      ],
+      "graphs,": [
+        157
+      ],
+      "perform": [
+        159
+      ],
+      "graph": [
+        160
+      ],
+      "convolutions": [
+        161
+      ],
+      "explicitly": [
+        163
+      ],
+      "inject": [
+        164
+      ],
+      "affinities": [
+        167
+      ],
+      "into": [
+        168,
+        179
+      ],
+      "representations.": [
+        170
+      ],
+      "These": [
+        171
+      ],
+      "enriched": [
+        172
+      ],
+      "can": [
+        175
+      ],
+      "then": [
+        176
+      ],
+      "plugged": [
+        178
+      ],
+      "existing": [
+        180
+      ],
+      "filtering": [
+        182
+      ],
+      "methods": [
+        183,
+        205
+      ],
+      "make": [
+        185
+      ],
+      "more": [
+        186
+      ],
+      "accurate": [
+        187
+      ],
+      "recommendations.": [
+        188
+      ],
+      "Extensive": [
+        189
+      ],
+      "experiments": [
+        190
+      ],
+      "three": [
+        192
+      ],
+      "real-world": [
+        193
+      ],
+      "datasets": [
+        194
+      ],
+      "demonstrate": [
+        195
+      ],
+      "superiority": [
+        197
+      ],
+      "our": [
+        199
+      ],
+      "over": [
+        201
+      ],
+      "state-of-the-art": [
+        202
+      ],
+      "recommendation": [
+        204
+      ],
+      "validate": [
+        207
+      ],
+      "efficacy": [
+        209
+      ],
+      "from": [
+        215
+      ],
+      "features.": [
+        217
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1145/3474085.3475259",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3474085.3475259",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 29th ACM International Conference on Multimedia",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2104.09036",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2104.09036",
+        "pdf_url": "https://arxiv.org/pdf/2104.09036",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      }
+    ],
+    "abstract": "Multimedia content is of predominance in the modern Web era. Investigating how users interact with multimodal items is a continuing concern within the rapid development of recommender systems. The majority of previous work focuses on modeling user-item interactions with multimodal features included as side information. However, this scheme is not well-designed for multimedia recommendation. Specifically, only collaborative item-item relationships are implicitly modeled through high-order item-user-item relations. Considering that items are associated with rich contents in multiple modalities, we argue that the latent semantic item-item structures underlying these multimodal contents could be beneficial for learning better item representations and further boosting recommendation. To this end, we propose a LATent sTructure mining method for multImodal reCommEndation, which we term LATTICE for brevity. To be specific, in the proposed LATTICE model, we devise a novel modality-aware structure learning layer, which learns item-item structures for each modality and aggregates multiple modalities to obtain latent item graphs. Based on the learned latent graphs, we perform graph convolutions to explicitly inject high-order item affinities into item representations. These enriched item representations can then be plugged into existing collaborative filtering methods to make more accurate recommendations. Extensive experiments on three real-world datasets demonstrate the superiority of our method over state-of-the-art multimedia recommendation methods and validate the efficacy of mining latent item-item relationships from multimodal features.",
+    "match_score": 0.931
+  },
+  "downloadSource": "https://arxiv.org/pdf/2104.09036.pdf"
+}

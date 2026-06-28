@@ -1,0 +1,748 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "LightGCN",
+    "title": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
+    "year": 2020
+  },
+  "openalex": {
+    "id": "https://openalex.org/W3004578093",
+    "doi": "https://doi.org/10.48550/arxiv.2002.02126",
+    "title": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
+    "display_name": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
+    "publication_year": 2020,
+    "cited_by_count": 413,
+    "primary_location": {
+      "id": "pmh:oai:arXiv.org:2002.02126",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2002.02126",
+      "pdf_url": "https://arxiv.org/pdf/2002.02126",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "text"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2002.02126",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5038668215",
+          "display_name": "Xiangnan He",
+          "orcid": "https://orcid.org/0000-0001-8472-7992"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "He, Xiangnan",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5001287528",
+          "display_name": "Kuan Deng",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Deng, Kuan",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100389037",
+          "display_name": "Xiang Wang",
+          "orcid": "https://orcid.org/0000-0002-6148-6329"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wang, Xiang",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100443879",
+          "display_name": "Yan Li",
+          "orcid": "https://orcid.org/0000-0002-4694-4926"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Li, Yan",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046305086",
+          "display_name": "Yongdong Zhang",
+          "orcid": "https://orcid.org/0000-0002-1151-1792"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Zhang, Yongdong",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100377147",
+          "display_name": "Meng Wang",
+          "orcid": "https://orcid.org/0000-0002-3094-7735"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wang, Meng",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "abstract_inverted_index": {
+      "Graph": [
+        0,
+        190
+      ],
+      "Convolution": [
+        1
+      ],
+      "Network": [
+        2
+      ],
+      "(GCN)": [
+        3
+      ],
+      "has": [
+        4
+      ],
+      "become": [
+        5
+      ],
+      "new": [
+        6,
+        115
+      ],
+      "state-of-the-art": [
+        7,
+        196
+      ],
+      "for": [
+        8,
+        17,
+        40,
+        110,
+        131
+      ],
+      "collaborative": [
+        9,
+        76,
+        132
+      ],
+      "filtering.": [
+        10,
+        77,
+        133
+      ],
+      "Nevertheless,": [
+        11
+      ],
+      "the": [
+        12,
+        56,
+        73,
+        84,
+        99,
+        121,
+        146,
+        152,
+        156,
+        163,
+        203,
+        212,
+        215
+      ],
+      "reasons": [
+        13
+      ],
+      "of": [
+        14,
+        75,
+        86,
+        101,
+        155,
+        214
+      ],
+      "its": [
+        15
+      ],
+      "effectiveness": [
+        16
+      ],
+      "recommendation": [
+        18,
+        29,
+        90
+      ],
+      "are": [
+        19,
+        209
+      ],
+      "not": [
+        20
+      ],
+      "well": [
+        21
+      ],
+      "understood.": [
+        22
+      ],
+      "Existing": [
+        23
+      ],
+      "work": [
+        24
+      ],
+      "that": [
+        25,
+        55
+      ],
+      "adapts": [
+        26
+      ],
+      "GCN": [
+        27,
+        102,
+        126
+      ],
+      "to": [
+        28,
+        72,
+        83,
+        97,
+        103,
+        175
+      ],
+      "lacks": [
+        30
+      ],
+      "thorough": [
+        31
+      ],
+      "ablation": [
+        32
+      ],
+      "analyses": [
+        33,
+        208
+      ],
+      "on": [
+        34,
+        145,
+        186
+      ],
+      "GCN,": [
+        35
+      ],
+      "which": [
+        36
+      ],
+      "is": [
+        37,
+        172
+      ],
+      "originally": [
+        38
+      ],
+      "designed": [
+        39
+      ],
+      "graph": [
+        41
+      ],
+      "classification": [
+        42
+      ],
+      "tasks": [
+        43
+      ],
+      "and": [
+        44,
+        66,
+        88,
+        108,
+        138,
+        150,
+        169,
+        177,
+        221
+      ],
+      "equipped": [
+        45
+      ],
+      "with": [
+        46
+      ],
+      "many": [
+        47
+      ],
+      "neural": [
+        48
+      ],
+      "network": [
+        49
+      ],
+      "operations.": [
+        50
+      ],
+      "However,": [
+        51
+      ],
+      "we": [
+        52,
+        95
+      ],
+      "empirically": [
+        53
+      ],
+      "find": [
+        54
+      ],
+      "two": [
+        57
+      ],
+      "most": [
+        58,
+        122
+      ],
+      "common": [
+        59
+      ],
+      "designs": [
+        60
+      ],
+      "in": [
+        61,
+        125
+      ],
+      "GCNs": [
+        62
+      ],
+      "--": [
+        63,
+        69,
+        127,
+        130,
+        194,
+        200
+      ],
+      "feature": [
+        64
+      ],
+      "transformation": [
+        65
+      ],
+      "nonlinear": [
+        67
+      ],
+      "activation": [
+        68
+      ],
+      "contribute": [
+        70
+      ],
+      "little": [
+        71
+      ],
+      "performance": [
+        74
+      ],
+      "Even": [
+        78
+      ],
+      "worse,": [
+        79
+      ],
+      "including": [
+        80,
+        119
+      ],
+      "them": [
+        81,
+        144
+      ],
+      "adds": [
+        82
+      ],
+      "difficulty": [
+        85
+      ],
+      "training": [
+        87
+      ],
+      "degrades": [
+        89
+      ],
+      "performance.": [
+        91
+      ],
+      "In": [
+        92
+      ],
+      "this": [
+        93
+      ],
+      "work,": [
+        94
+      ],
+      "aim": [
+        96
+      ],
+      "simplify": [
+        98
+      ],
+      "design": [
+        100
+      ],
+      "make": [
+        104
+      ],
+      "it": [
+        105
+      ],
+      "more": [
+        106
+      ],
+      "concise": [
+        107
+      ],
+      "appropriate": [
+        109
+      ],
+      "recommendation.": [
+        111
+      ],
+      "We": [
+        112
+      ],
+      "propose": [
+        113
+      ],
+      "a": [
+        114,
+        195
+      ],
+      "model": [
+        116,
+        171,
+        199
+      ],
+      "named": [
+        117
+      ],
+      "LightGCN,": [
+        118
+      ],
+      "only": [
+        120
+      ],
+      "essential": [
+        123
+      ],
+      "component": [
+        124
+      ],
+      "neighborhood": [
+        128
+      ],
+      "aggregation": [
+        129
+      ],
+      "Specifically,": [
+        134
+      ],
+      "LightGCN": [
+        135,
+        217
+      ],
+      "learns": [
+        136
+      ],
+      "user": [
+        137
+      ],
+      "item": [
+        139
+      ],
+      "embeddings": [
+        140,
+        157
+      ],
+      "by": [
+        141
+      ],
+      "linearly": [
+        142
+      ],
+      "propagating": [
+        143
+      ],
+      "user-item": [
+        147
+      ],
+      "interaction": [
+        148
+      ],
+      "graph,": [
+        149
+      ],
+      "uses": [
+        151
+      ],
+      "weighted": [
+        153
+      ],
+      "sum": [
+        154
+      ],
+      "learned": [
+        158
+      ],
+      "at": [
+        159
+      ],
+      "all": [
+        160
+      ],
+      "layers": [
+        161
+      ],
+      "as": [
+        162
+      ],
+      "final": [
+        164
+      ],
+      "embedding.": [
+        165
+      ],
+      "Such": [
+        166
+      ],
+      "simple,": [
+        167
+      ],
+      "linear,": [
+        168
+      ],
+      "neat": [
+        170
+      ],
+      "much": [
+        173
+      ],
+      "easier": [
+        174
+      ],
+      "implement": [
+        176
+      ],
+      "train,": [
+        178
+      ],
+      "exhibiting": [
+        179
+      ],
+      "substantial": [
+        180
+      ],
+      "improvements": [
+        181
+      ],
+      "(about": [
+        182
+      ],
+      "16.0\\%": [
+        183
+      ],
+      "relative": [
+        184
+      ],
+      "improvement": [
+        185
+      ],
+      "average)": [
+        187
+      ],
+      "over": [
+        188
+      ],
+      "Neural": [
+        189
+      ],
+      "Collaborative": [
+        191
+      ],
+      "Filtering": [
+        192
+      ],
+      "(NGCF)": [
+        193
+      ],
+      "GCN-based": [
+        197
+      ],
+      "recommender": [
+        198
+      ],
+      "under": [
+        201
+      ],
+      "exactly": [
+        202
+      ],
+      "same": [
+        204
+      ],
+      "experimental": [
+        205
+      ],
+      "setting.": [
+        206
+      ],
+      "Further": [
+        207
+      ],
+      "provided": [
+        210
+      ],
+      "towards": [
+        211
+      ],
+      "rationality": [
+        213
+      ],
+      "simple": [
+        216
+      ],
+      "from": [
+        218
+      ],
+      "both": [
+        219
+      ],
+      "analytical": [
+        220
+      ],
+      "empirical": [
+        222
+      ],
+      "perspectives.": [
+        223
+      ]
+    },
+    "locations": [
+      {
+        "id": "pmh:oai:arXiv.org:2002.02126",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2002.02126",
+        "pdf_url": "https://arxiv.org/pdf/2002.02126",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.2002.02126",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2002.02126",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "article"
+      }
+    ],
+    "abstract": "Graph Convolution Network (GCN) has become new state-of-the-art for collaborative filtering. Nevertheless, the reasons of its effectiveness for recommendation are not well understood. Existing work that adapts GCN to recommendation lacks thorough ablation analyses on GCN, which is originally designed for graph classification tasks and equipped with many neural network operations. However, we empirically find that the two most common designs in GCNs -- feature transformation and nonlinear activation -- contribute little to the performance of collaborative filtering. Even worse, including them adds to the difficulty of training and degrades recommendation performance. In this work, we aim to simplify the design of GCN to make it more concise and appropriate for recommendation. We propose a new model named LightGCN, including only the most essential component in GCN -- neighborhood aggregation -- for collaborative filtering. Specifically, LightGCN learns user and item embeddings by linearly propagating them on the user-item interaction graph, and uses the weighted sum of the embeddings learned at all layers as the final embedding. Such simple, linear, and neat model is much easier to implement and train, exhibiting substantial improvements (about 16.0\\% relative improvement on average) over Neural Graph Collaborative Filtering (NGCF) -- a state-of-the-art GCN-based recommender model -- under exactly the same experimental setting. Further analyses are provided towards the rationality of the simple LightGCN from both analytical and empirical perspectives.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/2002.02126.pdf"
+}

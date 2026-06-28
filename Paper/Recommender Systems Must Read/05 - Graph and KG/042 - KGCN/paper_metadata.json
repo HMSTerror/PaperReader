@@ -1,0 +1,762 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "KGCN",
+    "title": "Knowledge Graph Convolutional Networks for Recommender Systems",
+    "year": 2019
+  },
+  "openalex": {
+    "id": "https://openalex.org/W2913560138",
+    "doi": "https://doi.org/10.1145/3308558.3313417",
+    "title": "Knowledge Graph Convolutional Networks for Recommender Systems",
+    "display_name": "Knowledge Graph Convolutional Networks for Recommender Systems",
+    "publication_year": 2019,
+    "cited_by_count": 967,
+    "primary_location": {
+      "id": "doi:10.1145/3308558.3313417",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1145/3308558.3313417",
+      "pdf_url": null,
+      "source": null,
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The World Wide Web Conference",
+      "raw_type": "proceedings-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1145/3308558.3313417",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Hongwei Wang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hongwei Wang",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University Shanghai, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Miao Zhao",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I14243506",
+            "display_name": "Hong Kong Polytechnic University",
+            "ror": "https://ror.org/0030zas98",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I14243506"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Miao Zhao",
+        "raw_affiliation_strings": [
+          "The Hong Kong Polytechnic University, Hong Kong, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Hong Kong Polytechnic University, Hong Kong, China",
+            "institution_ids": [
+              "https://openalex.org/I14243506"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Xing Xie",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210113369",
+            "display_name": "Microsoft Research Asia (China)",
+            "ror": "https://ror.org/0300m5276",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I1290206253",
+              "https://openalex.org/I4210113369"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xing Xie",
+        "raw_affiliation_strings": [
+          "Microsoft Research Asia Beijing, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Microsoft Research Asia Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210113369"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Wenjie Li",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I14243506",
+            "display_name": "Hong Kong Polytechnic University",
+            "ror": "https://ror.org/0030zas98",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I14243506"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wenjie Li",
+        "raw_affiliation_strings": [
+          "The Hong Kong Polytechnic University, Hong Kong, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Hong Kong Polytechnic University, Hong Kong, China",
+            "institution_ids": [
+              "https://openalex.org/I14243506"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": null,
+          "display_name": "Minyi Guo",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Minyi Guo",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University Shanghai, China guo-my@cs.sjtu.edu.cn"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University Shanghai, China guo-my@cs.sjtu.edu.cn",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "To": [
+        0,
+        76
+      ],
+      "alleviate": [
+        1
+      ],
+      "sparsity": [
+        2
+      ],
+      "and": [
+        3,
+        14,
+        21,
+        23,
+        83,
+        133,
+        158,
+        171,
+        174
+      ],
+      "cold": [
+        4
+      ],
+      "start": [
+        5
+      ],
+      "problem": [
+        6
+      ],
+      "of": [
+        7,
+        19,
+        86,
+        114
+      ],
+      "collaborative": [
+        8
+      ],
+      "filtering": [
+        9
+      ],
+      "based": [
+        10
+      ],
+      "recommender": [
+        11,
+        183
+      ],
+      "systems,": [
+        12
+      ],
+      "researchers": [
+        13
+      ],
+      "engineers": [
+        15
+      ],
+      "usually": [
+        16
+      ],
+      "collect": [
+        17
+      ],
+      "attributes": [
+        18,
+        35,
+        72
+      ],
+      "users": [
+        20
+      ],
+      "items,": [
+        22
+      ],
+      "design": [
+        24
+      ],
+      "delicate": [
+        25
+      ],
+      "algorithms": [
+        26
+      ],
+      "to": [
+        27,
+        124,
+        128,
+        153,
+        165
+      ],
+      "exploit": [
+        28
+      ],
+      "these": [
+        29
+      ],
+      "additional": [
+        30
+      ],
+      "information.": [
+        31
+      ],
+      "In": [
+        32,
+        50
+      ],
+      "general,": [
+        33
+      ],
+      "the": [
+        34,
+        74,
+        87,
+        92,
+        98,
+        112,
+        142,
+        162
+      ],
+      "are": [
+        36
+      ],
+      "not": [
+        37
+      ],
+      "isolated": [
+        38
+      ],
+      "but": [
+        39
+      ],
+      "connected": [
+        40
+      ],
+      "with": [
+        41,
+        108
+      ],
+      "each": [
+        42,
+        95
+      ],
+      "other,": [
+        43
+      ],
+      "which": [
+        44,
+        149
+      ],
+      "forms": [
+        45
+      ],
+      "a": [
+        46,
+        115,
+        146
+      ],
+      "knowledge": [
+        47
+      ],
+      "graph": [
+        48
+      ],
+      "(KG).": [
+        49
+      ],
+      "this": [
+        51
+      ],
+      "paper,": [
+        52
+      ],
+      "we": [
+        53,
+        89,
+        140
+      ],
+      "propose": [
+        54
+      ],
+      "Knowledge": [
+        55
+      ],
+      "Graph": [
+        56
+      ],
+      "Convolutional": [
+        57
+      ],
+      "Networks": [
+        58
+      ],
+      "(KGCN),": [
+        59
+      ],
+      "an": [
+        60
+      ],
+      "end-to-end": [
+        61
+      ],
+      "framework": [
+        62
+      ],
+      "that": [
+        63,
+        178
+      ],
+      "captures": [
+        64
+      ],
+      "inter-item": [
+        65
+      ],
+      "relatedness": [
+        66
+      ],
+      "effectively": [
+        67
+      ],
+      "by": [
+        68
+      ],
+      "mining": [
+        69
+      ],
+      "their": [
+        70,
+        101
+      ],
+      "associated": [
+        71
+      ],
+      "on": [
+        73,
+        155
+      ],
+      "KG.": [
+        75
+      ],
+      "automatically": [
+        77
+      ],
+      "discover": [
+        78
+      ],
+      "both": [
+        79
+      ],
+      "high-order": [
+        80,
+        130
+      ],
+      "structure": [
+        81
+      ],
+      "information": [
+        82,
+        85,
+        107,
+        132
+      ],
+      "semantic": [
+        84
+      ],
+      "KG,": [
+        88
+      ],
+      "sample": [
+        90
+      ],
+      "from": [
+        91
+      ],
+      "neighbors": [
+        93
+      ],
+      "for": [
+        94
+      ],
+      "entity": [
+        96
+      ],
+      "in": [
+        97,
+        145
+      ],
+      "KG": [
+        99
+      ],
+      "as": [
+        100
+      ],
+      "receptive": [
+        102,
+        119
+      ],
+      "field,": [
+        103
+      ],
+      "then": [
+        104
+      ],
+      "combine": [
+        105
+      ],
+      "neighborhood": [
+        106
+      ],
+      "bias": [
+        109
+      ],
+      "when": [
+        110
+      ],
+      "calculating": [
+        111
+      ],
+      "representation": [
+        113
+      ],
+      "given": [
+        116
+      ],
+      "entity.": [
+        117
+      ],
+      "The": [
+        118
+      ],
+      "field": [
+        120
+      ],
+      "can": [
+        121
+      ],
+      "be": [
+        122
+      ],
+      "extended": [
+        123
+      ],
+      "multiple": [
+        125
+      ],
+      "hops": [
+        126
+      ],
+      "away": [
+        127
+      ],
+      "model": [
+        129,
+        152,
+        164
+      ],
+      "proximity": [
+        131
+      ],
+      "capture": [
+        134
+      ],
+      "users'": [
+        135
+      ],
+      "potential": [
+        136
+      ],
+      "long-distance": [
+        137
+      ],
+      "interests.": [
+        138
+      ],
+      "Moreover,": [
+        139
+      ],
+      "implement": [
+        141
+      ],
+      "proposed": [
+        143,
+        163
+      ],
+      "KGCN": [
+        144
+      ],
+      "minibatch": [
+        147
+      ],
+      "fashion,": [
+        148
+      ],
+      "enables": [
+        150
+      ],
+      "our": [
+        151,
+        179
+      ],
+      "operate": [
+        154
+      ],
+      "large": [
+        156
+      ],
+      "datasets": [
+        157,
+        167
+      ],
+      "KGs.": [
+        159
+      ],
+      "We": [
+        160
+      ],
+      "apply": [
+        161
+      ],
+      "three": [
+        166
+      ],
+      "about": [
+        168
+      ],
+      "movie,": [
+        169
+      ],
+      "book,": [
+        170
+      ],
+      "music": [
+        172
+      ],
+      "recommendation,": [
+        173
+      ],
+      "experiment": [
+        175
+      ],
+      "results": [
+        176
+      ],
+      "demonstrate": [
+        177
+      ],
+      "approach": [
+        180
+      ],
+      "outperforms": [
+        181
+      ],
+      "strong": [
+        182
+      ],
+      "baselines.": [
+        184
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1145/3308558.3313417",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/3308558.3313417",
+        "pdf_url": null,
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The World Wide Web Conference",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:1904.12575",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1904.12575",
+        "pdf_url": "https://arxiv.org/pdf/1904.12575",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "pmh:oai:ira.lib.polyu.edu.hk:10397/105588",
+        "is_oa": true,
+        "landing_page_url": "http://hdl.handle.net/10397/105588",
+        "pdf_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/105588/1/3308558.3313417.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306400205",
+          "display_name": "PolyU Institutional Research Archive (Hong Kong Polytechnic University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I14243506",
+          "host_organization_name": "Hong Kong Polytechnic University",
+          "host_organization_lineage": [
+            "https://openalex.org/I14243506"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Conference Paper"
+      }
+    ],
+    "abstract": "To alleviate sparsity and cold start problem of collaborative filtering based recommender systems, researchers and engineers usually collect attributes of users and items, and design delicate algorithms to exploit these additional information. In general, the attributes are not isolated but connected with each other, which forms a knowledge graph (KG). In this paper, we propose Knowledge Graph Convolutional Networks (KGCN), an end-to-end framework that captures inter-item relatedness effectively by mining their associated attributes on the KG. To automatically discover both high-order structure information and semantic information of the KG, we sample from the neighbors for each entity in the KG as their receptive field, then combine neighborhood information with bias when calculating the representation of a given entity. The receptive field can be extended to multiple hops away to model high-order proximity information and capture users' potential long-distance interests. Moreover, we implement the proposed KGCN in a minibatch fashion, which enables our model to operate on large datasets and KGs. We apply the proposed model to three datasets about movie, book, and music recommendation, and experiment results demonstrate that our approach outperforms strong recommender baselines.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/1904.12575.pdf"
+}

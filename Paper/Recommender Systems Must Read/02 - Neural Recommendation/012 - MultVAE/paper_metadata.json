@@ -1,0 +1,53 @@
+{
+  "candidate": {
+    "category": "02 - Neural Recommendation",
+    "short": "MultVAE",
+    "title": "Variational Autoencoders for Collaborative Filtering",
+    "year": 2018
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/1802.05814v1",
+    "doi": "",
+    "title": "Variational Autoencoders for Collaborative Filtering",
+    "display_name": "Variational Autoencoders for Collaborative Filtering",
+    "publication_year": 2018,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/1802.05814v1",
+      "landing_page_url": "http://arxiv.org/abs/1802.05814v1",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1802.05814v1"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Dawen Liang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Rahul G. Krishnan"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Matthew D. Hoffman"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Tony Jebara"
+        }
+      }
+    ],
+    "abstract": "We extend variational autoencoders (VAEs) to collaborative filtering for implicit feedback. This non-linear probabilistic model enables us to go beyond the limited modeling capacity of linear factor models which still largely dominate collaborative filtering research.We introduce a generative model with multinomial likelihood and use Bayesian inference for parameter estimation. Despite widespread use in language modeling and economics, the multinomial likelihood receives less attention in the recommender systems literature. We introduce a different regularization parameter for the learning objective, which proves to be crucial for achieving competitive performance. Remarkably, there is an efficient way to tune the parameter using annealing. The resulting model and learning algorithm has information-theoretic connections to maximum entropy discrimination and the information bottleneck principle. Empirically, we show that the proposed approach significantly outperforms several state-of-the-art baselines, including two recently-proposed neural network approaches, on several real-world datasets. We also provide extended experiments comparing the multinomial likelihood with other commonly used likelihood functions in the latent factor collaborative filtering literature and show favorable results. Finally, we identify the pros and cons of employing a principled Bayesian inference approach and characterize settings where it provides the most significant improvements.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/1802.05814v1.pdf"
+}

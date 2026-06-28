@@ -1,0 +1,63 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "SimGCL",
+    "title": "Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation",
+    "year": 2022
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/2112.08679v4",
+    "doi": "",
+    "title": "Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation",
+    "display_name": "Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation",
+    "publication_year": 2021,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/2112.08679v4",
+      "landing_page_url": "http://arxiv.org/abs/2112.08679v4",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2112.08679v4"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Junliang Yu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Hongzhi Yin"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Xin Xia"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Tong Chen"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Lizhen Cui"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Quoc Viet Hung Nguyen"
+        }
+      }
+    ],
+    "abstract": "Contrastive learning (CL) recently has spurred a fruitful line of research in the field of recommendation, since its ability to extract self-supervised signals from the raw data is well-aligned with recommender systems' needs for tackling the data sparsity issue. A typical pipeline of CL-based recommendation models is first augmenting the user-item bipartite graph with structure perturbations, and then maximizing the node representation consistency between different graph augmentations. Although this paradigm turns out to be effective, what underlies the performance gains is still a mystery. In this paper, we first experimentally disclose that, in CL-based recommendation models, CL operates by learning more evenly distributed user/item representations that can implicitly mitigate the popularity bias. Meanwhile, we reveal that the graph augmentations, which were considered necessary, just play a trivial role. Based on this finding, we propose a simple CL method which discards the graph augmentations and instead adds uniform noises to the embedding space for creating contrastive views. A comprehensive experimental study on three benchmark datasets demonstrates that, though it appears strikingly simple, the proposed method can smoothly adjust the uniformity of learned representations and has distinct advantages over its graph augmentation-based counterparts in terms of recommendation accuracy and training efficiency. The code is released at https://github.com/Coder-Yu/QRec.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/2112.08679v4.pdf"
+}

@@ -1,0 +1,662 @@
+{
+  "candidate": {
+    "category": "03 - CTR and Ranking",
+    "short": "DeepFM",
+    "title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+    "year": 2017
+  },
+  "openalex": {
+    "id": "https://openalex.org/W2604662567",
+    "doi": "https://doi.org/10.24963/ijcai.2017/239",
+    "title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+    "display_name": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+    "publication_year": 2017,
+    "cited_by_count": 2239,
+    "primary_location": {
+      "id": "doi:10.24963/ijcai.2017/239",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.24963/ijcai.2017/239",
+      "pdf_url": "https://www.ijcai.org/proceedings/2017/0239.pdf",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence",
+      "raw_type": "proceedings-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.ijcai.org/proceedings/2017/0239.pdf",
+      "any_repository_has_fulltext": null
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5019541869",
+          "display_name": "Huifeng Guo",
+          "orcid": "https://orcid.org/0000-0002-7393-8994"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204983213",
+            "display_name": "Harbin Institute of Technology",
+            "ror": "https://ror.org/01yqg2h08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204983213"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Huifeng Guo",
+        "raw_affiliation_strings": [
+          "Shenzhen Graduate School, Harbin Institute of Technology",
+          "Shenzhen Graduate School, Harbin Institute of Technology, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shenzhen Graduate School, Harbin Institute of Technology",
+            "institution_ids": [
+              "https://openalex.org/I204983213"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Shenzhen Graduate School, Harbin Institute of Technology, China",
+            "institution_ids": [
+              "https://openalex.org/I204983213"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5054330014",
+          "display_name": "Ruiming Tang",
+          "orcid": "https://orcid.org/0000-0002-9224-2431"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250955327",
+            "display_name": "Huawei Technologies (China)",
+            "ror": "https://ror.org/00cmhce21",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250955327"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210159102",
+            "display_name": "Huawei Technologies (Sweden)",
+            "ror": "https://ror.org/0500fyd17",
+            "country_code": "SE",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250955327",
+              "https://openalex.org/I4210159102"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "SE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ruiming TANG",
+        "raw_affiliation_strings": [
+          "Huawei Noah's Ark Lab",
+          "Noah's Ark Research Lab, Huawei, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Huawei Noah's Ark Lab",
+            "institution_ids": [
+              "https://openalex.org/I4210159102"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Noah's Ark Research Lab, Huawei, China",
+            "institution_ids": [
+              "https://openalex.org/I2250955327"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5002523892",
+          "display_name": "Yunming Ye",
+          "orcid": "https://orcid.org/0000-0002-1807-8581"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204983213",
+            "display_name": "Harbin Institute of Technology",
+            "ror": "https://ror.org/01yqg2h08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204983213"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yunming Ye",
+        "raw_affiliation_strings": [
+          "Shenzhen Graduate School, Harbin Institute of Technology",
+          "Shenzhen Graduate School, Harbin Institute of Technology, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shenzhen Graduate School, Harbin Institute of Technology",
+            "institution_ids": [
+              "https://openalex.org/I204983213"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Shenzhen Graduate School, Harbin Institute of Technology, China",
+            "institution_ids": [
+              "https://openalex.org/I204983213"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103196797",
+          "display_name": "Zhenguo Li",
+          "orcid": "https://orcid.org/0000-0002-8492-3069"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250955327",
+            "display_name": "Huawei Technologies (China)",
+            "ror": "https://ror.org/00cmhce21",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250955327"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210159102",
+            "display_name": "Huawei Technologies (Sweden)",
+            "ror": "https://ror.org/0500fyd17",
+            "country_code": "SE",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250955327",
+              "https://openalex.org/I4210159102"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "SE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhenguo Li",
+        "raw_affiliation_strings": [
+          "Huawei Noah's Ark Lab",
+          "Noah's Ark Research Lab, Huawei, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Huawei Noah's Ark Lab",
+            "institution_ids": [
+              "https://openalex.org/I4210159102"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Noah's Ark Research Lab, Huawei, China",
+            "institution_ids": [
+              "https://openalex.org/I2250955327"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5083350101",
+          "display_name": "Xiuqiang He",
+          "orcid": "https://orcid.org/0000-0002-4115-8205"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250955327",
+            "display_name": "Huawei Technologies (China)",
+            "ror": "https://ror.org/00cmhce21",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250955327"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210159102",
+            "display_name": "Huawei Technologies (Sweden)",
+            "ror": "https://ror.org/0500fyd17",
+            "country_code": "SE",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250955327",
+              "https://openalex.org/I4210159102"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "SE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiuqiang He",
+        "raw_affiliation_strings": [
+          "Huawei Noah's Ark Lab",
+          "Noah's Ark Research Lab, Huawei, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Huawei Noah's Ark Lab",
+            "institution_ids": [
+              "https://openalex.org/I4210159102"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Noah's Ark Research Lab, Huawei, China",
+            "institution_ids": [
+              "https://openalex.org/I2250955327"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Learning": [
+        0
+      ],
+      "sophisticated": [
+        1
+      ],
+      "feature": [
+        2,
+        34,
+        57,
+        75,
+        108
+      ],
+      "interactions": [
+        3
+      ],
+      "behind": [
+        4
+      ],
+      "user": [
+        5
+      ],
+      "behaviors": [
+        6
+      ],
+      "is": [
+        7,
+        43
+      ],
+      "critical": [
+        8
+      ],
+      "in": [
+        9,
+        77
+      ],
+      "maximizing": [
+        10
+      ],
+      "CTR": [
+        11,
+        130
+      ],
+      "for": [
+        12,
+        69,
+        74,
+        129
+      ],
+      "recommender": [
+        13
+      ],
+      "systems.": [
+        14
+      ],
+      "Despite": [
+        15
+      ],
+      "great": [
+        16
+      ],
+      "progress,": [
+        17
+      ],
+      "existing": [
+        18,
+        127
+      ],
+      "methods": [
+        19
+      ],
+      "seem": [
+        20
+      ],
+      "to": [
+        21,
+        45,
+        84,
+        98,
+        117
+      ],
+      "have": [
+        22
+      ],
+      "a": [
+        23,
+        78,
+        95
+      ],
+      "strong": [
+        24
+      ],
+      "bias": [
+        25
+      ],
+      "towards": [
+        26
+      ],
+      "low-": [
+        27,
+        54
+      ],
+      "or": [
+        28,
+        31
+      ],
+      "high-order": [
+        29,
+        56
+      ],
+      "interactions,": [
+        30
+      ],
+      "require": [
+        32
+      ],
+      "expertise": [
+        33
+      ],
+      "engineering.": [
+        35
+      ],
+      "In": [
+        36
+      ],
+      "this": [
+        37
+      ],
+      "paper,": [
+        38
+      ],
+      "we": [
+        39
+      ],
+      "show": [
+        40
+      ],
+      "that": [
+        41,
+        51
+      ],
+      "it": [
+        42
+      ],
+      "possible": [
+        44
+      ],
+      "derive": [
+        46
+      ],
+      "an": [
+        47
+      ],
+      "end-to-end": [
+        48
+      ],
+      "learning": [
+        49,
+        73,
+        76
+      ],
+      "model": [
+        50,
+        90
+      ],
+      "emphasizes": [
+        52
+      ],
+      "both": [
+        53,
+        133
+      ],
+      "and": [
+        55,
+        71,
+        101,
+        121,
+        136
+      ],
+      "interactions.": [
+        58
+      ],
+      "The": [
+        59
+      ],
+      "proposed": [
+        60
+      ],
+      "model,": [
+        61
+      ],
+      "DeepFM,": [
+        62
+      ],
+      "combines": [
+        63
+      ],
+      "the": [
+        64,
+        85,
+        119,
+        126
+      ],
+      "power": [
+        65
+      ],
+      "of": [
+        66,
+        107,
+        123
+      ],
+      "factorization": [
+        67
+      ],
+      "machines": [
+        68
+      ],
+      "recommendation": [
+        70
+      ],
+      "deep": [
+        72
+      ],
+      "new": [
+        79
+      ],
+      "neural": [
+        80
+      ],
+      "network": [
+        81
+      ],
+      "architecture.": [
+        82
+      ],
+      "Compared": [
+        83
+      ],
+      "latest": [
+        86
+      ],
+      "Wide": [
+        87
+      ],
+      "&amp;": [
+        88
+      ],
+      "Deep": [
+        89
+      ],
+      "from": [
+        91
+      ],
+      "Google,": [
+        92
+      ],
+      "DeepFM": [
+        93,
+        124
+      ],
+      "has": [
+        94
+      ],
+      "shared": [
+        96
+      ],
+      "input": [
+        97
+      ],
+      "its": [
+        99
+      ],
+      "\"wide\"": [
+        100
+      ],
+      "\"deep\"": [
+        102
+      ],
+      "parts,": [
+        103
+      ],
+      "with": [
+        104
+      ],
+      "no": [
+        105
+      ],
+      "need": [
+        106
+      ],
+      "engineering": [
+        109
+      ],
+      "besides": [
+        110
+      ],
+      "raw": [
+        111
+      ],
+      "features.": [
+        112
+      ],
+      "Comprehensive": [
+        113
+      ],
+      "experiments": [
+        114
+      ],
+      "are": [
+        115
+      ],
+      "conducted": [
+        116
+      ],
+      "demonstrate": [
+        118
+      ],
+      "effectiveness": [
+        120
+      ],
+      "efficiency": [
+        122
+      ],
+      "over": [
+        125
+      ],
+      "models": [
+        128
+      ],
+      "prediction,": [
+        131
+      ],
+      "on": [
+        132
+      ],
+      "benchmark": [
+        134
+      ],
+      "data": [
+        135
+      ],
+      "commercial": [
+        137
+      ],
+      "data.": [
+        138
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.24963/ijcai.2017/239",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.24963/ijcai.2017/239",
+        "pdf_url": "https://www.ijcai.org/proceedings/2017/0239.pdf",
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "abstract": "Learning sophisticated feature interactions behind user behaviors is critical in maximizing CTR for recommender systems. Despite great progress, existing methods seem to have a strong bias towards low- or high-order interactions, or require expertise feature engineering. In this paper, we show that it is possible to derive an end-to-end learning model that emphasizes both low- and high-order feature interactions. The proposed model, DeepFM, combines the power of factorization machines for recommendation and deep learning for feature learning in a new neural network architecture. Compared to the latest Wide &amp; Deep model from Google, DeepFM has a shared input to its \"wide\" and \"deep\" parts, with no need of feature engineering besides raw features. Comprehensive experiments are conducted to demonstrate the effectiveness and efficiency of DeepFM over the existing models for CTR prediction, on both benchmark data and commercial data.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://www.ijcai.org/proceedings/2017/0239.pdf"
+}

@@ -1,0 +1,828 @@
+{
+  "candidate": {
+    "category": "04 - Sequential and Session",
+    "short": "RepeatNet",
+    "title": "RepeatNet: A Repeat Aware Neural Recommendation Machine for Session-based Recommendation",
+    "year": 2019
+  },
+  "openalex": {
+    "id": "https://openalex.org/W2963669159",
+    "doi": "https://doi.org/10.1609/aaai.v33i01.33014806",
+    "title": "RepeatNet: A Repeat Aware Neural Recommendation Machine for Session-Based Recommendation",
+    "display_name": "RepeatNet: A Repeat Aware Neural Recommendation Machine for Session-Based Recommendation",
+    "publication_year": 2019,
+    "cited_by_count": 262,
+    "primary_location": {
+      "id": "doi:10.1609/aaai.v33i01.33014806",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1609/aaai.v33i01.33014806",
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/4408/4286",
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "issn_l": "2159-5399",
+        "issn": [
+          "2159-5399",
+          "2374-3468"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320058",
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320058"
+        ],
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "raw_type": "journal-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://ojs.aaai.org/index.php/AAAI/article/download/4408/4286",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5046700486",
+          "display_name": "Pengjie Ren",
+          "orcid": "https://orcid.org/0000-0003-2964-6422"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I887064364",
+            "display_name": "University of Amsterdam",
+            "ror": "https://ror.org/04dkp9463",
+            "country_code": "NL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I887064364"
+            ]
+          }
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Pengjie Ren",
+        "raw_affiliation_strings": [
+          "University of Amsterdam"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Amsterdam",
+            "institution_ids": [
+              "https://openalex.org/I887064364"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5050947285",
+          "display_name": "Zhumin Chen",
+          "orcid": "https://orcid.org/0000-0003-4592-4074"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154099455",
+            "display_name": "Shandong University",
+            "ror": "https://ror.org/0207yh398",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhumin Chen",
+        "raw_affiliation_strings": [
+          "Shandong University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shandong University",
+            "institution_ids": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5025676213",
+          "display_name": "Jing Li",
+          "orcid": "https://orcid.org/0000-0002-0157-3041"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154099455",
+            "display_name": "Shandong University",
+            "ror": "https://ror.org/0207yh398",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jing Li",
+        "raw_affiliation_strings": [
+          "Shandong University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shandong University",
+            "institution_ids": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100384130",
+          "display_name": "Zhaochun Ren",
+          "orcid": "https://orcid.org/0000-0002-9076-6565"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210103986",
+            "display_name": "Jingdong (China)",
+            "ror": "https://ror.org/01dkjkq64",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210103986"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhaochun Ren",
+        "raw_affiliation_strings": [
+          "JD.com"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "JD.com",
+            "institution_ids": [
+              "https://openalex.org/I4210103986"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100643097",
+          "display_name": "Jun Ma",
+          "orcid": "https://orcid.org/0000-0003-0203-4610"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154099455",
+            "display_name": "Shandong University",
+            "ror": "https://ror.org/0207yh398",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jun Ma",
+        "raw_affiliation_strings": [
+          "Shandong University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shandong University",
+            "institution_ids": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5031439294",
+          "display_name": "Maarten de Rijke",
+          "orcid": "https://orcid.org/0000-0002-1086-0202"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I887064364",
+            "display_name": "University of Amsterdam",
+            "ror": "https://ror.org/04dkp9463",
+            "country_code": "NL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I887064364"
+            ]
+          }
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Maarten De Rijke",
+        "raw_affiliation_strings": [
+          "University of Amsterdam"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Amsterdam",
+            "institution_ids": [
+              "https://openalex.org/I887064364"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Recurrent": [
+        0
+      ],
+      "neural": [
+        1,
+        53,
+        57,
+        77,
+        94
+      ],
+      "networks": [
+        2,
+        78
+      ],
+      "for": [
+        3
+      ],
+      "session-based": [
+        4
+      ],
+      "recommendation": [
+        5,
+        26,
+        95,
+        104,
+        170
+      ],
+      "have": [
+        6,
+        48
+      ],
+      "attracted": [
+        7
+      ],
+      "a": [
+        8,
+        21,
+        73,
+        81,
+        92,
+        101,
+        111
+      ],
+      "lot": [
+        9
+      ],
+      "of": [
+        10,
+        14,
+        140,
+        156
+      ],
+      "attention": [
+        11
+      ],
+      "recently": [
+        12
+      ],
+      "because": [
+        13
+      ],
+      "their": [
+        15
+      ],
+      "promising": [
+        16
+      ],
+      "performance.": [
+        17
+      ],
+      "repeat": [
+        18,
+        50,
+        66,
+        103,
+        151,
+        169
+      ],
+      "consumption": [
+        19,
+        51
+      ],
+      "is": [
+        20,
+        39,
+        59
+      ],
+      "common": [
+        22
+      ],
+      "phenomenon": [
+        23
+      ],
+      "in": [
+        24,
+        97,
+        138,
+        167
+      ],
+      "many": [
+        25
+      ],
+      "scenarios": [
+        27
+      ],
+      "(e.g.,": [
+        28
+      ],
+      "e-commerce,": [
+        29
+      ],
+      "music,": [
+        30
+      ],
+      "and": [
+        31,
+        79,
+        114,
+        142,
+        149
+      ],
+      "TV": [
+        32
+      ],
+      "program": [
+        33
+      ],
+      "recommendations),": [
+        34
+      ],
+      "where": [
+        35
+      ],
+      "the": [
+        36,
+        98,
+        118,
+        146,
+        150,
+        154,
+        159
+      ],
+      "same": [
+        37
+      ],
+      "item": [
+        38
+      ],
+      "re-consumed": [
+        40
+      ],
+      "repeatedly": [
+        41
+      ],
+      "over": [
+        42,
+        158
+      ],
+      "time.": [
+        43,
+        120
+      ],
+      "However,": [
+        44
+      ],
+      "no": [
+        45
+      ],
+      "previous": [
+        46
+      ],
+      "studies": [
+        47
+      ],
+      "emphasized": [
+        49
+      ],
+      "with": [
+        52,
+        86,
+        100
+      ],
+      "networks.": [
+        54
+      ],
+      "An": [
+        55
+      ],
+      "effective": [
+        56
+      ],
+      "approach": [
+        58,
+        96
+      ],
+      "needed": [
+        60
+      ],
+      "to": [
+        61,
+        64
+      ],
+      "decide": [
+        62
+      ],
+      "when": [
+        63
+      ],
+      "perform": [
+        65
+      ],
+      "recommendation.": [
+        67
+      ],
+      "In": [
+        68
+      ],
+      "this": [
+        69
+      ],
+      "paper,": [
+        70
+      ],
+      "we": [
+        71
+      ],
+      "incorporate": [
+        72
+      ],
+      "repeat-explore": [
+        74
+      ],
+      "mechanism": [
+        75,
+        105
+      ],
+      "into": [
+        76
+      ],
+      "propose": [
+        80
+      ],
+      "new": [
+        82,
+        102
+      ],
+      "model,": [
+        83
+      ],
+      "called": [
+        84
+      ],
+      "RepeatNet,": [
+        85
+      ],
+      "an": [
+        87
+      ],
+      "encoder-decoder": [
+        88
+      ],
+      "structure.": [
+        89
+      ],
+      "RepeatNet": [
+        90,
+        130,
+        157
+      ],
+      "integrates": [
+        91
+      ],
+      "regular": [
+        93
+      ],
+      "decoder": [
+        99
+      ],
+      "that": [
+        106
+      ],
+      "can": [
+        107
+      ],
+      "choose": [
+        108
+      ],
+      "items": [
+        109
+      ],
+      "from": [
+        110
+      ],
+      "user’s": [
+        112
+      ],
+      "history": [
+        113
+      ],
+      "recommends": [
+        115
+      ],
+      "them": [
+        116
+      ],
+      "at": [
+        117
+      ],
+      "right": [
+        119
+      ],
+      "We": [
+        121
+      ],
+      "report": [
+        122
+      ],
+      "on": [
+        123,
+        126,
+        134
+      ],
+      "extensive": [
+        124
+      ],
+      "experiments": [
+        125
+      ],
+      "three": [
+        127,
+        136
+      ],
+      "benchmark": [
+        128
+      ],
+      "datasets.": [
+        129
+      ],
+      "outperforms": [
+        131
+      ],
+      "state-of-the-art": [
+        132
+      ],
+      "baselines": [
+        133,
+        160
+      ],
+      "all": [
+        135
+      ],
+      "datasets": [
+        137
+      ],
+      "terms": [
+        139
+      ],
+      "MRR": [
+        141
+      ],
+      "Recall.": [
+        143
+      ],
+      "Furthermore,": [
+        144
+      ],
+      "as": [
+        145
+      ],
+      "dataset": [
+        147
+      ],
+      "size": [
+        148
+      ],
+      "ratio": [
+        152
+      ],
+      "increase,": [
+        153,
+        162
+      ],
+      "improvements": [
+        155
+      ],
+      "also": [
+        161
+      ],
+      "which": [
+        163
+      ],
+      "demonstrates": [
+        164
+      ],
+      "its": [
+        165
+      ],
+      "advantage": [
+        166
+      ],
+      "handling": [
+        168
+      ],
+      "scenarios.": [
+        171
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1609/aaai.v33i01.33014806",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1609/aaai.v33i01.33014806",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/4408/4286",
+        "source": {
+          "id": "https://openalex.org/S4210191458",
+          "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "issn_l": "2159-5399",
+          "issn": [
+            "2159-5399",
+            "2374-3468"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320058",
+          "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320058"
+          ],
+          "host_organization_lineage_names": [
+            "Association for the Advancement of Artificial Intelligence"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:dare.uva.nl:openaire_cris_publications/80561252-7cf3-433f-aa80-ab8e963a089d",
+        "is_oa": false,
+        "landing_page_url": "https://hdl.handle.net/11245.1/80561252-7cf3-433f-aa80-ab8e963a089d",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400088",
+          "display_name": "UvA-DARE (University of Amsterdam)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I887064364",
+          "host_organization_name": "University of Amsterdam",
+          "host_organization_lineage": [
+            "https://openalex.org/I887064364"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Ren, P, Chen, Z, Li, J, Ren, Z, Ma, J & de Rijke, M 2019, RepeatNet: A Repeat Aware Neural Recommendation Machine for Session-based Recommendation. in Thirty-Third AAAI Conference on Artificial Intelligence, Thirty-First Conference on Innovative Applications of Artificial Intelligence, The Ninth Symposium on Educational Advances in Artificial Intelligence : AAAI-19, IAAI-19, EAAI-20 : January 27-February 1, 2019, Hilton Hawaiian Village, Honolulu, Hawaii, USA. Proceedings of the AAAI Conference on Artificial Intelligence, vol. 33, Palo Alto, California, pp. 4806-4813, 33rd AAAI Conference on Artificial Intelligence, Honolulu, Hawaii, United States, 27/01/19. https://doi.org/10.1609/aaai.v33i01.33014806",
+        "raw_type": "info:eu-repo/semantics/publishedVersion"
+      },
+      {
+        "id": "pmh:oai:dare.uva.nl:publications/80561252-7cf3-433f-aa80-ab8e963a089d",
+        "is_oa": false,
+        "landing_page_url": "https://handle.uba.uva.nl/personal/pure/en/publications/repeatnet-a-repeat-aware-neural-recommendation-machine-for-sessionbased-recommendation(80561252-7cf3-433f-aa80-ab8e963a089d).html",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400088",
+          "display_name": "UvA-DARE (University of Amsterdam)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I887064364",
+          "host_organization_name": "University of Amsterdam",
+          "host_organization_lineage": [
+            "https://openalex.org/I887064364"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Ren, P, Chen, Z, Li, J, Ren, Z, Ma, J & de Rijke, M 2019, RepeatNet: A Repeat Aware Neural Recommendation Machine for Session-based Recommendation. in Thirty-Third AAAI Conference on Artificial Intelligence, Thirty-First Conference on Innovative Applications of Artificial Intelligence, The Ninth Symposium on Educational Advances in Artificial Intelligence : AAAI-19, IAAI-19, EAAI-20 : January 27-February 1, 2019, Hilton Hawaiian Village, Honolulu, Hawaii, USA. Proceedings of the AAAI Conference on Artificial Intelligence, vol. 33, Palo Alto, California, pp. 4806-4813, 33rd AAAI Conference on Artificial Intelligence, Honolulu, Hawaii, United States, 27/01/19. https://doi.org/10.1609/aaai.v33i01.33014806",
+        "raw_type": "info:eu-repo/semantics/publishedVersion"
+      },
+      {
+        "id": "pmh:oai:ojs.aaai.org:article/4408",
+        "is_oa": false,
+        "landing_page_url": "https://ojs.aaai.org/index.php/AAAI/article/view/4408",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "2159-5399",
+        "raw_type": "info:eu-repo/semantics/publishedVersion"
+      },
+      {
+        "id": "pmh:uvapub:oai:dare.uva.nl:publications/80561252-7cf3-433f-aa80-ab8e963a089d",
+        "is_oa": false,
+        "landing_page_url": "https://dare.uva.nl/personal/pure/en/publications/repeatnet-a-repeat-aware-neural-recommendation-machine-for-sessionbased-recommendation(80561252-7cf3-433f-aa80-ab8e963a089d).html",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401843",
+          "display_name": "Data Archiving and Networked Services (DANS)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1322597698",
+          "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+          "host_organization_lineage": [
+            "https://openalex.org/I1322597698"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Thirty-Third AAAI Conference on Artificial Intelligence, Thirty-First Conference on Innovative Applications of Artificial Intelligence, The Ninth Symposium on Educational Advances in Artificial Intelligence: AAAI-19, IAAI-19, EAAI-20 : January 27-February 1, 2019, Hilton Hawaiian Village, Honolulu, Hawaii, USA, 4806 - 4813",
+        "raw_type": "info:eu-repo/semantics/conferencepaper"
+      }
+    ],
+    "abstract": "Recurrent neural networks for session-based recommendation have attracted a lot of attention recently because of their promising performance. repeat consumption is a common phenomenon in many recommendation scenarios (e.g., e-commerce, music, and TV program recommendations), where the same item is re-consumed repeatedly over time. However, no previous studies have emphasized repeat consumption with neural networks. An effective neural approach is needed to decide when to perform repeat recommendation. In this paper, we incorporate a repeat-explore mechanism into neural networks and propose a new model, called RepeatNet, with an encoder-decoder structure. RepeatNet integrates a regular neural recommendation approach in the decoder with a new repeat recommendation mechanism that can choose items from a user’s history and recommends them at the right time. We report on extensive experiments on three benchmark datasets. RepeatNet outperforms state-of-the-art baselines on all three datasets in terms of MRR and Recall. Furthermore, as the dataset size and the repeat ratio increase, the improvements of RepeatNet over the baselines also increase, which demonstrates its advantage in handling repeat recommendation scenarios.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://ojs.aaai.org/index.php/AAAI/article/download/4408/4286"
+}

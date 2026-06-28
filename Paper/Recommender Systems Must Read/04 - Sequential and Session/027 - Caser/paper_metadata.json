@@ -1,0 +1,43 @@
+{
+  "candidate": {
+    "category": "04 - Sequential and Session",
+    "short": "Caser",
+    "title": "Personalized Top-N Sequential Recommendation via Convolutional Sequence Embedding",
+    "year": 2018
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/1809.07426v1",
+    "doi": "",
+    "title": "Personalized Top-N Sequential Recommendation via Convolutional Sequence Embedding",
+    "display_name": "Personalized Top-N Sequential Recommendation via Convolutional Sequence Embedding",
+    "publication_year": 2018,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/1809.07426v1",
+      "landing_page_url": "http://arxiv.org/abs/1809.07426v1",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1809.07426v1"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Jiaxi Tang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Ke Wang"
+        }
+      }
+    ],
+    "abstract": "Top-$N$ sequential recommendation models each user as a sequence of items interacted in the past and aims to predict top-$N$ ranked items that a user will likely interact in a `near future'. The order of interaction implies that sequential patterns play an important role where more recent items in a sequence have a larger impact on the next item. In this paper, we propose a Convolutional Sequence Embedding Recommendation Model (\\emph{Caser}) as a solution to address this requirement. The idea is to embed a sequence of recent items into an `image' in the time and latent spaces and learn sequential patterns as local features of the image using convolutional filters. This approach provides a unified and flexible network structure for capturing both general preferences and sequential patterns. The experiments on public datasets demonstrated that Caser consistently outperforms state-of-the-art sequential recommendation methods on a variety of common evaluation metrics.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/1809.07426v1.pdf"
+}

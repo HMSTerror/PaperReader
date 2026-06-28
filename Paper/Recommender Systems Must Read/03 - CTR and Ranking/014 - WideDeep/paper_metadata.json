@@ -1,0 +1,113 @@
+{
+  "candidate": {
+    "category": "03 - CTR and Ranking",
+    "short": "WideDeep",
+    "title": "Wide & Deep Learning for Recommender Systems",
+    "year": 2016
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/1606.07792v1",
+    "doi": "",
+    "title": "Wide & Deep Learning for Recommender Systems",
+    "display_name": "Wide & Deep Learning for Recommender Systems",
+    "publication_year": 2016,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/1606.07792v1",
+      "landing_page_url": "http://arxiv.org/abs/1606.07792v1",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1606.07792v1"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Heng-Tze Cheng"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Levent Koc"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Jeremiah Harmsen"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Tal Shaked"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Tushar Chandra"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Hrishi Aradhye"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Glen Anderson"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Greg Corrado"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Wei Chai"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Mustafa Ispir"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Rohan Anil"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Zakaria Haque"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Lichan Hong"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Vihan Jain"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Xiaobing Liu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Hemal Shah"
+        }
+      }
+    ],
+    "abstract": "Generalized linear models with nonlinear feature transformations are widely used for large-scale regression and classification problems with sparse inputs. Memorization of feature interactions through a wide set of cross-product feature transformations are effective and interpretable, while generalization requires more feature engineering effort. With less feature engineering, deep neural networks can generalize better to unseen feature combinations through low-dimensional dense embeddings learned for the sparse features. However, deep neural networks with embeddings can over-generalize and recommend less relevant items when the user-item interactions are sparse and high-rank. In this paper, we present Wide & Deep learning---jointly trained wide linear models and deep neural networks---to combine the benefits of memorization and generalization for recommender systems. We productionized and evaluated the system on Google Play, a commercial mobile app store with over one billion active users and over one million apps. Online experiment results show that Wide & Deep significantly increased app acquisitions compared with wide-only and deep-only models. We have also open-sourced our implementation in TensorFlow.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/1606.07792v1.pdf"
+}

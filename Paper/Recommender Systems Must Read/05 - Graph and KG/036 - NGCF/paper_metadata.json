@@ -1,0 +1,553 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "NGCF",
+    "title": "Neural Graph Collaborative Filtering",
+    "year": 2019
+  },
+  "openalex": {
+    "id": "https://openalex.org/W2945827670",
+    "doi": "https://doi.org/10.1145/3331184.3331267",
+    "title": "Neural Graph Collaborative Filtering",
+    "display_name": "Neural Graph Collaborative Filtering",
+    "publication_year": 2019,
+    "cited_by_count": 3020,
+    "primary_location": {
+      "id": "doi:10.1145/3331184.3331267",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1145/3331184.3331267",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "raw_type": "proceedings-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/1905.08108",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Xiang Wang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165932596",
+            "display_name": "National University of Singapore",
+            "ror": "https://ror.org/01tgyzw49",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiang Wang",
+        "raw_affiliation_strings": [
+          "National University of Singapore, Singapore, Singapore"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National University of Singapore, Singapore, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Xiangnan He",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I126520041",
+            "display_name": "University of Science and Technology of China",
+            "ror": "https://ror.org/04c4dkn09",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I126520041",
+              "https://openalex.org/I19820366"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiangnan He",
+        "raw_affiliation_strings": [
+          "University of Science and Technology of China, Hefei, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Science and Technology of China, Hefei, China",
+            "institution_ids": [
+              "https://openalex.org/I126520041"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Meng Wang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16365422",
+            "display_name": "Hefei University of Technology",
+            "ror": "https://ror.org/02czkny70",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16365422"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Meng Wang",
+        "raw_affiliation_strings": [
+          "Hefei University of Technology, Hefei, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Hefei University of Technology, Hefei, China",
+            "institution_ids": [
+              "https://openalex.org/I16365422"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Fuli Feng",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165932596",
+            "display_name": "National University of Singapore",
+            "ror": "https://ror.org/01tgyzw49",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fuli Feng",
+        "raw_affiliation_strings": [
+          "National University of Singapore, Singapore, Singapore"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National University of Singapore, Singapore, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": null,
+          "display_name": "Tat-Seng Chua",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165932596",
+            "display_name": "National University of Singapore",
+            "ror": "https://ror.org/01tgyzw49",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tat-Seng Chua",
+        "raw_affiliation_strings": [
+          "National University of Singapore, Singapore, Singapore"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National University of Singapore, Singapore, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Learning": [
+        0
+      ],
+      "vector": [
+        1
+      ],
+      "representations": [
+        2
+      ],
+      "(aka.": [
+        3
+      ],
+      "embeddings)": [
+        4
+      ],
+      "of": [
+        5,
+        13,
+        62
+      ],
+      "users": [
+        6
+      ],
+      "and": [
+        7,
+        54
+      ],
+      "items": [
+        8
+      ],
+      "lies": [
+        9
+      ],
+      "at": [
+        10
+      ],
+      "the": [
+        11,
+        46,
+        49,
+        67,
+        80,
+        85,
+        94
+      ],
+      "core": [
+        12
+      ],
+      "modern": [
+        14
+      ],
+      "recommender": [
+        15
+      ],
+      "systems.": [
+        16
+      ],
+      "Ranging": [
+        17
+      ],
+      "from": [
+        18,
+        41
+      ],
+      "early": [
+        19
+      ],
+      "matrix": [
+        20
+      ],
+      "factorization": [
+        21
+      ],
+      "to": [
+        22,
+        92
+      ],
+      "recently": [
+        23
+      ],
+      "emerged": [
+        24
+      ],
+      "deep": [
+        25
+      ],
+      "learning": [
+        26
+      ],
+      "based": [
+        27
+      ],
+      "methods,": [
+        28
+      ],
+      "existing": [
+        29
+      ],
+      "efforts": [
+        30
+      ],
+      "typically": [
+        31
+      ],
+      "obtain": [
+        32
+      ],
+      "a": [
+        33
+      ],
+      "user's": [
+        34
+      ],
+      "(or": [
+        35,
+        48
+      ],
+      "an": [
+        36,
+        59
+      ],
+      "item's)": [
+        37
+      ],
+      "embedding": [
+        38,
+        81
+      ],
+      "by": [
+        39
+      ],
+      "mapping": [
+        40
+      ],
+      "pre-existing": [
+        42
+      ],
+      "features": [
+        43
+      ],
+      "that": [
+        44,
+        58
+      ],
+      "describe": [
+        45
+      ],
+      "user": [
+        47
+      ],
+      "item),": [
+        50
+      ],
+      "such": [
+        51,
+        63
+      ],
+      "as": [
+        52
+      ],
+      "ID": [
+        53
+      ],
+      "attributes.": [
+        55
+      ],
+      "We": [
+        56
+      ],
+      "argue": [
+        57
+      ],
+      "inherent": [
+        60
+      ],
+      "drawback": [
+        61
+      ],
+      "methods": [
+        64
+      ],
+      "is": [
+        65,
+        71,
+        76
+      ],
+      "that,": [
+        66
+      ],
+      "collaborative": [
+        68,
+        95
+      ],
+      "signal,": [
+        69
+      ],
+      "which": [
+        70
+      ],
+      "latent": [
+        72
+      ],
+      "in": [
+        73,
+        79
+      ],
+      "user-item": [
+        74
+      ],
+      "interactions,": [
+        75
+      ],
+      "not": [
+        77,
+        89
+      ],
+      "encoded": [
+        78
+      ],
+      "process.": [
+        82
+      ],
+      "As": [
+        83
+      ],
+      "such,": [
+        84
+      ],
+      "resultant": [
+        86
+      ],
+      "embeddings": [
+        87
+      ],
+      "may": [
+        88
+      ],
+      "be": [
+        90
+      ],
+      "sufficient": [
+        91
+      ],
+      "capture": [
+        93
+      ],
+      "filtering": [
+        96
+      ],
+      "effect.": [
+        97
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1145/3331184.3331267",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3331184.3331267",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:1905.08108",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1905.08108",
+        "pdf_url": "https://arxiv.org/pdf/1905.08108",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "pmh:oai:scholarbank.nus.edu.sg:10635/167285",
+        "is_oa": false,
+        "landing_page_url": "https://scholarbank.nus.edu.sg/handle/10635/167285",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407052290",
+          "display_name": "National University of Singapore",
+          "issn_l": null,
+          "issn": [],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Conference Paper"
+      }
+    ],
+    "abstract": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing efforts typically obtain a user's (or an item's) embedding by mapping from pre-existing features that describe the user (or the item), such as ID and attributes. We argue that an inherent drawback of such methods is that, the collaborative signal, which is latent in user-item interactions, is not encoded in the embedding process. As such, the resultant embeddings may not be sufficient to capture the collaborative filtering effect.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/1905.08108.pdf"
+}

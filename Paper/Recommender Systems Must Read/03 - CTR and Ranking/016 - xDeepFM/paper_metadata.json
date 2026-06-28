@@ -1,0 +1,739 @@
+{
+  "candidate": {
+    "category": "03 - CTR and Ranking",
+    "short": "xDeepFM",
+    "title": "xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems",
+    "year": 2018
+  },
+  "openalex": {
+    "id": "https://openalex.org/W3170187879",
+    "doi": "https://doi.org/10.48550/arxiv.1803.05170",
+    "title": "xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems",
+    "display_name": "xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems",
+    "publication_year": 2018,
+    "cited_by_count": 105,
+    "primary_location": {
+      "id": "doi:10.48550/arxiv.1803.05170",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.48550/arxiv.1803.05170",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "article-journal"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.48550/arxiv.1803.05170",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Lian, Jianxun",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Lian, Jianxun",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Zhou, Xiaohuan",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Zhou, Xiaohuan",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Zhang, Fuzheng",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Zhang, Fuzheng",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Chen, Zhongxia",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Chen, Zhongxia",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Xie, Xing",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Xie, Xing",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": null,
+          "display_name": "Sun, Guangzhong",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Sun, Guangzhong",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "abstract_inverted_index": {
+      "Combinatorial": [
+        0
+      ],
+      "features": [
+        1,
+        14,
+        49,
+        55
+      ],
+      "are": [
+        2
+      ],
+      "essential": [
+        3
+      ],
+      "for": [
+        4
+      ],
+      "the": [
+        5,
+        22,
+        59,
+        87,
+        105,
+        131,
+        137,
+        178,
+        190,
+        222
+      ],
+      "success": [
+        6,
+        61
+      ],
+      "of": [
+        7,
+        27,
+        41,
+        47,
+        62,
+        90,
+        225
+      ],
+      "many": [
+        8
+      ],
+      "commercial": [
+        9
+      ],
+      "models.": [
+        10,
+        218
+      ],
+      "Manually": [
+        11
+      ],
+      "crafting": [
+        12
+      ],
+      "these": [
+        13
+      ],
+      "usually": [
+        15
+      ],
+      "comes": [
+        16
+      ],
+      "with": [
+        17,
+        142
+      ],
+      "high": [
+        18
+      ],
+      "cost": [
+        19
+      ],
+      "due": [
+        20
+      ],
+      "to": [
+        21,
+        53,
+        78,
+        121,
+        182
+      ],
+      "variety,": [
+        23
+      ],
+      "volume": [
+        24
+      ],
+      "and": [
+        25,
+        51,
+        82,
+        103,
+        129,
+        147,
+        157,
+        165,
+        198
+      ],
+      "velocity": [
+        26
+      ],
+      "raw": [
+        28
+      ],
+      "data": [
+        29
+      ],
+      "in": [
+        30,
+        39,
+        67,
+        125
+      ],
+      "web-scale": [
+        31
+      ],
+      "systems.": [
+        32
+      ],
+      "Factorization": [
+        33,
+        172
+      ],
+      "based": [
+        34
+      ],
+      "models,": [
+        35
+      ],
+      "which": [
+        36,
+        119
+      ],
+      "measure": [
+        37
+      ],
+      "interactions": [
+        38,
+        101,
+        124,
+        187,
+        201
+      ],
+      "terms": [
+        40
+      ],
+      "vector": [
+        42
+      ],
+      "product,": [
+        43
+      ],
+      "can": [
+        44,
+        194
+      ],
+      "learn": [
+        45,
+        79,
+        183,
+        195
+      ],
+      "patterns": [
+        46
+      ],
+      "combinatorial": [
+        48
+      ],
+      "automatically": [
+        50
+      ],
+      "generalize": [
+        52
+      ],
+      "unseen": [
+        54
+      ],
+      "as": [
+        56
+      ],
+      "well.": [
+        57
+      ],
+      "With": [
+        58
+      ],
+      "great": [
+        60
+      ],
+      "deep": [
+        63
+      ],
+      "neural": [
+        64,
+        144,
+        149
+      ],
+      "networks": [
+        65,
+        145,
+        150
+      ],
+      "(DNNs)": [
+        66
+      ],
+      "various": [
+        68
+      ],
+      "fields,": [
+        69
+      ],
+      "recently": [
+        70
+      ],
+      "researchers": [
+        71
+      ],
+      "have": [
+        72,
+        220
+      ],
+      "proposed": [
+        73
+      ],
+      "several": [
+        74
+      ],
+      "DNN-based": [
+        75
+      ],
+      "factorization": [
+        76
+      ],
+      "model": [
+        77,
+        169
+      ],
+      "both": [
+        80
+      ],
+      "low-": [
+        81,
+        197
+      ],
+      "high-order": [
+        83,
+        199
+      ],
+      "feature": [
+        84,
+        100,
+        123,
+        186,
+        200
+      ],
+      "interactions.": [
+        85
+      ],
+      "Despite": [
+        86
+      ],
+      "powerful": [
+        88
+      ],
+      "ability": [
+        89
+      ],
+      "learning": [
+        91
+      ],
+      "an": [
+        92,
+        126
+      ],
+      "arbitrary": [
+        93,
+        196
+      ],
+      "function": [
+        94
+      ],
+      "from": [
+        95
+      ],
+      "data,": [
+        96
+      ],
+      "plain": [
+        97
+      ],
+      "DNNs": [
+        98
+      ],
+      "generate": [
+        99,
+        122
+      ],
+      "implicitly": [
+        102
+      ],
+      "at": [
+        104,
+        130,
+        227
+      ],
+      "bit-wise": [
+        106
+      ],
+      "level.": [
+        107,
+        133
+      ],
+      "In": [
+        108
+      ],
+      "this": [
+        109,
+        167
+      ],
+      "paper,": [
+        110
+      ],
+      "we": [
+        111
+      ],
+      "propose": [
+        112
+      ],
+      "a": [
+        113,
+        155,
+        158
+      ],
+      "novel": [
+        114
+      ],
+      "Compressed": [
+        115
+      ],
+      "Interaction": [
+        116
+      ],
+      "Network": [
+        117
+      ],
+      "(CIN),": [
+        118
+      ],
+      "aims": [
+        120
+      ],
+      "explicit": [
+        127
+      ],
+      "fashion": [
+        128
+      ],
+      "vector-wise": [
+        132
+      ],
+      "We": [
+        134,
+        152,
+        203,
+        219
+      ],
+      "show": [
+        135
+      ],
+      "that": [
+        136,
+        214
+      ],
+      "CIN": [
+        138,
+        156
+      ],
+      "share": [
+        139
+      ],
+      "some": [
+        140
+      ],
+      "functionalities": [
+        141
+      ],
+      "convolutional": [
+        143
+      ],
+      "(CNNs)": [
+        146
+      ],
+      "recurrent": [
+        148
+      ],
+      "(RNNs).": [
+        151
+      ],
+      "further": [
+        153
+      ],
+      "combine": [
+        154
+      ],
+      "classical": [
+        159
+      ],
+      "DNN": [
+        160
+      ],
+      "into": [
+        161
+      ],
+      "one": [
+        162,
+        176
+      ],
+      "unified": [
+        163
+      ],
+      "model,": [
+        164
+      ],
+      "named": [
+        166
+      ],
+      "new": [
+        168
+      ],
+      "eXtreme": [
+        170
+      ],
+      "Deep": [
+        171
+      ],
+      "Machine": [
+        173
+      ],
+      "(xDeepFM).": [
+        174
+      ],
+      "On": [
+        175
+      ],
+      "hand,": [
+        177,
+        192
+      ],
+      "xDeepFM": [
+        179,
+        215,
+        226
+      ],
+      "is": [
+        180
+      ],
+      "able": [
+        181
+      ],
+      "certain": [
+        184
+      ],
+      "bounded-degree": [
+        185
+      ],
+      "explicitly;": [
+        188
+      ],
+      "on": [
+        189,
+        207
+      ],
+      "other": [
+        191
+      ],
+      "it": [
+        193
+      ],
+      "implicitly.": [
+        202
+      ],
+      "conduct": [
+        204
+      ],
+      "comprehensive": [
+        205
+      ],
+      "experiments": [
+        206
+      ],
+      "three": [
+        208
+      ],
+      "real-world": [
+        209
+      ],
+      "datasets.": [
+        210
+      ],
+      "Our": [
+        211
+      ],
+      "results": [
+        212
+      ],
+      "demonstrate": [
+        213
+      ],
+      "outperforms": [
+        216
+      ],
+      "state-of-the-art": [
+        217
+      ],
+      "released": [
+        221
+      ],
+      "source": [
+        223
+      ],
+      "code": [
+        224
+      ],
+      "\\url{https://github.com/Leavingseason/xDeepFM}.": [
+        228
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.48550/arxiv.1803.05170",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.1803.05170",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "article-journal"
+      },
+      {
+        "id": "mag:3170187879",
+        "is_oa": false,
+        "landing_page_url": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202002233278803889",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306500161",
+          "display_name": "ACM Proceedings",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": "ACM Proceedings",
+        "raw_type": null
+      }
+    ],
+    "abstract": "Combinatorial features are essential for the success of many commercial models. Manually crafting these features usually comes with high cost due to the variety, volume and velocity of raw data in web-scale systems. Factorization based models, which measure interactions in terms of vector product, can learn patterns of combinatorial features automatically and generalize to unseen features as well. With the great success of deep neural networks (DNNs) in various fields, recently researchers have proposed several DNN-based factorization model to learn both low- and high-order feature interactions. Despite the powerful ability of learning an arbitrary function from data, plain DNNs generate feature interactions implicitly and at the bit-wise level. In this paper, we propose a novel Compressed Interaction Network (CIN), which aims to generate feature interactions in an explicit fashion and at the vector-wise level. We show that the CIN share some functionalities with convolutional neural networks (CNNs) and recurrent neural networks (RNNs). We further combine a CIN and a classical DNN into one unified model, and named this new model eXtreme Deep Factorization Machine (xDeepFM). On one hand, the xDeepFM is able to learn certain bounded-degree feature interactions explicitly; on the other hand, it can learn arbitrary low- and high-order feature interactions implicitly. We conduct comprehensive experiments on three real-world datasets. Our results demonstrate that xDeepFM outperforms state-of-the-art models. We have released the source code of xDeepFM at \\url{https://github.com/Leavingseason/xDeepFM}.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/1803.05170.pdf"
+}

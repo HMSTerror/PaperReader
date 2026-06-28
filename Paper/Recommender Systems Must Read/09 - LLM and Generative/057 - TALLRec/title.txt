@@ -1,0 +1,1 @@
+TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation

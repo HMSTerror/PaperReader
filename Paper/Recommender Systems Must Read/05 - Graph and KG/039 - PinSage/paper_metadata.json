@@ -1,0 +1,872 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "PinSage",
+    "title": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+    "year": 2018
+  },
+  "openalex": {
+    "id": "https://openalex.org/W2807021761",
+    "doi": "https://doi.org/10.1145/3219819.3219890",
+    "title": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+    "display_name": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+    "publication_year": 2018,
+    "cited_by_count": 2755,
+    "primary_location": {
+      "id": "doi:10.1145/3219819.3219890",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1145/3219819.3219890",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining",
+      "raw_type": "proceedings-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/1806.01973",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Rex Ying",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rex Ying",
+        "raw_affiliation_strings": [
+          "Stanford University &amp;Pinterest, Stanford, CA, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stanford University &amp;Pinterest, Stanford, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Ruining He",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ruining He",
+        "raw_affiliation_strings": [
+          "Pinterest, San Francisco, CA, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Pinterest, San Francisco, CA, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Kaifeng Chen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kaifeng Chen",
+        "raw_affiliation_strings": [
+          "Pinterest &amp;Stanford University, San Francisco, CA, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Pinterest &amp;Stanford University, San Francisco, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Pong Eksombatchai",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Pong Eksombatchai",
+        "raw_affiliation_strings": [
+          "Pinterest, San Francisco, CA, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Pinterest, San Francisco, CA, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "William L. Hamilton",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "William L. Hamilton",
+        "raw_affiliation_strings": [
+          "Stanford University, Stanford, CA, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stanford University, Stanford, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": null,
+          "display_name": "Jure Leskovec",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jure Leskovec",
+        "raw_affiliation_strings": [
+          "Stanford University &amp;Pinterest, Stanford, CA, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stanford University &amp;Pinterest, Stanford, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Recent": [
+        0
+      ],
+      "advancements": [
+        1
+      ],
+      "in": [
+        2,
+        180
+      ],
+      "deep": [
+        3,
+        48,
+        221,
+        236
+      ],
+      "neural": [
+        4
+      ],
+      "networks": [
+        5
+      ],
+      "for": [
+        6,
+        245
+      ],
+      "graph-structured": [
+        7
+      ],
+      "data": [
+        8
+      ],
+      "have": [
+        9
+      ],
+      "led": [
+        10
+      ],
+      "to": [
+        11,
+        25,
+        75,
+        94,
+        109,
+        125,
+        142,
+        176,
+        204,
+        239
+      ],
+      "state-of-the-art": [
+        12
+      ],
+      "performance": [
+        13
+      ],
+      "on": [
+        14,
+        104,
+        121,
+        153,
+        254
+      ],
+      "recommender": [
+        15,
+        251
+      ],
+      "system": [
+        16
+      ],
+      "benchmarks.": [
+        17
+      ],
+      "However,": [
+        18
+      ],
+      "making": [
+        19
+      ],
+      "these": [
+        20
+      ],
+      "methods": [
+        21
+      ],
+      "practical": [
+        22
+      ],
+      "and": [
+        23,
+        33,
+        54,
+        72,
+        113,
+        128,
+        154,
+        197,
+        199,
+        241
+      ],
+      "scalable": [
+        24
+      ],
+      "web-scale": [
+        26,
+        250
+      ],
+      "recommendation": [
+        27,
+        49
+      ],
+      "tasks": [
+        28
+      ],
+      "with": [
+        29,
+        191
+      ],
+      "billions": [
+        30
+      ],
+      "of": [
+        31,
+        35,
+        37,
+        78,
+        130,
+        161,
+        235,
+        249
+      ],
+      "items": [
+        32
+      ],
+      "hundreds": [
+        34
+      ],
+      "millions": [
+        36
+      ],
+      "users": [
+        38
+      ],
+      "remains": [
+        39
+      ],
+      "an": [
+        40,
+        136
+      ],
+      "unsolved": [
+        41
+      ],
+      "challenge.": [
+        42
+      ],
+      "Here": [
+        43
+      ],
+      "we": [
+        44,
+        52,
+        98,
+        150
+      ],
+      "describe": [
+        45
+      ],
+      "a": [
+        46,
+        60,
+        100,
+        115,
+        146,
+        187,
+        246
+      ],
+      "large-scale": [
+        47
+      ],
+      "engine": [
+        50
+      ],
+      "that": [
+        51,
+        82,
+        119,
+        157
+      ],
+      "developed": [
+        53
+      ],
+      "deployed": [
+        55
+      ],
+      "at": [
+        56,
+        183
+      ],
+      "Pinterest.": [
+        57
+      ],
+      "We": [
+        58,
+        133,
+        168
+      ],
+      "develop": [
+        59,
+        99,
+        135
+      ],
+      "data-efficient": [
+        61
+      ],
+      "Graph": [
+        62
+      ],
+      "Convolutional": [
+        63
+      ],
+      "Network": [
+        64
+      ],
+      "(GCN)": [
+        65
+      ],
+      "algorithm,": [
+        66
+      ],
+      "which": [
+        67,
+        185
+      ],
+      "combines": [
+        68
+      ],
+      "efficient": [
+        69,
+        106,
+        137
+      ],
+      "random": [
+        70,
+        107
+      ],
+      "walks": [
+        71,
+        108
+      ],
+      "graph": [
+        73,
+        85,
+        190,
+        237,
+        255
+      ],
+      "convolutions": [
+        74,
+        112
+      ],
+      "generate": [
+        76,
+        143
+      ],
+      "embeddings": [
+        77,
+        144,
+        172,
+        238
+      ],
+      "nodes": [
+        79,
+        194
+      ],
+      "(i.e.,": [
+        80
+      ],
+      "items)": [
+        81
+      ],
+      "incorporate": [
+        83
+      ],
+      "both": [
+        84
+      ],
+      "structure": [
+        86,
+        110
+      ],
+      "as": [
+        87,
+        89,
+        209,
+        211
+      ],
+      "well": [
+        88,
+        210
+      ],
+      "node": [
+        90
+      ],
+      "feature": [
+        91
+      ],
+      "information.": [
+        92
+      ],
+      "Compared": [
+        93
+      ],
+      "prior": [
+        95
+      ],
+      "GCN": [
+        96,
+        166,
+        171
+      ],
+      "approaches,": [
+        97
+      ],
+      "novel": [
+        101,
+        116
+      ],
+      "method": [
+        102
+      ],
+      "based": [
+        103,
+        223,
+        253
+      ],
+      "highly": [
+        105
+      ],
+      "the": [
+        111,
+        131,
+        232,
+        243
+      ],
+      "design": [
+        114
+      ],
+      "training": [
+        117,
+        123
+      ],
+      "strategy": [
+        118
+      ],
+      "relies": [
+        120
+      ],
+      "harder-and-harder": [
+        122
+      ],
+      "examples": [
+        124
+      ],
+      "improve": [
+        126
+      ],
+      "robustness": [
+        127
+      ],
+      "convergence": [
+        129
+      ],
+      "model.": [
+        132,
+        148
+      ],
+      "also": [
+        134
+      ],
+      "MapReduce": [
+        138
+      ],
+      "model": [
+        139
+      ],
+      "inference": [
+        140
+      ],
+      "algorithm": [
+        141
+      ],
+      "using": [
+        145
+      ],
+      "trained": [
+        147
+      ],
+      "Overall,": [
+        149
+      ],
+      "can": [
+        151,
+        173
+      ],
+      "train": [
+        152
+      ],
+      "embed": [
+        155
+      ],
+      "graphs": [
+        156
+      ],
+      "are": [
+        158
+      ],
+      "four": [
+        159
+      ],
+      "orders": [
+        160
+      ],
+      "magnitude": [
+        162
+      ],
+      "larger": [
+        163
+      ],
+      "than": [
+        164,
+        219
+      ],
+      "typical": [
+        165
+      ],
+      "implementations.": [
+        167
+      ],
+      "show": [
+        169
+      ],
+      "how": [
+        170
+      ],
+      "be": [
+        174
+      ],
+      "used": [
+        175
+      ],
+      "make": [
+        177
+      ],
+      "high-quality": [
+        178
+      ],
+      "recommendations": [
+        179,
+        218
+      ],
+      "various": [
+        181
+      ],
+      "settings": [
+        182
+      ],
+      "Pinterest,": [
+        184
+      ],
+      "has": [
+        186
+      ],
+      "massive": [
+        188
+      ],
+      "underlying": [
+        189
+      ],
+      "3": [
+        192
+      ],
+      "billion": [
+        193,
+        201
+      ],
+      "representing": [
+        195
+      ],
+      "pins": [
+        196
+      ],
+      "boards,": [
+        198
+      ],
+      "17": [
+        200
+      ],
+      "edges.": [
+        202
+      ],
+      "According": [
+        203
+      ],
+      "offline": [
+        205
+      ],
+      "metrics,": [
+        206
+      ],
+      "user": [
+        207
+      ],
+      "studies,": [
+        208
+      ],
+      "A/B": [
+        212
+      ],
+      "tests,": [
+        213
+      ],
+      "our": [
+        214,
+        226
+      ],
+      "approach": [
+        215
+      ],
+      "generates": [
+        216
+      ],
+      "higher-quality": [
+        217
+      ],
+      "comparable": [
+        220
+      ],
+      "learning": [
+        222
+      ],
+      "systems.": [
+        224
+      ],
+      "To": [
+        225
+      ],
+      "knowledge,": [
+        227
+      ],
+      "this": [
+        228
+      ],
+      "is": [
+        229
+      ],
+      "by": [
+        230
+      ],
+      "far": [
+        231
+      ],
+      "largest": [
+        233
+      ],
+      "application": [
+        234
+      ],
+      "date": [
+        240
+      ],
+      "paves": [
+        242
+      ],
+      "way": [
+        244
+      ],
+      "new": [
+        247
+      ],
+      "generation": [
+        248
+      ],
+      "systems": [
+        252
+      ],
+      "convolutional": [
+        256
+      ],
+      "architectures.": [
+        257
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1145/3219819.3219890",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3219819.3219890",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:1806.01973",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1806.01973",
+        "pdf_url": "https://arxiv.org/pdf/1806.01973",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      }
+    ],
+    "abstract": "Recent advancements in deep neural networks for graph-structured data have led to state-of-the-art performance on recommender system benchmarks. However, making these methods practical and scalable to web-scale recommendation tasks with billions of items and hundreds of millions of users remains an unsolved challenge. Here we describe a large-scale deep recommendation engine that we developed and deployed at Pinterest. We develop a data-efficient Graph Convolutional Network (GCN) algorithm, which combines efficient random walks and graph convolutions to generate embeddings of nodes (i.e., items) that incorporate both graph structure as well as node feature information. Compared to prior GCN approaches, we develop a novel method based on highly efficient random walks to structure the convolutions and design a novel training strategy that relies on harder-and-harder training examples to improve robustness and convergence of the model. We also develop an efficient MapReduce model inference algorithm to generate embeddings using a trained model. Overall, we can train on and embed graphs that are four orders of magnitude larger than typical GCN implementations. We show how GCN embeddings can be used to make high-quality recommendations in various settings at Pinterest, which has a massive underlying graph with 3 billion nodes representing pins and boards, and 17 billion edges. According to offline metrics, user studies, as well as A/B tests, our approach generates higher-quality recommendations than comparable deep learning based systems. To our knowledge, this is by far the largest application of deep graph embeddings to date and paves the way for a new generation of web-scale recommender systems based on graph convolutional architectures.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/1806.01973.pdf"
+}

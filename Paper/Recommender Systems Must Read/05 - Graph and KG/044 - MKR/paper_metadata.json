@@ -1,0 +1,63 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "MKR",
+    "title": "Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation",
+    "year": 2019
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/1901.08907v1",
+    "doi": "",
+    "title": "Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation",
+    "display_name": "Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation",
+    "publication_year": 2019,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/1901.08907v1",
+      "landing_page_url": "http://arxiv.org/abs/1901.08907v1",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1901.08907v1"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Hongwei Wang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Fuzheng Zhang"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Miao Zhao"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Wenjie Li"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Xing Xie"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Minyi Guo"
+        }
+      }
+    ],
+    "abstract": "Collaborative filtering often suffers from sparsity and cold start problems in real recommendation scenarios, therefore, researchers and engineers usually use side information to address the issues and improve the performance of recommender systems. In this paper, we consider knowledge graphs as the source of side information. We propose MKR, a Multi-task feature learning approach for Knowledge graph enhanced Recommendation. MKR is a deep end-to-end framework that utilizes knowledge graph embedding task to assist recommendation task. The two tasks are associated by cross&compress units, which automatically share latent features and learn high-order interactions between items in recommender systems and entities in the knowledge graph. We prove that cross&compress units have sufficient capability of polynomial approximation, and show that MKR is a generalized framework over several representative methods of recommender systems and multi-task learning. Through extensive experiments on real-world datasets, we demonstrate that MKR achieves substantial gains in movie, book, music, and news recommendation, over state-of-the-art baselines. MKR is also shown to be able to maintain a decent performance even if user-item interactions are sparse.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/1901.08907v1.pdf"
+}

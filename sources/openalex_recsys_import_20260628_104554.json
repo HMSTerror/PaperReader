@@ -1,0 +1,356 @@
+[
+  {
+    "title": "BPR: Bayesian Personalized Ranking from Implicit Feedback",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Matrix Factorization Techniques for Recommender Systems",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Collaborative Filtering for Implicit Feedback Datasets",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Factorization Machines",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Item-Based Collaborative Filtering Recommendation Algorithms",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Amazon.com Recommendations: Item-to-Item Collaborative Filtering",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "SLIM: Sparse Linear Methods for Top-N Recommender Systems",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "AutoRec: Autoencoders Meet Collaborative Filtering",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Collaborative Denoising Auto-Encoders for Top-N Recommender Systems",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Neural Collaborative Filtering",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Variational Autoencoders for Collaborative Filtering",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Embarrassingly Shallow Autoencoders for Sparse Data",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Wide & Deep Learning for Recommender Systems",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Product-based Neural Networks for User Response Prediction",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Deep Interest Network for Click-Through Rate Prediction",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Deep Interest Evolution Network for Click-Through Rate Prediction",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Deep Session Interest Network for Click-Through Rate Prediction",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "FiBiNET: Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Deep & Cross Network for Ad Click Predictions",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "DLRM: An Advanced, Open Source Deep Learning Recommendation Model",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Factorizing Personalized Markov Chains for Next-Basket Recommendation",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Personalized Top-N Sequential Recommendation via Convolutional Sequence Embedding",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\04 - Sequential and Session\\027 - Caser",
+    "source": "https://arxiv.org/pdf/1809.07426v1.pdf"
+  },
+  {
+    "title": "A Simple Convolutional Generative Network for Next Item Recommendation",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Neural Attentive Session-based Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\04 - Sequential and Session\\029 - NARM",
+    "source": "https://arxiv.org/pdf/1711.04725v1.pdf"
+  },
+  {
+    "title": "STAMP: Short-Term Attention/Memory Priority Model for Session-based Recommendation",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Session-based Recommendation with Graph Neural Networks",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "RepeatNet: A Repeat Aware Neural Recommendation Machine for Session-based Recommendation",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "CL4SRec: A Contrastive Learning Framework for Sequential Recommendation",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Contrastive Learning for Representation Degeneration Problem in Sequential Recommendation",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Neural Graph Collaborative Filtering",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Graph Convolutional Matrix Completion",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "KGAT: Knowledge Graph Attention Network for Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\040 - KGAT",
+    "source": "https://arxiv.org/pdf/1905.07854v2.pdf"
+  },
+  {
+    "title": "RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\041 - RippleNet",
+    "source": "https://arxiv.org/pdf/1803.03467v4.pdf"
+  },
+  {
+    "title": "Knowledge Graph Convolutional Networks for Recommender Systems",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Collaborative Knowledge Base Embedding for Recommender Systems",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\044 - MKR",
+    "source": "https://arxiv.org/pdf/1901.08907v1.pdf"
+  },
+  {
+    "title": "Self-supervised Graph Learning for Recommendation",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\046 - SimGCL",
+    "source": "https://arxiv.org/pdf/2112.08679v4.pdf"
+  },
+  {
+    "title": "UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "TrustSVD: Collaborative Filtering with Both the Explicit and Implicit Influence of User Trust and of Item Ratings",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "GraphRec: Graph Neural Networks for Social Recommendation",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "DiffNet++: A Neural Influence and Interest Diffusion Network for Social Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\06 - Social Recommendation\\050 - DiffNet",
+    "source": "https://arxiv.org/pdf/2002.00844v4.pdf"
+  },
+  {
+    "title": "MMGCN: Multi-modal Graph Convolution Network for Personalized Recommendation of Micro-video",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "LATTICE: Mining Latent Structures for Multimedia Recommendation",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "BM3: Boosting Multi-modal Recommendation with Self-supervised Learning",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Are We Really Making Much Progress? A Worrying Analysis of Recent Neural Recommendation Approaches",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\08 - Evaluation and Tooling\\054 - Dacrema-Progress",
+    "source": "https://arxiv.org/pdf/1907.06902v3.pdf"
+  },
+  {
+    "title": "RecBole: Towards a Unified, Comprehensive and Efficient Framework for Recommendation Algorithms",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\08 - Evaluation and Tooling\\055 - RecBole",
+    "source": "https://arxiv.org/pdf/2011.01731v3.pdf"
+  },
+  {
+    "title": "Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5)",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\09 - LLM and Generative\\056 - P5",
+    "source": "https://arxiv.org/pdf/2203.13366v7.pdf"
+  },
+  {
+    "title": "TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\09 - LLM and Generative\\057 - TALLRec",
+    "source": "https://arxiv.org/pdf/2305.00447v3.pdf"
+  },
+  {
+    "title": "LLMRec: Large Language Models with Graph Augmentation for Recommendation",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Multi-Interest Network with Dynamic Routing for Recommendation at Tmall",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\04 - Sequential and Session\\059 - MIND",
+    "source": "https://arxiv.org/pdf/1904.08030v1.pdf"
+  },
+  {
+    "title": "Controllable Multi-Interest Framework for Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\04 - Sequential and Session\\060 - ComiRec",
+    "source": "https://arxiv.org/pdf/2005.09347v2.pdf"
+  },
+  {
+    "title": "Feature-level Deeper Self-Attention Network for Sequential Recommendation",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "CORE: Simple and Effective Session-based Recommendation within Consistent Representation Space",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\04 - Sequential and Session\\062 - CORE",
+    "source": "https://arxiv.org/pdf/2204.11067v1.pdf"
+  },
+  {
+    "title": "Sparse-Interest Network for Sequential Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\04 - Sequential and Session\\063 - SINE",
+    "source": "https://arxiv.org/pdf/2102.09267v1.pdf"
+  },
+  {
+    "title": "Disentangled Graph Collaborative Filtering",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\064 - DGCF",
+    "source": "https://arxiv.org/pdf/2007.01764v1.pdf"
+  },
+  {
+    "title": "Improving Graph Collaborative Filtering with Neighborhood-enriched Contrastive Learning",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\065 - NCL",
+    "source": "https://arxiv.org/pdf/2202.06200v2.pdf"
+  },
+  {
+    "title": "XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\066 - XSimGCL",
+    "source": "https://arxiv.org/pdf/2209.02544v4.pdf"
+  },
+  {
+    "title": "LightGCL: Simple Yet Effective Graph Contrastive Learning for Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\067 - LightGCL",
+    "source": "https://arxiv.org/pdf/2302.08191v3.pdf"
+  },
+  {
+    "title": "Hypergraph Contrastive Collaborative Filtering",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\068 - HCCF",
+    "source": "https://arxiv.org/pdf/2204.12200v2.pdf"
+  },
+  {
+    "title": "Dual Contrastive Collaborative Filtering",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Knowledge Graph Contrastive Learning for Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\070 - KGCL",
+    "source": "https://arxiv.org/pdf/2205.00976v2.pdf"
+  },
+  {
+    "title": "Learning Intents behind Interactions with Knowledge Graph for Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\071 - KGIN",
+    "source": "https://arxiv.org/pdf/2102.07057v1.pdf"
+  },
+  {
+    "title": "Multi-level Cross-view Contrastive Learning for Knowledge-aware Recommender System",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\072 - MCCLK",
+    "source": "https://arxiv.org/pdf/2204.08807v1.pdf"
+  },
+  {
+    "title": "GRCN: Graph-Refined Convolutional Network for Multimedia Recommendation with Implicit Feedback",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\07 - Multimodal Recommendation\\073 - GRCN",
+    "source": "https://arxiv.org/pdf/2111.02036v1.pdf"
+  },
+  {
+    "title": "Dual Graph Neural Networks for Multimedia Recommendation",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "Self-supervised Multi-modal Graph Convolutional Network for Recommendation",
+    "status": "not-found-arxiv"
+  },
+  {
+    "title": "A Tale of Two Graphs: Freezing and Denoising Graph Structures for Multimodal Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\07 - Multimodal Recommendation\\076 - FREEDOM",
+    "source": "https://arxiv.org/pdf/2211.06924v3.pdf"
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "title": "BPR: Bayesian Personalized Ranking from Implicit Feedback",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\01 - Foundations\\001 - BPR",
+    "source": "https://arxiv.org/pdf/1205.2618.pdf"
+  },
+  {
+    "title": "Matrix Factorization Techniques for Recommender Systems",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2054141820"
+  },
+  {
+    "title": "Collaborative Filtering for Implicit Feedback Datasets",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2101409192"
+  },
+  {
+    "title": "Factorization Machines",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2295739661"
+  },
+  {
+    "title": "Item-based collaborative filtering recommendation algorithms",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2042281163"
+  },
+  {
+    "title": "Amazon.com recommendations: item-to-item collaborative filtering",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2159094788"
+  },
+  {
+    "title": "Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model",
+    "status": "not-found"
+  },
+  {
+    "title": "SLIM: Sparse Linear Methods for Top-N Recommender Systems",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W1987431925"
+  },
+  {
+    "title": "Variational Autoencoders for Collaborative Filtering",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2963085847"
+  },
+  {
+    "title": "Collaborative Denoising Auto-Encoders for Top-N Recommender Systems",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2253995343"
+  },
+  {
+    "title": "Neural Collaborative Filtering",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2605350416"
+  },
+  {
+    "title": "Variational Autoencoders for Collaborative Filtering",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2963085847"
+  },
+  {
+    "title": "Embarrassingly Shallow Autoencoders for Sparse Data",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Wide &amp; Deep Learning for Recommender Systems",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2475334473"
+  },
+  {
+    "title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Product-Based Neural Networks for User Response Prediction",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2548570154"
+  },
+  {
+    "title": "Deep Interest Network for Click-Through Rate Prediction",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2723293840"
+  },
+  {
+    "title": "Deep Interest Evolution Network for Click-Through Rate Prediction",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Deep Session Interest Network for Click-Through Rate Prediction",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W3096591391"
+  },
+  {
+    "title": "AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks",
+    "status": "not-found"
+  },
+  {
+    "title": "GAIN: A Gated Adaptive Feature Interaction Network for Click-Through Rate Prediction",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W4297491383"
+  },
+  {
+    "title": "Deep &amp; Cross Network for Ad Click Predictions",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2964182926"
+  },
+  {
+    "title": "DCN V2: Improved Deep &amp; Cross Network and Practical Lessons for Web-scale Learning to Rank Systems",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "DLRM: An Advanced, Open Source Deep Learning Recommendation Model",
+    "status": "not-found"
+  },
+  {
+    "title": "Factorizing personalized Markov chains for next-basket recommendation",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2171279286"
+  },
+  {
+    "title": "Personalized Top-N Sequential Recommendation via Convolutional Sequence Embedding",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2783272285"
+  },
+  {
+    "title": "A Simple Convolutional Generative Network for Next Item Recommendation",
+    "status": "skipped-duplicate"
+  },
+  {
+    "title": "Neural Attentive Session-based Recommendation",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2964044287"
+  },
+  {
+    "title": "STAMP: Short-Term Attention/Memory Priority Model for Session-based Recommendation",
+    "status": "not-found"
+  },
+  {
+    "title": "Session-Based Recommendation with Graph Neural Networks",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\04 - Sequential and Session\\031 - SR-GNN",
+    "source": "https://aaai.org/ojs/index.php/AAAI/article/download/3804/3682"
+  },
+  {
+    "title": "RepeatNet: A Repeat Aware Neural Recommendation Machine for Session-Based Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\04 - Sequential and Session\\032 - RepeatNet",
+    "source": "https://ojs.aaai.org/index.php/AAAI/article/download/4408/4286"
+  },
+  {
+    "title": "S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\04 - Sequential and Session\\033 - S3-Rec",
+    "source": "https://arxiv.org/pdf/2008.07873.pdf"
+  },
+  {
+    "title": "Contrastive Learning for Sequential Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\04 - Sequential and Session\\034 - CL4SRec",
+    "source": "https://arxiv.org/pdf/2010.14395.pdf"
+  },
+  {
+    "title": "Contrastive Learning for Representation Degeneration Problem in Sequential Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\04 - Sequential and Session\\035 - DuoRec",
+    "source": "https://arxiv.org/pdf/2110.05730.pdf"
+  },
+  {
+    "title": "Neural Graph Collaborative Filtering",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\036 - NGCF",
+    "source": "https://arxiv.org/pdf/1905.08108.pdf"
+  },
+  {
+    "title": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\037 - LightGCN",
+    "source": "https://arxiv.org/pdf/2002.02126.pdf"
+  },
+  {
+    "title": "Graph Convolutional Matrix Completion",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\038 - GCMC",
+    "source": "https://arxiv.org/pdf/1706.02263.pdf"
+  },
+  {
+    "title": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\039 - PinSage",
+    "source": "https://arxiv.org/pdf/1806.01973.pdf"
+  },
+  {
+    "title": "KGAT-SR: Knowledge-Enhanced Graph Attention Network for Session-based Recommendation",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W4200181742"
+  },
+  {
+    "title": "RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems",
+    "status": "not-found"
+  },
+  {
+    "title": "Knowledge Graph Convolutional Networks for Recommender Systems",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\042 - KGCN",
+    "source": "https://arxiv.org/pdf/1904.12575.pdf"
+  },
+  {
+    "title": "Collaborative Knowledge Base Embedding for Recommender Systems",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2509893387"
+  },
+  {
+    "title": "Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2912351665"
+  },
+  {
+    "title": "Self-supervised Graph Learning for Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\045 - SGL",
+    "source": "https://arxiv.org/pdf/2010.10783.pdf"
+  },
+  {
+    "title": "Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation",
+    "status": "search-failed",
+    "error": "400 Client Error: Bad Request for url: https://api.openalex.org/works?search=Are+Graph+Augmentations+Necessary%3F+Simple+Graph+Contrastive+Learning+for+Recommendation&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cauthorships%2Cabstract_inverted_index%2Clocations"
+  },
+  {
+    "title": "UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\05 - Graph and KG\\047 - UltraGCN",
+    "source": "https://arxiv.org/pdf/2110.15114.pdf"
+  },
+  {
+    "title": "TrustSVD: Collaborative Filtering with Both the Explicit and Implicit Influence of User Trust and of Item Ratings",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\06 - Social Recommendation\\048 - TrustSVD",
+    "source": "https://ojs.aaai.org/index.php/AAAI/article/download/9153/9012"
+  },
+  {
+    "title": "Graph Neural Networks for Social Recommendation",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W2914721378"
+  },
+  {
+    "title": "DiffNet++: A Neural Influence and Interest Diffusion Network for Social Recommendation",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W3114652457"
+  },
+  {
+    "title": "Multi-View Graph Convolutional Network for Multimedia Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\07 - Multimodal Recommendation\\051 - MMGCN",
+    "source": "https://arxiv.org/pdf/2308.03588.pdf"
+  },
+  {
+    "title": "Mining Latent Structures for Multimedia Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\07 - Multimodal Recommendation\\052 - LATTICE",
+    "source": "https://arxiv.org/pdf/2104.09036.pdf"
+  },
+  {
+    "title": "BM3: Boosting Multi-modal Recommendation with Self-supervised Learning",
+    "status": "not-found"
+  },
+  {
+    "title": "Are We Really Making Much Progress? A Worrying Analysis of Recent Neural Recommendation Approaches",
+    "status": "search-failed",
+    "error": "400 Client Error: Bad Request for url: https://api.openalex.org/works?search=Are+We+Really+Making+Much+Progress%3F+A+Worrying+Analysis+of+Recent+Neural+Recommendation+Approaches&per-page=5&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cauthorships%2Cabstract_inverted_index%2Clocations"
+  },
+  {
+    "title": "RecBole: Towards a Unified, Comprehensive and Efficient Framework for Recommendation Algorithms",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W3208227120"
+  },
+  {
+    "title": "Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt &amp; Predict Paradigm (P5)",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W4296591867"
+  },
+  {
+    "title": "TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation",
+    "status": "pdf-download-failed",
+    "openalex": "https://openalex.org/W4386728933"
+  },
+  {
+    "title": "LLMRec: Large Language Models with Graph Augmentation for Recommendation",
+    "status": "imported",
+    "directory": "Paper\\Recommender Systems Must Read\\09 - LLM and Generative\\058 - LLMRec",
+    "source": "https://arxiv.org/pdf/2311.00423.pdf"
+  }
+]

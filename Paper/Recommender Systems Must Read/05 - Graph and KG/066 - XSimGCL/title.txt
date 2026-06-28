@@ -1,0 +1,1 @@
+XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation

@@ -1,0 +1,318 @@
+{
+  "candidate": {
+    "category": "02 - Neural Recommendation",
+    "short": "EASE",
+    "title": "Embarrassingly Shallow Autoencoders for Sparse Data",
+    "year": 2019
+  },
+  "openalex": {
+    "id": "https://openalex.org/W2912745432",
+    "doi": "https://doi.org/10.1145/3308558.3313710",
+    "title": "Embarrassingly Shallow Autoencoders for Sparse Data",
+    "display_name": "Embarrassingly Shallow Autoencoders for Sparse Data",
+    "publication_year": 2019,
+    "cited_by_count": 266,
+    "primary_location": {
+      "id": "doi:10.1145/3308558.3313710",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1145/3308558.3313710",
+      "pdf_url": null,
+      "source": null,
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The World Wide Web Conference",
+      "raw_type": "proceedings-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1145/3308558.3313710",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5070327072",
+          "display_name": "Harald Steck",
+          "orcid": "https://orcid.org/0009-0007-7448-8335"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I869089601",
+            "display_name": "Netflix (United States)",
+            "ror": "https://ror.org/0197qw696",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I869089601"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Harald Steck",
+        "raw_affiliation_strings": [
+          "Netflix Los Gatos, California"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Netflix Los Gatos, California",
+            "institution_ids": [
+              "https://openalex.org/I869089601"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Combining": [
+        0
+      ],
+      "simple": [
+        1,
+        43
+      ],
+      "elements": [
+        2
+      ],
+      "from": [
+        3
+      ],
+      "the": [
+        4,
+        37,
+        61
+      ],
+      "literature,": [
+        5
+      ],
+      "we": [
+        6
+      ],
+      "define": [
+        7
+      ],
+      "a": [
+        8,
+        32
+      ],
+      "linear": [
+        9
+      ],
+      "model": [
+        10,
+        44
+      ],
+      "that": [
+        11,
+        27
+      ],
+      "is": [
+        12
+      ],
+      "geared": [
+        13
+      ],
+      "toward": [
+        14
+      ],
+      "sparse": [
+        15
+      ],
+      "data,": [
+        16
+      ],
+      "in": [
+        17,
+        66
+      ],
+      "particular": [
+        18
+      ],
+      "implicit": [
+        19
+      ],
+      "feedback": [
+        20
+      ],
+      "data": [
+        21
+      ],
+      "for": [
+        22
+      ],
+      "recommender": [
+        23
+      ],
+      "systems.": [
+        24
+      ],
+      "We": [
+        25
+      ],
+      "show": [
+        26
+      ],
+      "its": [
+        28
+      ],
+      "training": [
+        29
+      ],
+      "objective": [
+        30
+      ],
+      "has": [
+        31
+      ],
+      "closed-form": [
+        33
+      ],
+      "solution,": [
+        34
+      ],
+      "and": [
+        35
+      ],
+      "discuss": [
+        36
+      ],
+      "resulting": [
+        38
+      ],
+      "conceptual": [
+        39
+      ],
+      "insights.": [
+        40
+      ],
+      "Surprisingly,": [
+        41
+      ],
+      "this": [
+        42
+      ],
+      "achieves": [
+        45
+      ],
+      "better": [
+        46
+      ],
+      "ranking": [
+        47
+      ],
+      "accuracy": [
+        48
+      ],
+      "than": [
+        49
+      ],
+      "various": [
+        50
+      ],
+      "state-of-the-art": [
+        51
+      ],
+      "collaborative-filtering": [
+        52
+      ],
+      "approaches,": [
+        53
+      ],
+      "including": [
+        54
+      ],
+      "deep": [
+        55
+      ],
+      "non-linear": [
+        56
+      ],
+      "models,": [
+        57
+      ],
+      "on": [
+        58
+      ],
+      "most": [
+        59
+      ],
+      "of": [
+        60
+      ],
+      "publicly": [
+        62
+      ],
+      "available": [
+        63
+      ],
+      "data-sets": [
+        64
+      ],
+      "used": [
+        65
+      ],
+      "our": [
+        67
+      ],
+      "experiments.": [
+        68
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1145/3308558.3313710",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/3308558.3313710",
+        "pdf_url": null,
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The World Wide Web Conference",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:1905.03375",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1905.03375",
+        "pdf_url": "https://arxiv.org/pdf/1905.03375",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      }
+    ],
+    "abstract": "Combining simple elements from the literature, we define a linear model that is geared toward sparse data, in particular implicit feedback data for recommender systems. We show that its training objective has a closed-form solution, and discuss the resulting conceptual insights. Surprisingly, this simple model achieves better ranking accuracy than various state-of-the-art collaborative-filtering approaches, including deep non-linear models, on most of the publicly available data-sets used in our experiments.",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/1905.03375.pdf"
+}

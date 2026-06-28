@@ -1,0 +1,1 @@
+LightGCL: Simple Yet Effective Graph Contrastive Learning for Recommendation

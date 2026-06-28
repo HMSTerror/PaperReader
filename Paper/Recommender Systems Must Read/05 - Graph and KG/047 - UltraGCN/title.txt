@@ -1,0 +1,1 @@
+UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation

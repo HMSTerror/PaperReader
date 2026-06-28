@@ -1,0 +1,63 @@
+{
+  "candidate": {
+    "category": "05 - Graph and KG",
+    "short": "XSimGCL",
+    "title": "XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation",
+    "year": 2023
+  },
+  "openalex": {
+    "id": "http://arxiv.org/abs/2209.02544v4",
+    "doi": "",
+    "title": "XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation",
+    "display_name": "XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation",
+    "publication_year": 2022,
+    "cited_by_count": null,
+    "primary_location": {
+      "pdf_url": "https://arxiv.org/pdf/2209.02544v4",
+      "landing_page_url": "http://arxiv.org/abs/2209.02544v4",
+      "source": {
+        "display_name": "arXiv"
+      }
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2209.02544v4"
+    },
+    "authorships": [
+      {
+        "author": {
+          "display_name": "Junliang Yu"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Xin Xia"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Tong Chen"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Lizhen Cui"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Nguyen Quoc Viet Hung"
+        }
+      },
+      {
+        "author": {
+          "display_name": "Hongzhi Yin"
+        }
+      }
+    ],
+    "abstract": "Contrastive learning (CL) has recently been demonstrated critical in improving recommendation performance. The underlying principle of CL-based recommendation models is to ensure the consistency between representations derived from different graph augmentations of the user-item bipartite graph. This self-supervised approach allows for the extraction of general features from raw data, thereby mitigating the issue of data sparsity. Despite the effectiveness of this paradigm, the factors contributing to its performance gains have yet to be fully understood. This paper provides novel insights into the impact of CL on recommendation. Our findings indicate that CL enables the model to learn more evenly distributed user and item representations, which alleviates the prevalent popularity bias and promoting long-tail items. Our analysis also suggests that the graph augmentations, previously considered essential, are relatively unreliable and of limited significance in CL-based recommendation. Based on these findings, we put forward an eXtremely Simple Graph Contrastive Learning method (XSimGCL) for recommendation, which discards the ineffective graph augmentations and instead employs a simple yet effective noise-based embedding augmentation to generate views for CL. A comprehensive experimental study on four large and highly sparse benchmark datasets demonstrates that, though the proposed method is extremely simple, it can smoothly adjust the uniformity of learned representations and outperforms its graph augmentation-based counterparts by a large margin in both recommendation accuracy and training efficiency. The code and used datasets are released at https://github.com/Coder-Yu/SELFRec.",
+    "match_score": 1.0,
+    "locations": []
+  },
+  "downloadSource": "https://arxiv.org/pdf/2209.02544v4.pdf"
+}

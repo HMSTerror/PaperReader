@@ -1,0 +1,858 @@
+{
+  "candidate": {
+    "category": "09 - LLM and Generative",
+    "short": "LLMRec",
+    "title": "LLMRec: Large Language Models with Graph Augmentation for Recommendation",
+    "year": 2023
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4388275974",
+    "doi": "https://doi.org/10.48550/arxiv.2311.00423",
+    "title": "LLMRec: Large Language Models with Graph Augmentation for Recommendation",
+    "display_name": "LLMRec: Large Language Models with Graph Augmentation for Recommendation",
+    "publication_year": 2023,
+    "cited_by_count": 10,
+    "primary_location": {
+      "id": "pmh:oai:arXiv.org:2311.00423",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2311.00423",
+      "pdf_url": "https://arxiv.org/pdf/2311.00423",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2311.00423",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5014213168",
+          "display_name": "Wei Wei",
+          "orcid": "https://orcid.org/0000-0002-6653-3788"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wei, Wei",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003117295",
+          "display_name": "Xubin Ren",
+          "orcid": "https://orcid.org/0000-0003-3332-1073"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ren, Xubin",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101451300",
+          "display_name": "Jiabin Tang",
+          "orcid": "https://orcid.org/0009-0002-7002-3585"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Tang, Jiabin",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5065191560",
+          "display_name": "Qinyong Wang",
+          "orcid": "https://orcid.org/0000-0002-8913-2696"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wang, Qinyong",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5032745070",
+          "display_name": "Lixin Su",
+          "orcid": "https://orcid.org/0009-0008-1246-1740"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Su, Lixin",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5090159721",
+          "display_name": "Suqi Cheng",
+          "orcid": "https://orcid.org/0000-0003-3622-3399"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Cheng, Suqi",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100377345",
+          "display_name": "Junfeng Wang",
+          "orcid": "https://orcid.org/0000-0003-2756-8803"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wang, Junfeng",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5054482111",
+          "display_name": "Dawei Yin",
+          "orcid": "https://orcid.org/0000-0002-8846-2001"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Yin, Dawei",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5091518548",
+          "display_name": "Chao Huang",
+          "orcid": "https://orcid.org/0000-0002-2062-1512"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Huang, Chao",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0
+      ],
+      "problem": [
+        1
+      ],
+      "of": [
+        2,
+        49,
+        59,
+        128,
+        168,
+        181,
+        209,
+        215,
+        230
+      ],
+      "data": [
+        3,
+        40,
+        175,
+        195,
+        248
+      ],
+      "sparsity": [
+        4
+      ],
+      "has": [
+        5
+      ],
+      "long": [
+        6
+      ],
+      "been": [
+        7
+      ],
+      "a": [
+        8,
+        79,
+        173
+      ],
+      "challenge": [
+        9
+      ],
+      "in": [
+        10,
+        43,
+        63,
+        116,
+        161,
+        218
+      ],
+      "recommendation": [
+        11,
+        55
+      ],
+      "systems,": [
+        12
+      ],
+      "and": [
+        13,
+        38,
+        52,
+        73,
+        132,
+        157,
+        186,
+        196,
+        211,
+        246
+      ],
+      "previous": [
+        14
+      ],
+      "studies": [
+        15
+      ],
+      "have": [
+        16,
+        242
+      ],
+      "attempted": [
+        17
+      ],
+      "to": [
+        18,
+        111,
+        164,
+        205
+      ],
+      "address": [
+        19,
+        149
+      ],
+      "this": [
+        20,
+        27
+      ],
+      "issue": [
+        21
+      ],
+      "by": [
+        22,
+        88,
+        153
+      ],
+      "incorporating": [
+        23
+      ],
+      "side": [
+        24,
+        31,
+        159
+      ],
+      "information.": [
+        25
+      ],
+      "However,": [
+        26
+      ],
+      "approach": [
+        28,
+        99,
+        234
+      ],
+      "often": [
+        29
+      ],
+      "introduces": [
+        30
+      ],
+      "effects": [
+        32
+      ],
+      "such": [
+        33
+      ],
+      "as": [
+        34
+      ],
+      "noise,": [
+        35
+      ],
+      "availability": [
+        36
+      ],
+      "issues,": [
+        37
+      ],
+      "low": [
+        39
+      ],
+      "quality,": [
+        41
+      ],
+      "which": [
+        42,
+        68
+      ],
+      "turn": [
+        44
+      ],
+      "hinder": [
+        45
+      ],
+      "the": [
+        46,
+        60,
+        101,
+        113,
+        126,
+        140,
+        150,
+        166,
+        169,
+        193,
+        207,
+        213,
+        228
+      ],
+      "accurate": [
+        47
+      ],
+      "modeling": [
+        48
+      ],
+      "user": [
+        50,
+        135
+      ],
+      "preferences": [
+        51
+      ],
+      "adversely": [
+        53
+      ],
+      "impact": [
+        54
+      ],
+      "performance.": [
+        56
+      ],
+      "In": [
+        57
+      ],
+      "light": [
+        58
+      ],
+      "recent": [
+        61
+      ],
+      "advancements": [
+        62
+      ],
+      "large": [
+        64
+      ],
+      "language": [
+        65,
+        142
+      ],
+      "models": [
+        66
+      ],
+      "(LLMs),": [
+        67
+      ],
+      "possess": [
+        69
+      ],
+      "extensive": [
+        70
+      ],
+      "knowledge": [
+        71
+      ],
+      "bases": [
+        72
+      ],
+      "strong": [
+        74
+      ],
+      "reasoning": [
+        75
+      ],
+      "capabilities,": [
+        76
+      ],
+      "we": [
+        77,
+        148,
+        171,
+        201,
+        241
+      ],
+      "propose": [
+        78
+      ],
+      "novel": [
+        80
+      ],
+      "framework": [
+        81
+      ],
+      "called": [
+        82
+      ],
+      "LLMRec": [
+        83,
+        210
+      ],
+      "that": [
+        84,
+        178,
+        190
+      ],
+      "enhances": [
+        85
+      ],
+      "recommender": [
+        86
+      ],
+      "systems": [
+        87
+      ],
+      "employing": [
+        89,
+        145
+      ],
+      "three": [
+        90,
+        117
+      ],
+      "simple": [
+        91
+      ],
+      "yet": [
+        92
+      ],
+      "effective": [
+        93
+      ],
+      "LLM-based": [
+        94,
+        232
+      ],
+      "graph": [
+        95,
+        115
+      ],
+      "augmentation": [
+        96,
+        233
+      ],
+      "strategies.": [
+        97
+      ],
+      "Our": [
+        98
+      ],
+      "leverages": [
+        100
+      ],
+      "rich": [
+        102
+      ],
+      "content": [
+        103
+      ],
+      "available": [
+        104,
+        250
+      ],
+      "within": [
+        105
+      ],
+      "online": [
+        106
+      ],
+      "platforms": [
+        107
+      ],
+      "(e.g.,": [
+        108
+      ],
+      "Netflix,": [
+        109
+      ],
+      "MovieLens)": [
+        110
+      ],
+      "augment": [
+        112
+      ],
+      "interaction": [
+        114,
+        122
+      ],
+      "ways:": [
+        118
+      ],
+      "(i)": [
+        119
+      ],
+      "reinforcing": [
+        120
+      ],
+      "user-item": [
+        121
+      ],
+      "egde,": [
+        123
+      ],
+      "(ii)": [
+        124
+      ],
+      "enhancing": [
+        125
+      ],
+      "understanding": [
+        127
+      ],
+      "item": [
+        129
+      ],
+      "node": [
+        130,
+        136
+      ],
+      "attributes,": [
+        131
+      ],
+      "(iii)": [
+        133
+      ],
+      "conducting": [
+        134
+      ],
+      "profiling,": [
+        137
+      ],
+      "intuitively": [
+        138
+      ],
+      "from": [
+        139
+      ],
+      "natural": [
+        141
+      ],
+      "perspective.": [
+        143
+      ],
+      "By": [
+        144
+      ],
+      "these": [
+        146
+      ],
+      "strategies,": [
+        147
+      ],
+      "challenges": [
+        151
+      ],
+      "posed": [
+        152
+      ],
+      "sparse": [
+        154
+      ],
+      "implicit": [
+        155,
+        183
+      ],
+      "feedback": [
+        156,
+        184
+      ],
+      "low-quality": [
+        158
+      ],
+      "information": [
+        160
+      ],
+      "recommenders.": [
+        162
+      ],
+      "Besides,": [
+        163
+      ],
+      "ensure": [
+        165,
+        239
+      ],
+      "quality": [
+        167
+      ],
+      "augmentation,": [
+        170
+      ],
+      "develop": [
+        172
+      ],
+      "denoised": [
+        174
+      ],
+      "robustification": [
+        176
+      ],
+      "mechanism": [
+        177
+      ],
+      "includes": [
+        179
+      ],
+      "techniques": [
+        180
+      ],
+      "noisy": [
+        182
+      ],
+      "pruning": [
+        185
+      ],
+      "MAE-based": [
+        187
+      ],
+      "feature": [
+        188
+      ],
+      "enhancement": [
+        189
+      ],
+      "help": [
+        191
+      ],
+      "refine": [
+        192
+      ],
+      "augmented": [
+        194,
+        247
+      ],
+      "improve": [
+        197
+      ],
+      "its": [
+        198
+      ],
+      "reliability.": [
+        199
+      ],
+      "Furthermore,": [
+        200
+      ],
+      "provide": [
+        202
+      ],
+      "theoretical": [
+        203
+      ],
+      "analysis": [
+        204
+      ],
+      "support": [
+        206
+      ],
+      "effectiveness": [
+        208
+      ],
+      "clarify": [
+        212
+      ],
+      "benefits": [
+        214
+      ],
+      "our": [
+        216,
+        231,
+        244
+      ],
+      "method": [
+        217
+      ],
+      "facilitating": [
+        219
+      ],
+      "model": [
+        220
+      ],
+      "optimization.": [
+        221
+      ],
+      "Experimental": [
+        222
+      ],
+      "results": [
+        223
+      ],
+      "on": [
+        224
+      ],
+      "benchmark": [
+        225
+      ],
+      "datasets": [
+        226
+      ],
+      "demonstrate": [
+        227
+      ],
+      "superiority": [
+        229
+      ],
+      "over": [
+        235
+      ],
+      "state-of-the-art": [
+        236
+      ],
+      "techniques.": [
+        237
+      ],
+      "To": [
+        238
+      ],
+      "reproducibility,": [
+        240
+      ],
+      "made": [
+        243
+      ],
+      "code": [
+        245
+      ],
+      "publicly": [
+        249
+      ],
+      "at:": [
+        251
+      ],
+      "https://github.com/HKUDS/LLMRec.git": [
+        252
+      ]
+    },
+    "locations": [
+      {
+        "id": "pmh:oai:arXiv.org:2311.00423",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2311.00423",
+        "pdf_url": "https://arxiv.org/pdf/2311.00423",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.2311.00423",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2311.00423",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "article"
+      }
+    ],
+    "abstract": "The problem of data sparsity has long been a challenge in recommendation systems, and previous studies have attempted to address this issue by incorporating side information. However, this approach often introduces side effects such as noise, availability issues, and low data quality, which in turn hinder the accurate modeling of user preferences and adversely impact recommendation performance. In light of the recent advancements in large language models (LLMs), which possess extensive knowledge bases and strong reasoning capabilities, we propose a novel framework called LLMRec that enhances recommender systems by employing three simple yet effective LLM-based graph augmentation strategies. Our approach leverages the rich content available within online platforms (e.g., Netflix, MovieLens) to augment the interaction graph in three ways: (i) reinforcing user-item interaction egde, (ii) enhancing the understanding of item node attributes, and (iii) conducting user node profiling, intuitively from the natural language perspective. By employing these strategies, we address the challenges posed by sparse implicit feedback and low-quality side information in recommenders. Besides, to ensure the quality of the augmentation, we develop a denoised data robustification mechanism that includes techniques of noisy implicit feedback pruning and MAE-based feature enhancement that help refine the augmented data and improve its reliability. Furthermore, we provide theoretical analysis to support the effectiveness of LLMRec and clarify the benefits of our method in facilitating model optimization. Experimental results on benchmark datasets demonstrate the superiority of our LLM-based augmentation approach over state-of-the-art techniques. To ensure reproducibility, we have made our code and augmented data publicly available at: https://github.com/HKUDS/LLMRec.git",
+    "match_score": 1.0
+  },
+  "downloadSource": "https://arxiv.org/pdf/2311.00423.pdf"
+}

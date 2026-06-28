@@ -1,0 +1,949 @@
+{
+  "candidate": {
+    "category": "04 - Sequential and Session",
+    "short": "CL4SRec",
+    "title": "CL4SRec: A Contrastive Learning Framework for Sequential Recommendation",
+    "year": 2020
+  },
+  "openalex": {
+    "id": "https://openalex.org/W3133849783",
+    "doi": "https://doi.org/10.1109/icde53745.2022.00099",
+    "title": "Contrastive Learning for Sequential Recommendation",
+    "display_name": "Contrastive Learning for Sequential Recommendation",
+    "publication_year": 2022,
+    "cited_by_count": 607,
+    "primary_location": {
+      "id": "doi:10.1109/icde53745.2022.00099",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/icde53745.2022.00099",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4363607857",
+        "display_name": "2022 IEEE 38th International Conference on Data Engineering (ICDE)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2022 IEEE 38th International Conference on Data Engineering (ICDE)",
+      "raw_type": "proceedings-article"
+    },
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2010.14395",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100857890",
+          "display_name": "Xu Xie",
+          "orcid": "https://orcid.org/0009-0008-6828-3170"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I20231570",
+            "display_name": "Peking University",
+            "ror": "https://ror.org/02v51f717",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20231570"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97750245",
+            "display_name": "Software (Spain)",
+            "ror": "https://ror.org/02ethns06",
+            "country_code": "ES",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210087817",
+              "https://openalex.org/I97750245"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "ES"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xu Xie",
+        "raw_affiliation_strings": [
+          "School of Computer Science &#x0026; Key Laboratory of High Confidence Software Technologies (MOE), Peking University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science &#x0026; Key Laboratory of High Confidence Software Technologies (MOE), Peking University",
+            "institution_ids": [
+              "https://openalex.org/I20231570",
+              "https://openalex.org/I97750245"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101467161",
+          "display_name": "Fei Sun",
+          "orcid": "https://orcid.org/0000-0002-6146-148X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I45928872",
+            "display_name": "Alibaba Group (China)",
+            "ror": "https://ror.org/00k642b80",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fei Sun",
+        "raw_affiliation_strings": [
+          "Alibaba Group,China",
+          "Alibaba Group, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group,China",
+            "institution_ids": [
+              "https://openalex.org/I45928872"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Alibaba Group, China",
+            "institution_ids": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100603521",
+          "display_name": "Zhaoyang Liu",
+          "orcid": "https://orcid.org/0000-0002-3992-701X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I45928872",
+            "display_name": "Alibaba Group (China)",
+            "ror": "https://ror.org/00k642b80",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhaoyang Liu",
+        "raw_affiliation_strings": [
+          "Alibaba Group,China",
+          "Alibaba Group, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group,China",
+            "institution_ids": [
+              "https://openalex.org/I45928872"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Alibaba Group, China",
+            "institution_ids": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5021674757",
+          "display_name": "Shiwen Wu",
+          "orcid": "https://orcid.org/0000-0003-1072-7222"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I20231570",
+            "display_name": "Peking University",
+            "ror": "https://ror.org/02v51f717",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20231570"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97750245",
+            "display_name": "Software (Spain)",
+            "ror": "https://ror.org/02ethns06",
+            "country_code": "ES",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210087817",
+              "https://openalex.org/I97750245"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "ES"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shiwen Wu",
+        "raw_affiliation_strings": [
+          "School of Computer Science &#x0026; Key Laboratory of High Confidence Software Technologies (MOE), Peking University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science &#x0026; Key Laboratory of High Confidence Software Technologies (MOE), Peking University",
+            "institution_ids": [
+              "https://openalex.org/I20231570",
+              "https://openalex.org/I97750245"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101403129",
+          "display_name": "Jinyang Gao",
+          "orcid": "https://orcid.org/0000-0002-2094-3554"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I45928872",
+            "display_name": "Alibaba Group (China)",
+            "ror": "https://ror.org/00k642b80",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jinyang Gao",
+        "raw_affiliation_strings": [
+          "Alibaba Group,China",
+          "Alibaba Group, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group,China",
+            "institution_ids": [
+              "https://openalex.org/I45928872"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Alibaba Group, China",
+            "institution_ids": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5004837183",
+          "display_name": "Jiandong Zhang",
+          "orcid": "https://orcid.org/0000-0003-3404-1559"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I45928872",
+            "display_name": "Alibaba Group (China)",
+            "ror": "https://ror.org/00k642b80",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiandong Zhang",
+        "raw_affiliation_strings": [
+          "Alibaba Group,China",
+          "Alibaba Group, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group,China",
+            "institution_ids": [
+              "https://openalex.org/I45928872"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Alibaba Group, China",
+            "institution_ids": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5107914397",
+          "display_name": "Bolin Ding",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I45928872",
+            "display_name": "Alibaba Group (China)",
+            "ror": "https://ror.org/00k642b80",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bolin Ding",
+        "raw_affiliation_strings": [
+          "Alibaba Group,China",
+          "Alibaba Group, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba Group,China",
+            "institution_ids": [
+              "https://openalex.org/I45928872"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Alibaba Group, China",
+            "institution_ids": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5062357883",
+          "display_name": "Bin Cui",
+          "orcid": "https://orcid.org/0000-0003-1681-4677"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I20231570",
+            "display_name": "Peking University",
+            "ror": "https://ror.org/02v51f717",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20231570"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97750245",
+            "display_name": "Software (Spain)",
+            "ror": "https://ror.org/02ethns06",
+            "country_code": "ES",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210087817",
+              "https://openalex.org/I97750245"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "ES"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bin Cui",
+        "raw_affiliation_strings": [
+          "School of Computer Science &#x0026; Key Laboratory of High Confidence Software Technologies (MOE), Peking University",
+          "Center for Data Science, Peking University & National Engineering Laboratory for Big Data Analysis and Applications",
+          "Institute of Computational Social Science, Peking University(Qingdao), China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science &#x0026; Key Laboratory of High Confidence Software Technologies (MOE), Peking University",
+            "institution_ids": [
+              "https://openalex.org/I20231570",
+              "https://openalex.org/I97750245"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Data Science, Peking University & National Engineering Laboratory for Big Data Analysis and Applications",
+            "institution_ids": [
+              "https://openalex.org/I20231570"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute of Computational Social Science, Peking University(Qingdao), China",
+            "institution_ids": [
+              "https://openalex.org/I20231570"
+            ]
+          }
+        ]
+      }
+    ],
+    "abstract_inverted_index": {
+      "Sequential": [
+        0,
+        91
+      ],
+      "recommendation": [
+        1
+      ],
+      "methods": [
+        2
+      ],
+      "play": [
+        3
+      ],
+      "a": [
+        4,
+        17,
+        83
+      ],
+      "crucial": [
+        5
+      ],
+      "role": [
+        6
+      ],
+      "in": [
+        7,
+        77
+      ],
+      "modern": [
+        8
+      ],
+      "recommender": [
+        9
+      ],
+      "systems": [
+        10
+      ],
+      "because": [
+        11
+      ],
+      "of": [
+        12,
+        45,
+        73,
+        99
+      ],
+      "their": [
+        13,
+        26
+      ],
+      "ability": [
+        14
+      ],
+      "to": [
+        15,
+        40,
+        61,
+        113,
+        146
+      ],
+      "capture": [
+        16
+      ],
+      "user's": [
+        18
+      ],
+      "dynamic": [
+        19
+      ],
+      "interest": [
+        20
+      ],
+      "from": [
+        21,
+        50,
+        117
+      ],
+      "her/his": [
+        22
+      ],
+      "historical": [
+        23
+      ],
+      "inter-actions.": [
+        24
+      ],
+      "Despite": [
+        25
+      ],
+      "success,": [
+        27
+      ],
+      "we": [
+        28,
+        81,
+        140
+      ],
+      "argue": [
+        29
+      ],
+      "that": [
+        30,
+        157
+      ],
+      "these": [
+        31
+      ],
+      "approaches": [
+        32,
+        145
+      ],
+      "usually": [
+        33,
+        48
+      ],
+      "rely": [
+        34
+      ],
+      "on": [
+        35,
+        152
+      ],
+      "the": [
+        36,
+        42,
+        51,
+        78,
+        100,
+        109,
+        118,
+        134
+      ],
+      "sequential": [
+        37
+      ],
+      "prediction": [
+        38,
+        104
+      ],
+      "task": [
+        39,
+        105
+      ],
+      "optimize": [
+        41
+      ],
+      "huge": [
+        43
+      ],
+      "amounts": [
+        44
+      ],
+      "parameters.": [
+        46
+      ],
+      "They": [
+        47
+      ],
+      "suffer": [
+        49
+      ],
+      "data": [
+        52,
+        143
+      ],
+      "sparsity": [
+        53
+      ],
+      "problem,": [
+        54
+      ],
+      "which": [
+        55
+      ],
+      "makes": [
+        56
+      ],
+      "it": [
+        57,
+        124
+      ],
+      "difficult": [
+        58
+      ],
+      "for": [
+        59,
+        90
+      ],
+      "them": [
+        60
+      ],
+      "learn": [
+        62
+      ],
+      "high-quality": [
+        63
+      ],
+      "user": [
+        64,
+        120,
+        129,
+        135,
+        168
+      ],
+      "representations.": [
+        65,
+        169
+      ],
+      "To": [
+        66
+      ],
+      "tackle": [
+        67
+      ],
+      "that,": [
+        68
+      ],
+      "inspired": [
+        69
+      ],
+      "by": [
+        70,
+        165
+      ],
+      "recent": [
+        71
+      ],
+      "advances": [
+        72
+      ],
+      "contrastive": [
+        74,
+        110
+      ],
+      "learning": [
+        75,
+        111
+      ],
+      "techniques": [
+        76
+      ],
+      "computer": [
+        79
+      ],
+      "vision,": [
+        80
+      ],
+      "propose": [
+        82,
+        141
+      ],
+      "novel": [
+        84
+      ],
+      "multi-task": [
+        85
+      ],
+      "framework": [
+        86,
+        112
+      ],
+      "called": [
+        87
+      ],
+      "Contrastive": [
+        88
+      ],
+      "Learning": [
+        89
+      ],
+      "Recommendation": [
+        92
+      ],
+      "(CL4SRec).": [
+        93
+      ],
+      "CL4SRec": [
+        94,
+        158
+      ],
+      "not": [
+        95
+      ],
+      "only": [
+        96
+      ],
+      "takes": [
+        97
+      ],
+      "advantage": [
+        98
+      ],
+      "traditional": [
+        101
+      ],
+      "next": [
+        102
+      ],
+      "item": [
+        103
+      ],
+      "but": [
+        106
+      ],
+      "also": [
+        107
+      ],
+      "utilizes": [
+        108
+      ],
+      "derive": [
+        114
+      ],
+      "self-supervision": [
+        115,
+        148
+      ],
+      "signals": [
+        116
+      ],
+      "original": [
+        119
+      ],
+      "behavior": [
+        121
+      ],
+      "sequences.": [
+        122
+      ],
+      "Therefore,": [
+        123
+      ],
+      "can": [
+        125
+      ],
+      "extract": [
+        126
+      ],
+      "more": [
+        127
+      ],
+      "meaningful": [
+        128
+      ],
+      "patterns": [
+        130
+      ],
+      "and": [
+        131
+      ],
+      "further": [
+        132
+      ],
+      "encode": [
+        133
+      ],
+      "representations": [
+        136
+      ],
+      "effectively.": [
+        137
+      ],
+      "In": [
+        138
+      ],
+      "addition,": [
+        139
+      ],
+      "three": [
+        142
+      ],
+      "augmentation": [
+        144
+      ],
+      "construct": [
+        147
+      ],
+      "signals.": [
+        149
+      ],
+      "Extensive": [
+        150
+      ],
+      "experiments": [
+        151
+      ],
+      "four": [
+        153
+      ],
+      "public": [
+        154
+      ],
+      "datasets": [
+        155
+      ],
+      "demonstrate": [
+        156
+      ],
+      "achieves": [
+        159
+      ],
+      "state-of-the-art": [
+        160
+      ],
+      "performance": [
+        161
+      ],
+      "over": [
+        162
+      ],
+      "existing": [
+        163
+      ],
+      "baselines": [
+        164
+      ],
+      "inferring": [
+        166
+      ],
+      "better": [
+        167
+      ]
+    },
+    "locations": [
+      {
+        "id": "doi:10.1109/icde53745.2022.00099",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/icde53745.2022.00099",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4363607857",
+          "display_name": "2022 IEEE 38th International Conference on Data Engineering (ICDE)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2022 IEEE 38th International Conference on Data Engineering (ICDE)",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2010.14395",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2010.14395",
+        "pdf_url": "https://arxiv.org/pdf/2010.14395",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.2010.14395",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2010.14395",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "article"
+      }
+    ],
+    "abstract": "Sequential recommendation methods play a crucial role in modern recommender systems because of their ability to capture a user's dynamic interest from her/his historical inter-actions. Despite their success, we argue that these approaches usually rely on the sequential prediction task to optimize the huge amounts of parameters. They usually suffer from the data sparsity problem, which makes it difficult for them to learn high-quality user representations. To tackle that, inspired by recent advances of contrastive learning techniques in the computer vision, we propose a novel multi-task framework called Contrastive Learning for Sequential Recommendation (CL4SRec). CL4SRec not only takes advantage of the traditional next item prediction task but also utilizes the contrastive learning framework to derive self-supervision signals from the original user behavior sequences. Therefore, it can extract more meaningful user patterns and further encode the user representations effectively. In addition, we propose three data augmentation approaches to construct self-supervision signals. Extensive experiments on four public datasets demonstrate that CL4SRec achieves state-of-the-art performance over existing baselines by inferring better user representations.",
+    "match_score": 0.803
+  },
+  "downloadSource": "https://arxiv.org/pdf/2010.14395.pdf"
+}
